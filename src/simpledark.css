@@ -778,7 +778,8 @@
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover{
     background-color: #293f4757;
 }
-#bd-settingspane-container .ui-switch-item{
+#bd-settingspane-container .ui-switch-item .style-description {
+    border-bottom: 1px solid var(--channel-color);
 }
 .bd-addon-list a {
     color: #64a4a8;
