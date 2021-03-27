@@ -1,7 +1,7 @@
 /**
  * @name         Simple Dark.
  * @description  Clean dark Discord theme.
- * @author       rmkx/eiffaNN
+ * @author       rmkx
  * @version      1.0 
  */
 
@@ -122,6 +122,71 @@
 .form-2fGMdU:before {
     height: 0rem;
 }
+.header-ykumBX {
+    background-color: var(--background-primary);
+}
+.messagesPopoutWrap-1MQ1bW{
+    border: 1.5px solid var(--channel-color);
+    border-radius: 20px;
+}
+.messageGroupWrapper-o-Zw7G{
+    border: 1px solid var(--channel-color);
+    border-radius: 20px;
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
+} 
+.menu-3sdvDG{
+    border-radius: 20px;
+}
+.operations-36ENbA>a{
+    color: #7bcbeb;
+}
+#chat-messages-825465625840975883 > div.contents-2mQqc9.da-contents > div > div.channelTextArea-3bF57p.da-channelTextArea.channelTextArea-2VhZ6z.da-channelTextArea > div {
+    background-color: #111314d0;
+    border: 2px solid;
+    border-color: #111314d0;
+    border-radius: 20px;
+}
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa{
+    background-color: var(--channel-color);
+}
+.container-enaOkj{
+    border: 1.5px solid var(--channel-color);
+    border-radius: 20px;
+}
+.colorStatusGreen-2saF4_ {
+    color: #63a4a8;
+}
+#app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss > div > div > div > div > div.container-1D34oG.da-container > section > div.children-19S4PO.da-children > div.tabBar-ZmDY9v.da-tabBar.topPill-30KHOu > div:nth-child(5){
+    background-color: var(--channel-color)!important;
+}
+.peopleColumn-29fq28{
+    background-color: var(--background-primary);
+}
+.wrapper-1cBijl{
+    border: 1px solid var(--channel-color);
+    border-radius: 20px;
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled{
+    color: white;
+    background-color: #63a4a8;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover{
+    color: white!important;
+    background-color: var(--channel-color)!important;
+}
+#ADD_FRIEND-tab > div.sectionHeader-20RGqu.da-sectionHeader > div > div:nth-child(3) > form > input{
+    text-align: center;
+    color: white!important;
+}
+.container-1ov-mD>*{
+    border-color: var(--channel-color);
+    border-radius: 20px;
+}
+
 
 /*Mute/Deafen/Settings bar settings*/
 .container-3baos1 {
@@ -230,6 +295,9 @@
     background-color: var(--channel-color);
     color: white;
 }
+#popout_841 > div > div > div.headerSpotify-zpWxgT.header-2BwW8b.size16-14cGz5.da-headerSpotify.da-header.da-size16 > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0.da-headerTop > div.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478.da-avatarWrapperNormal.da-avatarWrapper > div > svg > rect{
+    fill: #00ff9d!important;
+}
 
 /*Server role settings*/
 .membersGroup-v9BXpm {
@@ -257,13 +325,10 @@
 }
 .da-homeIcon {
     color: transparent !important;
-    background: url(https://github.com/rmkx/Simple-Dark/blob/main/icon/home-icon.svg) center no-repeat; 
+    background: url(https://raw.githubusercontent.com/rmkx/Simple-Dark/2b279f60101bd6467918c35a1bad538d81624f9a/icon/home-icon.svg) center no-repeat; 
     background-size: 36px;
     z-index: 2;
     width: 56px; height: 56px;
-    border: 0px;
-    box-shadow: 0px 0px 0px 0px var(--chat-shadow-color) inset;
-    box-shadow: 0px 0px 0px 0px var(--chat-shadow-color) inset;
 }
 .da-homeIcon:hover{
     background-color: transparent!important;
@@ -424,11 +489,18 @@
     border-radius: 20px;
 }
 .scroller-3BxosC{
+    height: auto;
+    width: auto;
     box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
     box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
+    border: 0px;
+    border-radius: 20px;    
 }
 .colorDefault-2K3EoJ.focused-3afm-j{
     background-color: var(--channel-color);
+}
+.layer-v9HyYc{
+    height: auto;
 }
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iH010){
     background-color: #293f4757 !important;
