@@ -325,7 +325,7 @@
 }
 .da-homeIcon {
     color: transparent !important;
-    background: url(https://raw.githubusercontent.com/rmkx/Simple-Dark/2b279f60101bd6467918c35a1bad538d81624f9a/icon/home-icon.svg) center no-repeat; 
+    background: url(rmkx.github.io/icon/home-icon.svg) center no-repeat; 
     background-size: 36px;
     z-index: 2;
     width: 56px; height: 56px;
