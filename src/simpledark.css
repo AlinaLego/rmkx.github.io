@@ -862,3 +862,11 @@
 #bd-settingspane-container .ui-switch-item{
     text-align: left;
 }
+.theme-dark .bd-addon-list .bd-addon-card{
+    background-color: var(--background-primary);
+    background: var(--background-primary);
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
+    border: 1px solid var(--channel-color);
+    border-radius: 20px;
+}
