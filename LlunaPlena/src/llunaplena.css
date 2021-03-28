@@ -1474,3 +1474,18 @@ div.note-3HfJZ5.da-note{
 .numberBadge-2s8kKX{
     background-color: #63a4a8!important;
 }
+
+/*Reactions*/
+.reaction-1hd86g{
+    border-radius: 20px;
+}
+.reactionInner-15NvIl{
+    background-color: transparent;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+    background-color: #567e7e9c
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+    background-color: #3953539c!important;
+    color: #fdfdfd;
+}
