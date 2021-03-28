@@ -961,7 +961,7 @@ div.note-3HfJZ5.da-note{
 
 /*Notification Settings*/
 .lookFilled-22uAsw.select-2fjwPw {
-    border: 0px;
+    border: 1px solid;
     border-color: var(--channel-color);
     border-radius: 20px;
 }
