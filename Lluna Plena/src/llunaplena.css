@@ -256,7 +256,6 @@
     border-color: var(--channel-color);
     border-radius: 20px;
 }
-
 .cancelButton-3hVEV6, .downloadButton-23tKQp {
     color: inherit;
 }
@@ -265,6 +264,10 @@
 }
 .mentioned-xhSam7:before{
     background-color: #63a5a8be
+}
+.jumpToPresentBar-G1R9s6{
+    background-color: transparent;
+    bottom: 3px;
 }
 
 /*Listening along*/
