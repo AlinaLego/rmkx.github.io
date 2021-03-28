@@ -423,53 +423,6 @@
     background-image: linear-gradient(to right, transparent, rgba(17, 17, 17, 0.5),var(--chat-shadow-color),rgba(17, 17, 17, 0.5),transparent);
 }
 
-
-/*Guilds*/
-.da-childWrapper {
-    background: none !important
-}
-.da-homeIcon {
-    color: transparent !important;
-    background: url(https://rmkx.github.io/LlunaPlena/icon/home-icon.svg) center no-repeat;
-    background-size: 36px;
-    z-index: 2;
-    width: 56px; height: 56px;
-}
-.da-homeIcon:hover{
-    background-color: transparent!important;
-}
-.scroller-1Bvpku {
-    background-color: var(--background-primary);
-}
-.guildSeparator-33mFX6{
-    background-color: #63a4a8;
-}
-.item-2hkk8m{
-    background-color: #63a4a8;
-}
-.circleIconButton-1QV--U.selected-1JjBPm{
-    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
-    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
-    background-color: var(--chat-color);
-}
-.listItem-GuPuDH:focus{
-    width: 75%;
-    margin: 8px;
-    border-radius: 20px;
-    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
-    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
-}
-#app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss > div > div > nav > ul > div.scroller-1Bvpku.da-scroller.none-2Eo-qx.scrollerBase-289Jih > div:nth-child(3) > div.wrapper-3Njo_c.da-wrapper > div > div:nth-child(2) > div > svg > foreignObject > div > div > div > svg > path{
-    fill: var(--channel-color)!important;
-}
-.wrapper1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-    border-radius: 20px;
-    background-color: transparent!important;
-}
-.numberBadge-2s8kKX{
-    background-color: #63a4a8!important;
-}
-
 /*Various bars*/
 .searchBar-3dMhjb{
     background-color: var(--activity-color);
