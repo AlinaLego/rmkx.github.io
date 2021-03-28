@@ -957,11 +957,24 @@ div.note-3HfJZ5.da-note{
     width: 7px;
 }
 
+/*Notification Settings*/
+.lookFilled-22uAsw.select-2fjwPw {
+    border-color: var(--channel-color);
+    border-radius: 20px;
+}
+.popout-VcNcHB{
+    border: 1px solid var(--channel-color);
+}
+.option-3KoAJB.focused-1T6PE5, .option-3KoAJB:focus, .option-3KoAJB:hover{
+    background-color: #293f4757;
+}
+
+
 /*Create server window*/
 #app-mount > div.layerContainer-yqaFcK.da-layerContainer > div.layer-2KE1M9.da-layer > div > div > div > div {
     background-color: #030303;
     border: 1px solid var(--channel-color);
-    border-radius: 0px;
+    border-radius: 20px;
 }
 .colorHeaderSecondary-3Sp3Ft{
     color: #63a4a8;
@@ -972,6 +985,15 @@ div.note-3HfJZ5.da-note{
 .container-UC8Ug1{
     background-color: #030303;
     color:#63a4a8!important;
+}
+#app-mount > div.layerContainer-yqaFcK.da-layerContainer > div.layer-2KE1M9.da-layer > div > div > div > div > div > div > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyBetween-2tTqYu.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp.da-footer{
+    background-color: #030303;
+    border-radius: 0 0 20px 20px;
+    color: white;
+}
+#app-mount > div.layerContainer-yqaFcK.da-layerContainer > div.layer-2KE1M9.da-layer > div > div > div > div {
+    background-color: #030303;
+    border: 0px solid var(--channel-color);
 }
 
 /* Upload pictures*/
