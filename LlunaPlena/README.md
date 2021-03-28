@@ -9,6 +9,3 @@
 <p>2. Right click the page and select "Save as...".</p>
 <p>3. Save the file in your BetterDiscord themes folder. Don't forget to select "All types" under the file name when saving.</p>
 <p>4. Select the theme in the Theme section of the Settings window.</p>
-
-<h2 align="center">Misc</h2>
-<a href="https://bit.ly/3fnzq1Z">Donations</a> appreciated.</p>
