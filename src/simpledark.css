@@ -251,6 +251,21 @@
     border-left: 2px solid;
     border-right: 2px solid;
 }
+.markup-2BOw-j code {
+    background-color: #03030373;
+    border-color: var(--channel-color);
+    border-radius: 20px;
+}
+
+.cancelButton-3hVEV6, .downloadButton-23tKQp {
+    color: inherit;
+}
+.mentioned-xhSam7 {
+    background-color: #63a5a818;
+}
+.mentioned-xhSam7:before{
+    background-color: #63a5a8be
+}
 
 /*Listening along*/
 .listeningAlong-30wH70{
@@ -448,6 +463,9 @@
     border-radius: 20px;
     background-color: transparent!important;
 }
+.numberBadge-2s8kKX{
+    background-color: #63a4a8!important;
+}
 
 /*Various bars*/
 .searchBar-3dMhjb{
@@ -629,8 +647,10 @@
     background-color: #f04747 !important;
 }
 .theme-dark .root-1gCeng{
+    border: 1px solid #293f47!important;
+    background-color: #030303;
     overflow: visible!important;
-    border: 0px;
+    border-radius: 20px;
 }
 .theme-dark .footer-2gL1pp{
     border: 0px;
@@ -885,6 +905,30 @@
     color: #293f47;
     background-color: var(--background-primary);
 }
+#app-mount > div.layerContainer-yqaFcK.da-layerContainer > div.layer-2KE1M9.da-layer > div > div > div > div > div > div > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp.da-footer.footer-1NnaNd.da-footer {
+    background-color: #030303;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    background-color: #030303;
+}
+.scroller-1d5FgU{
+    background-color: var(--background-primary);
+}
+.theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ {
+    background-color: var(--activity-color);
+    border: 1px solid;
+    border-color: var(--channel-color);
+    border-radius: 20px;
+}
+.search-1iTphC{
+    background-color: transparent!important;
+}
+.search-1iTphC .searchBox-2_mAlO{
+    background-color: var(--activity-color);
+}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+    background-color: var(--channel-color);
+}
 
 /*Blur Username, E-mail and phone in settings*/
 #user-settings > div > div.contentRegion-3nDuYy.da-contentRegion > div > div > main > div > div:nth-child(1) > div > div > div.fieldList-21DyL8.da-fieldList > div:nth-child(1) > div > div > div{
@@ -930,18 +974,70 @@
 /*Server selected channel*/
 .scroller-3__pG8{
     background-color: var(--background-primary);
-    }
+}
 .pill-1dHPfk {
     background-color: var(--background-primary);
     border: 1px solid var(--channel-color);
-    }
+}
 .lookLink-9FtZy-.colorBrand-3pXr91{
     color: #63a4a8;
-    }
+}
 .optionContainer-15srkc:hover{
     background-color: #293f4757;
-    }
+}
 
 .modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n{
     background-color: #293f4757;
-    }
+}
+.unread-2lAfLh{
+    background-color: #63a4a8;
+    height: 10px;
+    width: 7px;
+}
+
+/*Create server window*/
+#app-mount > div.layerContainer-yqaFcK.da-layerContainer > div.layer-2KE1M9.da-layer > div > div > div > div {
+    background-color: #030303;
+    border: 1px solid var(--channel-color);
+    border-radius: 0px;
+}
+.colorHeaderSecondary-3Sp3Ft{
+    color: #63a4a8;
+}
+#uid_8731 > button > div > svg > path {
+    fill: #63a4a8!important;
+}
+.container-UC8Ug1{
+    background-color: #030303;
+    color:#63a4a8!important;
+}
+
+/* Upload pictures*/
+.uploadModal-2ifh8j {
+    background-color: var(--background-primary)!important;
+    border: 1px solid var(--channel-color);
+    border-radius: 20px;
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: var(--background-primary);
+    border-color: var(--channel-color);
+    border-radius: 0 0 20px 20px;
+}
+.uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx {
+    background-color: var(--background-primary)!important;
+}
+
+/*Server Boost Window*/
+.perksModal-fSYqOq{
+    background-color: var(--background-primary)!important;
+}
+.theme-dark .tierBody-16Chc9 {
+    background-color: var(--activity-color)!important;
+}
+.perk-2WeBWW {
+    background-color: var(--activity-color)!important;
+}
+.ctaBar-2UsjF2 {
+    border: 1px solid var(--channel-color);
+    border-radius: 20px;
+}
