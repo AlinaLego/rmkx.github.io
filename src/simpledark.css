@@ -30,7 +30,7 @@
     --background-modifier-hover: #293f47; /*Changes the hover on users color*/
     --background-message-hover: #293f4757; /*Changes the background of the hovered messages in chat*/
     --text-muted: #63a4a8; /*Changes the color of the font of some parts of the Theme (search bar, etc)*/
-    --text-link: #00b0f4; /*Changes the color of the links*/
+    --text-link: #8dfce9; /*Changes the color of the links*/
 }
 
 /*Message selection settings*/
@@ -207,7 +207,7 @@
     color: white!important;
 }
 .container-1ov-mD>*{
-    border-color: var(--channel-color);
+    border-color: var(--channel-color)!important;
     border-radius: 20px;
 }
 .cozy-3raOZG.wrapper-2a6GCs:hover{
@@ -224,6 +224,60 @@
 .isUnread-3Ef-o9 .content-1o0f9g{
     color: #63a4a8;
 }
+.wrapper-3WhCwL{
+    color: #63a4a8;
+    background-color: #293f4757;
+}
+.wrapper-3WhCwL:hover{
+    color: #63a4a8;
+    background-color: var(--channel-color);
+}
+.wrapper-39oAo3{
+    background-color: var(--chat-color);
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
+    border-radius: 20px;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: var(--chat-color);
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
+    border-radius: 20px;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover{
+    background-color: var(--activity-color);
+}
+.embedFull-2tM8--{
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+/*Listening along*/
+.listeningAlong-30wH70{
+    background-color: var(--background-primary);
+    border-bottom: 0px;
+}
+
+/*Going live buttons*/
+.selectorButtonSelected-t5V9On{
+    background-color: var(--channel-color);
+}
+.selectorButton-EEUWed:hover{
+    background-color: var(--channel-color)!important;
+}
+
+/*Notice message*/
+.notice-3uyY6c{
+    background-color: #63a4a8;
+}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ{
+    border: 1px solid #293f4757;
+    background-color: #293f4757!important;
+}
+.formFieldWrapper-malor5, .settingsFormFieldWrapper-3Y77Pr{
+    border: 1px solid var(--channel-color);
+}
+
 /*Mute/Deafen/Settings bar settings*/
 .container-3baos1 {
     background-color: var(--background-primary); /*Changes the color*/
@@ -575,11 +629,8 @@
     background-color: #f04747 !important;
 }
 .theme-dark .root-1gCeng{
-    background-color: var(--background-primary);
-    border-radius: 20px;
-    border: 1px solid;
-    border-color: var(--channel-color);
-    overflow: auto !important;
+    overflow: visible!important;
+    border: 0px;
 }
 .theme-dark .footer-2gL1pp{
     border: 0px;
@@ -870,3 +921,27 @@
     border: 1px solid var(--channel-color)!important;
     border-radius: 20px!important;
 }
+
+/*Join a server Window*/
+.scroller-3__pG8{
+    background-color: var(--background-primary);
+}
+
+/*Server selected channel*/
+.scroller-3__pG8{
+    background-color: var(--background-primary);
+    }
+.pill-1dHPfk {
+    background-color: var(--background-primary);
+    border: 1px solid var(--channel-color);
+    }
+.lookLink-9FtZy-.colorBrand-3pXr91{
+    color: #63a4a8;
+    }
+.optionContainer-15srkc:hover{
+    background-color: #293f4757;
+    }
+
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n{
+    background-color: #293f4757;
+    }
