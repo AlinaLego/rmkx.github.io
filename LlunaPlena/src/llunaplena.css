@@ -1,6 +1,9 @@
 /**
- * @name         Lluna Plena.
- * @description  Clean dark Discord theme.
+ * @name         Lluna Plena
+ * @description  Clean dark Discord theme
+ * @donate       https://bit.ly/3fnzq1Z
+ * @source       https://github.com/rmkx/rmkx.github.io/blob/main/LlunaPlena/src/llunaplena.css
+ * @discord      rmkx#3388
  * @author       rmkx
  * @version      1.0 
  */
@@ -1248,6 +1251,9 @@ div.note-3HfJZ5.da-note{
 .jumpToPresentBar-G1R9s6{
     background-color: transparent;
     bottom: 3px;
+}
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover{
+	background-color: #63a5a818;
 }
 
 /*Listening along*/
