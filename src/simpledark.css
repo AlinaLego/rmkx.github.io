@@ -1041,3 +1041,38 @@
     border: 1px solid var(--channel-color);
     border-radius: 20px;
 }
+
+/*Search results*/
+.resultsGroup-r_nuzN {
+    background-color: var(--background-primary)!important;
+}
+.theme-dark .option-96V44q:after {
+    background: -webkit-gradient(linear,left top,right top,from(#63a5a818),color-stop(80%,#63a4a8));
+    background: linear-gradient(90deg,#63a5a818,#63a4a8 80%);
+}
+.theme-dark .elevationBorderHigh-2WYJ09 {
+    -webkit-box-shadow: 0 0 0 1px #293f47, 0 2px 10px 0 #030303;
+    box-shadow: 0 0 0 1px #293f47, 0 2px 10px 0 #030303;
+}
+.theme-dark .option-96V44q.selected-rZcOL-{
+    background-color: #63a5a818!important;
+}
+.theme-dark .option-96V44q.selected-rZcOL-:after{
+    background: -webkit-gradient(linear,left top,right top,from(#63a5a818),color-stop(80%,#63a4a8));
+    background: linear-gradient(90deg,#63a5a818,#63a4a8 80%);
+}
+.theme-dark .focused-2bY0OD{
+    background-color: var(--background-primary);
+}
+.theme-dark .dim-1l4L4y span{
+    background-color: var(--channel-color);
+}
+.theme-dark .queryContainer-RKFJW-{
+    background-color: var(--background-primary);
+}
+.searchHeader-2XoQg7{
+    background-color: var(--background-primary);
+}
+.theme-dark .tab-2j5AEF.selected-2LAck8 {
+    background-color: var(--channel-color);
+}
