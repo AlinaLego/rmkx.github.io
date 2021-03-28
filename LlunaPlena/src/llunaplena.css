@@ -649,7 +649,6 @@ div.note-3HfJZ5.da-note{
     border: 1px solid var(--channel-color)!important;
     border-radius: 20px!important;
 }
-
 .cardPrimary-1Hv-to{
     background-color: var(--background-primary);
     border-color: var(--channel-color);
@@ -664,8 +663,6 @@ div.note-3HfJZ5.da-note{
     border-color: var(--channel-color);
     border-radius: 20px;
 }
-
-
 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
     color: white;
     border-radius: 20px;
@@ -675,7 +672,6 @@ div.note-3HfJZ5.da-note{
 .lookOutlined-3sRXeN.colorBrand-3pXr91:active:not(.hideInteraction-1iH010){
     background-color: var(--channel-color)!important;
 }
-
 .authedApp-mj2Hmd{
     border-color: var(--channel-color);
     border-radius: 20px;
@@ -820,6 +816,9 @@ div.note-3HfJZ5.da-note{
 }
 .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected {
     background-color: var(--channel-color);
+}
+.subtitle-8DQCLU, .title-2HFmAi{
+    border: 0px!important;
 }
 
 
