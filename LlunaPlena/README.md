@@ -2,7 +2,7 @@
 <p align="center">
   <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/BG9jdyc.png">
 <p align="center">
-<p align="center">Clean dark mode Discord theme with a blue hue.</p>
+<p align="center">Black theme with rounded elements with a blue hue. Simple and stylish, a theme for those who don't want an over-saturated theme, but still like some modifications.</p>
 
 <h2 align="center">Installation</h2>
 <p>1. Follow this <a href="https://raw.githubusercontent.com/rmkx/rmkx.github.io/main/LlunaPlena/LlunaPlena.theme.css">link</a>.</p>
