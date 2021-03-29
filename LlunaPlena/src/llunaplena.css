@@ -816,6 +816,7 @@ div.sidebarRegion-VFTUkN{
     border-color: var(--channel-color);
 }
 .theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s {
+    border-radius: 20px;
     background: var(--background-primary);
     box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
     box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
@@ -875,6 +876,24 @@ div.sidebarRegion-VFTUkN{
 }
 .colorBrand-ROmMP1{
     color: var(--blue-hue-elements);
+}
+.lookOutlined-3sRXeN.colorRed-1TFJan{
+    color: var(--blue-hue-elements);
+    border: 1px solid var(--blue-hue-elements);
+    border-radius: 20px;
+}
+.authedApp-mj2Hmd:focus-within .deleteApp-dtfZIe, .authedApp-mj2Hmd:hover .deleteApp-dtfZIe{
+    color: #f04747;
+    border-color: #f04747;
+}
+.deleteApp-dtfZIe{
+    opacity: unset;
+}
+.theme-dark .subText-2Zhkkh{
+    color: #959799;
+}
+.divider-3573oO{
+    border-top: thin solid var(--channel-color);
 }
 
 /*Discord Nitro button*/
