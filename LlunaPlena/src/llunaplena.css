@@ -310,6 +310,12 @@
 .divider-JfaTT5{
     border-top: thin solid var(--channel-color);
 }
+.replying-1x3H0T:before {
+    background-color: rgb(0, 255, 255)
+}
+.replying-1x3H0T {
+    background-color: rgba(0, 225, 255, 0.05)
+}
 
 /*Listening along*/
 .listeningAlong-30wH70{
@@ -509,7 +515,7 @@
 .inline-136HKr .pro-1T8RK7 {
     color: var(--blue-hue-elements)!important;
 }
-.inline-136HKr .tip-2ab612 {
+.inline-136HKr .tip-2ab612, .tip-2ab612 {
     color: white!important;
 }
 .theme-dark .watchButton-2SbJEo {
@@ -1102,6 +1108,14 @@ div.sidebarRegion-VFTUkN{
 .ctaBar-2UsjF2 {
     border: 1px solid var(--channel-color);
     border-radius: 20px;
+}
+
+/*No pin in channel footer*/
+.footer-1kmXd4{
+    background-color: var(--background-primary);
+}
+.pro-1T8RK7 {
+    color: var(--blue-hue-elements)!important;
 }
 
 /*Profile window*/
