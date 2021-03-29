@@ -500,6 +500,25 @@
     background-color: var(--blue-hue-elements)!important;
 }
 
+/*Server Stream Preview Window*/
+.theme-dark .streamPreview-2-WUWT {
+    background-color: var(--background-primary);
+    border: 3px solid var(--channel-color);
+    border-radius: 20px;
+}
+.inline-136HKr .pro-1T8RK7 {
+    color: var(--blue-hue-elements)!important;
+}
+.inline-136HKr .tip-2ab612 {
+    color: white!important;
+}
+.theme-dark .watchButton-2SbJEo {
+    border-color: var(--channel-color);
+    border-radius: 20px;
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset!important;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset!important;
+}
+
 /*Various buttons*/
 .button-14-BFJ:hover{
     background-color: var(--channel-color)!important;
@@ -664,7 +683,7 @@ div.sidebarRegion-VFTUkN{
     background-color: #f04747 !important;
 }
 .theme-dark .root-1gCeng{
-    border: 2px solid #293f47!important;
+    border: 0px solid #293f47!important;
     background-color: #030303;
     overflow: visible!important;
     border-radius: 20px;
