@@ -1241,6 +1241,25 @@ div.sidebarRegion-VFTUkN{
     background-color: var(--blue-hue-elements)!important;
 }
 
+/*Folders*/
+.folderIconWrapper-1_bOZe {
+    background-color: transparent!important;
+    box-shadow: 3px 0px 3px 0px var(--blue-hue-elements) inset;
+    box-shadow: 0px 0px 5px 0px var(--blue-hue-elements) inset; 
+}
+.expandedFolderIconWrapper-Huv7rA {
+    background-color: transparent!important;
+    border: 0px;
+    box-shadow: 0px 0px 0px 0px var(--blue-hue-elements) inset;
+    box-shadow: 0px 0px 0px 0px var(--blue-hue-elements) inset; 
+}
+.expandedFolderBackground-1cujaW{
+    background-color: transparent!important;
+    box-shadow: 3px 0px 3px 0px var(--blue-hue-elements) inset;
+    box-shadow: 0px 0px 5px 0px var(--blue-hue-elements) inset;
+    border-radius: 15px;
+}
+
 /*Reactions*/
 .reaction-1hd86g{
     border-radius: 20px;
