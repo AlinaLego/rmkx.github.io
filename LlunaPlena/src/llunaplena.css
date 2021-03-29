@@ -1095,9 +1095,6 @@ div.sidebarRegion-VFTUkN{
     border-bottom: 0px;
     border-radius: 20px 20px 0 0;
 }
-#app-mount > div:nth-child(7) > div.modal-3c3bKg.da-modal > div > div > div.topSectionNormal-2-vo2m.da-topSectionNormal > header > div:nth-child(4) > svg > g > path:nth-child(2) {
-    fill: var(--channel-color)!important; /*Little dots on the profile*/
-}
 .actionButton-3W1xZa{
     background-color: var(--channel-color)!important;
     color: white!important;
