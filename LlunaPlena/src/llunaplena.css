@@ -495,6 +495,11 @@
     border-radius: 0 0 0;
 }
 
+ /* Stream volume bar*/ 
+.mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before{
+    background-color: var(--blue-hue-elements)!important;
+}
+
 /*Various buttons*/
 .button-14-BFJ:hover{
     background-color: var(--channel-color)!important;
