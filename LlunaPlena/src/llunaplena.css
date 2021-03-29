@@ -870,6 +870,9 @@ div.sidebarRegion-VFTUkN{
 .subtitle-8DQCLU, .title-2HFmAi{
     border: 0px!important;
 }
+.colorBrand-ROmMP1{
+    color: var(--blue-hue-elements);
+}
 
 /*Discord Nitro button*/
 #user-settings > div > div.sidebarRegion-VFTUkN.da-sidebarRegion > div > nav > div > div:nth-child(8){
