@@ -612,6 +612,24 @@
     border-radius: 20px;
     background-color: var(--background-primary)!important;
 }
+.emojiSection-3Fb9ix{
+    background-color: var(--background-primary);
+    border: 2px solid var(--channel-color);
+    border-radius: 20px;
+}
+.popoutContainer-1MXdqN {
+    background: transparent;
+}
+.emojiName-27Bjxw {
+    color: white;
+    text-align: center;
+}
+.size14-e6ZScH {
+    text-align: center;
+}
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+    background-color: var(--channel-color);
+}
 
 /*Nitro Gifting page*/
 .content-1YdlXf {
