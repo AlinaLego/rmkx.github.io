@@ -35,6 +35,7 @@
     --text-link: #8dfce9; /*Changes the color of the links | Default #8dfce9*/
     --channels-default: #afafaf; /*Changes the color of the channel names | Default #afafaf*/
     --blue-hue-elements: #63a4a8; /*Color code for some parts of the theme | Default #63a4a8*/
+    --background-modifier-accent: #293f47; /*Color for the lines separating some elements of some menus | Default #293f47*/
 }
 .theme-light {
     --chat-scrollbar-width: 20px; /*Changes the scrollbar width on chat | Default 20px*/
@@ -51,6 +52,7 @@
     --text-link: #8dfce9; /*Changes the color of the links | Default #8dfce9*/
     --channels-default: #afafaf; /*Changes the color of the channel names | Default #afafaf*/
     --blue-hue-elements: #63a4a8; /*Color code for some parts of the theme | Default #63a4a8*/
+    --background-modifier-accent: #293f47; /*Color for the lines separating some elements of some menus | Default #293f47*/
 }
 
 /*Message selection settings*/
@@ -1095,10 +1097,11 @@ div.sidebarRegion-VFTUkN{
     border-radius: 0 0 20px 20px;
 }
 .top-28JiJ- .item-PXvHYJ{
-    border-bottom-color: var(--channel-color);
+    border-bottom-color: var(--channel-color)!important;
+    color: var(--blue-hue-elements)!important;
 }
 .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover{
-    border-bottom-color: var(--blue-hue-elements);
+    border-bottom-color: var(--blue-hue-elements)!important;
 }
 .note-QfFU8y textarea{
     border-radius: 20px;
@@ -1124,6 +1127,26 @@ div.sidebarRegion-VFTUkN{
 }
 .tabBarContainer-1s1u-z{
     border-top: 1px solid var(--blue-hue-elements);
+}
+.topSectionPlaying-1J5E4n{
+    background: var(--background-primary);
+    border: 1px solid var(--channel-color);
+    border-bottom: unset;
+    border-radius: 20px 20px 0 0!important;
+}
+.tabBarContainer-1s1u-z {
+    border: unset;
+}
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border: unset;
+}
+.tabBarItem-1b8RUP{
+    border-bottom-color: var(--channel-color)!important;
+    color: var(--blue-hue-elements)!important;
+}
+.top-28JiJ- .item-PXvHYJ:active, .top-28JiJ- .item-PXvHYJ:hover{
+    border-color: var(--blue-hue-elements)!important;
+    color: var(--blue-hue-elements)!important;
 }
 
 /*Search results*/
