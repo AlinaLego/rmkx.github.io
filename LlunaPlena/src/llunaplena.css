@@ -155,7 +155,10 @@
 .nowPlayingScroller-2XrVUt {
     overflow: auto !important;
 }
-
+.emptyCard-1RJw8n{
+    background-color: transparent;
+    margin-top: -10px;
+}
 
 /*Top Bar settings*/
 .withFrame-haYltI {
