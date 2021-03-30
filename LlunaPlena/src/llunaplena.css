@@ -1095,17 +1095,11 @@ div.sidebarRegion-VFTUkN{
 }
 
 /*Blur Username, E-mail and phone in settings*/
-.usernameInnerRow-ZlFnET{
+
+.field-1HUseB+.field-1HUseB .colorHeaderPrimary-26Jzh-.size16-1P40sf{
     filter: blur(8px);
 }
-.usernameInnerRow-ZlFnET:hover{
-    filter: blur(0px);
-    transition: 150ms;
-}
-.colorHeaderPrimary-26Jzh-.size16-1P40sf{
-    filter: blur(8px);
-}
-.colorHeaderPrimary-26Jzh-.size16-1P40sf:hover{
+.field-1HUseB+.field-1HUseB .colorHeaderPrimary-26Jzh-.size16-1P40sf:hover{
     filter: blur(0px);
     transition: 150ms;
 }
@@ -1339,6 +1333,9 @@ div.sidebarRegion-VFTUkN{
 }
 .resultFocused-3aIoYe{
     background: transparent;
+}
+.name-2NBmhj:hover {
+    background-color: #293f4757;
 }
 
 /*Guilds*/
