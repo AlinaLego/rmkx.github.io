@@ -1344,6 +1344,34 @@ div.sidebarRegion-VFTUkN{
 .name-2NBmhj:hover {
     background-color: #293f4757;
 }
+.theme-dark .activeButton-rvKcqq {
+    background-color: var(--channel-color);
+}
+.theme-dark .activeButton-rvKcqq:hover {
+    background-color: var(--channel-color);
+}
+.roundButton-CEHyUp:hover {
+    background-color: #63a5a818;
+}
+.pageButton-2ruNwd:hover{
+    background: transparent;
+    color: var(--blue-hue-elements);
+}
+.button-11zvza {
+    background-color: var(--activity-color);
+    color: white!important;
+}
+.button-11zvza:hover {
+    background-color: var(--channel-color);
+    color: white!important;
+}
+.highlight {
+    background: var(--channel-color);
+    color: white;
+}
+.channelName-1JRO3C:hover {
+    color: var(--blue-hue-elements);
+}
 
 /*Guilds*/
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
