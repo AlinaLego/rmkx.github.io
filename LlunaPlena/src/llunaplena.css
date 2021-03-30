@@ -536,7 +536,7 @@
     background: transparent;
 }
 .group-2dAfBy {
-    border: 1px solid var(--channel-color);
+    border: unset;
 }
 .selectorButtonSelected-t5V9On{
     background-color: var(--channel-color);
