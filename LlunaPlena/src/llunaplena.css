@@ -109,7 +109,8 @@
     border-radius: 20px;
 }
 .wrapper-3D2qGf .textContent-3N7xXx {
-    color: white /*Changes the font color of the Now Active/Playing boxes*/
+    color: white; /*Changes the font color of the Now Active/Playing boxes*/
+    text-align: unset!important;
 }
 .section-2gLsgF {
     border: 2px solid var(--channel-color);
@@ -621,7 +622,7 @@
     background: transparent;
 }
 .emojiName-27Bjxw {
-    color: white;
+    color: white!important;
     text-align: center;
 }
 .size14-e6ZScH {
@@ -1295,19 +1296,20 @@ div.sidebarRegion-VFTUkN{
 /*Folders*/
 .folderIconWrapper-1_bOZe {
     background-color: transparent!important;
-    box-shadow: 3px 0px 3px 0px var(--blue-hue-elements) inset;
-    box-shadow: 0px 0px 5px 0px var(--blue-hue-elements) inset; 
+    box-shadow: unset;
+
 }
 .expandedFolderIconWrapper-Huv7rA {
     background-color: transparent!important;
-    border: 0px;
-    box-shadow: 0px 0px 0px 0px var(--blue-hue-elements) inset;
-    box-shadow: 0px 0px 0px 0px var(--blue-hue-elements) inset; 
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: 3px 0px 3px 0px var(--blue-hue-elements) inset;
+    box-shadow: 0px 0px 5px 0px var(--blue-hue-elements) inset;
 }
 .expandedFolderBackground-1cujaW{
     background-color: transparent!important;
-    box-shadow: 3px 0px 3px 0px var(--blue-hue-elements) inset;
-    box-shadow: 0px 0px 5px 0px var(--blue-hue-elements) inset;
+    box-shadow: 0px 0px 0px 0px var(--blue-hue-elements) inset;
+    box-shadow: 0px 0px 0px 0px var(--blue-hue-elements) inset;
     border-radius: 15px;
 }
 
