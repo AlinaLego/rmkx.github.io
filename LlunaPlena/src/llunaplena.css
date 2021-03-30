@@ -1037,10 +1037,14 @@ div.sidebarRegion-VFTUkN{
 
 /*Discord Nitro button*/
 #user-settings > div > div.sidebarRegion-VFTUkN.da-sidebarRegion > div > nav > div > div:nth-child(8){
-    background-color: #123341a6!important;
-    color: white!important;
+    background-color: transparent!important;
+    color: var(--blue-hue-elements)!important;
 }
 #user-settings > div > div.sidebarRegion-VFTUkN.da-sidebarRegion > div > nav > div > div:nth-child(8):focus{
+    background-color: #293f4757!important;
+    color: white!important;
+}
+#user-settings > div > div.sidebarRegion-VFTUkN.da-sidebarRegion > div > nav > div > div:nth-child(8):hover{
     background-color: var(--channel-color)!important;
     color: white!important;
 }
