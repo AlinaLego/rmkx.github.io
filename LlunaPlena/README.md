@@ -1,6 +1,6 @@
 <h1 align="center">Lluna Plena</h1>
 <p align="center">
-  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/Q6PEAHf.png">
+  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/8cfZswi.png">
 <p align="center">
 <p align="center">Black theme with rounded elements with a blue hue. Simple and stylish, a theme for those who don't want an over-saturated theme, but still like some modifications.</p>
 
