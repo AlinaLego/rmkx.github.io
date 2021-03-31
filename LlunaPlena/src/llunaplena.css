@@ -1489,3 +1489,20 @@ div.sidebarRegion-VFTUkN{
     background-color: transparent!important;
     color: #fdfdfd;
 }
+
+/*Text File Preview*/
+.textContainer-C0szpm {
+    border:1px solid var(--blue-hue-elements)!important;
+    border-radius:15px 15px 0px 0!important;
+    border-bottom: unset!important;
+}
+.footer-2yA7Ep {
+    border:1px solid var(--blue-hue-elements)!important;
+    border-radius:0 0 15px 15px!important;
+    border-top: unset!important;
+}
+.modalTextContainer-ITvzbi {
+    border:1px solid var(--blue-hue-elements)!important;
+    border-radius:15px 15px 0px 0!important;
+    border-bottom: unset!important;
+}
