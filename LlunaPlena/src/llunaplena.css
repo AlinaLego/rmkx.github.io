@@ -1032,37 +1032,6 @@ div.sidebarRegion-VFTUkN{
 .option-n0icdO:hover{
     background-color: var(--channel-color);
 }
-.bd-switch-checked{
-    background-color: var(--channel-color)!important;
-}
-.bd-pfbtn{
-    background-color: var(--channel-color);
-}
-.bd-search-wrapper {
-    background: var(--background-primary);
-    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
-    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
-    border: 1px solid var(--channel-color);
-    border-radius: 20px;
-}
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected{
-    background-color: var(--channel-color);
-}
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover{
-    background-color: #293f4757;
-}
-#bd-settingspane-container .ui-switch-item .style-description {
-    border-bottom: 1px solid var(--channel-color);
-}
-.bd-addon-list a {
-    color: #64a4a8;
-}
-.bd-select .bd-select-option{
-    background-color: var(--background-primary);
-}
-.bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected {
-    background-color: var(--channel-color);
-}
 .subtitle-8DQCLU, .title-2HFmAi{
     border: 0px!important;
 }
@@ -1179,6 +1148,59 @@ div.sidebarRegion-VFTUkN{
     box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset!important;
     border: 1px solid var(--channel-color)!important;
     border-radius: 20px!important;
+}
+.bd-select {
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset!important;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset!important;
+    border: 1px solid var(--channel-color)!important;
+    border-radius: 20px!important;
+}
+.bd-select .bd-select-options {
+    border: 1px solid var(--channel-color)!important;
+    border-radius: 20px;
+}
+.bd-button {
+    background-color: var(--channel-color);
+}
+.bd-addon-views .bd-view-button.selected {
+    background-color: var(--channel-color);
+}
+.bd-select-wrapper label {
+    color: white;
+}
+.bd-addon-list .bd-addon-header {
+    background-color: transparent;
+}
+.bd-switch-checked{
+    background-color: var(--channel-color)!important;
+}
+.bd-pfbtn{
+    background-color: var(--channel-color);
+}
+.bd-search-wrapper {
+    background: var(--background-primary);
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset;
+    border: 1px solid var(--channel-color);
+    border-radius: 20px;
+}
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected{
+    background-color: var(--channel-color);
+}
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover{
+    background-color: #293f4757;
+}
+#bd-settingspane-container .ui-switch-item .style-description {
+    border-bottom: 1px solid var(--channel-color);
+}
+.bd-addon-list a {
+    color: #64a4a8;
+}
+.bd-select .bd-select-option{
+    background-color: var(--background-primary);
+}
+.bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected {
+    background-color: var(--channel-color);
 }
 
 /*Join a server Window*/
