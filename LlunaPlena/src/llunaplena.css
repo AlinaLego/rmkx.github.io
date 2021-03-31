@@ -317,6 +317,15 @@
 .replying-1x3H0T {
     background-color: rgba(0, 225, 255, 0.05)
 }
+.blockquoteContainer-U5TVEi blockquote {
+    border: 1px solid var(--channel-color);
+    box-shadow: 5px 0px 5px 0px var(--chat-shadow-color) inset!important;
+    box-shadow: 0px 0px 10px 0px var(--chat-shadow-color) inset!important;
+    border-radius: 0 20px 20px 0px;
+}
+.blockquoteDivider-2hH8H6 {
+    background-color: var(--blue-hue-elements);
+}
 
 /*Listening along*/
 .listeningAlong-30wH70{
