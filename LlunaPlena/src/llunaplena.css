@@ -326,6 +326,12 @@
 .blockquoteDivider-2hH8H6 {
     background-color: var(--blue-hue-elements);
 }
+.markup-2BOw-j code.inline {
+    background-color: #63a5a824;
+}
+.hljs-comment, .hljs-quote {
+    color: #7dce83
+}
 
 /*Listening along*/
 .listeningAlong-30wH70{
