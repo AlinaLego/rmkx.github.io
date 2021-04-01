@@ -10,7 +10,7 @@
  :root {
     --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
-    --hiden-shadow: rgb(71, 228, 228); /*Color of the selected channel's glow/border when it's hidden*/
+    --hidden-shadow: rgb(71, 228, 228); /*Color of the selected channel's glow/border when it's hidden*/
 }
 
 /*Hides server members list*/
@@ -40,7 +40,7 @@
 }
 .modeSelected-346R90 .icon-1DeIlz { /*Selected channel's icon settings*/
     border-radius: 5px;
-    box-shadow: 0px 0px 3px var(--hiden-shadow);
+    box-shadow: 0px 0px 3px var(--hidden-shadow);
     transition: border-radius 0.8s ease, box-shadow 0.8s ease;
 }
 .content-1x5b-n { /*Moves chanels to the left for aesthetic purposes*/
@@ -66,7 +66,7 @@
 }
 .selected-aXhQR6 .layout-2DM8Md .avatar-3uk_u9 { /*Glow over the selected friend's avatar*/
     border-radius: 20px;
-    box-shadow: 0px 0px 6px var(--hiden-shadow);
+    box-shadow: 0px 0px 6px var(--hidden-shadow);
     transition: border-radius 0.8s ease, box-shadow 0.8s ease;
 }
 .actionIcon-PgcMM2 { /*Hides the invite to channel button when panel is hidden*/
@@ -107,7 +107,7 @@
 }
 .sidebar-2K8pFh:hover .selected-aXhQR6 .layout-2DM8Md .avatar-3uk_u9 { /*Removes the glow from the avatar when showing the friends list*/
     border-radius: 0px;
-    box-shadow: 0px 0px 0px var(--hiden-shadow);
+    box-shadow: 0px 0px 0px var(--hidden-shadow);
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .actionIcon-PgcMM2 { /*Shows the invite to channel button when panel is hovered*/
     color: white;
