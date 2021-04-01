@@ -2,50 +2,15 @@
  * @name         Hide Discord Panels
  * @description  Hides the Server list, Channel list and Server User list.
  * @donate       https://bit.ly/3fnzq1Z
- * @source       https://github.com/rmkx/rmkx.github.io/blob/main/LlunaPlena/src/llunaplena.css
+ * @source       https://github.com/rmkx/rmkx.github.io/blob/main/src/hidePanels.css
  * @author       rmkx#3388
  * @version      1.0 
  */
 
  :root {
-    --hiding-width: 45px; /*Amount that will be shown when the panels hide | Default 45px*/
-    --showing-width: auto; /*Amount that will be shown when the panels show | Default auto*/
-    --hiden-shadow: rgb(71, 228, 228); /*Color of the selected channel when it's hidden*/
-}
-
-/*Animations*/
-@keyframes channelListShow {
-    0% {
-        padding-top: 0px;
-    }
-    100% {
-        padding-top: 16px;
-    }
-}
-
-@keyframes channelShow {
-    0% {
-        color: transparent;
-    }
-    100% {
-        color: white;
-    }
-}
-@keyframes serverMembersShow {
-    0% {
-        min-width: 0px;
-    }
-    100% {
-        min-width: 240px;
-    }
-}
-@keyframes serverChannelsShow {
-    0% {
-        min-width: 0px;
-    }
-    100% {
-        min-width: 240px;
-    }
+    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
+    --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
+    --hiden-shadow: rgb(71, 228, 228); /*Color of the selected channel's glow/border when it's hidden*/
 }
 
 /*Hides server members list*/
@@ -53,42 +18,65 @@
     width: var(--hiding-width);
     min-width: unset;
     justify-content: unset;
+    transition: width 0.8s ease-in;
 }
 
 /*Shows the server members list*/
 .membersWrap-2h-GB4:hover { /*Shows server's members*/
-    animation: serverMembersShow 0.5s ease-in;
-    animation-fill-mode: forwards;
+    width: var(--showing-width);
 }
-.member-3-YXUe { /*Moves members a bit to the left for aesthetic purposes*/
-    margin-left: 0px;
+.member-3-YXUe { /*Moves server members a bit to the left for aesthetic purposes*/
+    margin-left: 2px;
 }
 
 /*Hides the server's channel list*/
 .sidebar-2K8pFh {
     width: var(--hiding-width);
+    transition: width 0.8s ease-in;
 }
 .modeSelected-346R90 .content-1x5b-n { /*Selected channel settings*/
     background-color: transparent;
+    transition: background-color 0.8s ease;
 }
 .modeSelected-346R90 .icon-1DeIlz { /*Selected channel's icon settings*/
     border-radius: 5px;
     box-shadow: 0px 0px 3px var(--hiden-shadow);
+    transition: border-radius 0.8 ease, box-shadow 0.8 ease;
 }
 .content-1x5b-n { /*Moves chanels to the left for aesthetic purposes*/
-    padding-left: 4px;
+    padding-left: 8px;
 }
 .mainContent-2h-GEV .overflow-WK9Ogt, .icon-2yIBmh{ /*Hides the channel group*/
     color: transparent;
+    transition: color 1s ease;
 }
 .containerDefault-3tr_sE { /*Removes padding between channels when hidden for aesthetical purposes*/
     padding: 0px;
+    transition: padding 1s ease;
+}
+.container-2Pjhx-.channel-2QD9_O{ /*Moves the online friends list to the left for aesthetical purposes*/
+    margin: 7px!important;
+}
+.layout-2DM8Md.channel-2QD9_O { /*Moves the online friends list to the left for aesthetical purposes*/
+    padding-left: 0px;
+}
+.selected-aXhQR6 .layout-2DM8Md { /*Selected friend's settings*/
+    background-color: transparent;
+    transition: background-color 0.8s ease;
+}
+.selected-aXhQR6 .layout-2DM8Md .avatar-3uk_u9 { /*Glow over the selected friend's avatar*/
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px var(--hiden-shadow);
+    transition: border-radius 0.8s ease, box-shadow 0.8s ease;
+}
+.actionIcon-PgcMM2 { /*Hides the invite to channel button when panel is hidden*/
+    color: transparent;
+    transition: color 1.3s ease;
 }
 
 /*Shows the server's channel list*/
 .sidebar-2K8pFh:hover {
-    animation: serverChannelsShow 0.5s ease-in;
-    animation-fill-mode: forwards;
+    width: var(--showing-width);
 }
 .sidebar-2K8pFh:hover  .containerDefault--pIXnN .modeSelected-346R90 .content-1x5b-n{ /*Changes the background color of the selected channel when showing the channel list*/
     background-color: rgba(26, 23, 23, 0.164)!important;
@@ -97,13 +85,21 @@
     box-shadow: unset!important;
 }
 .sidebar-2K8pFh:hover .mainContent-2h-GEV .overflow-WK9Ogt, .sidebar-2K8pFh:hover .mainContent-2h-GEV .icon-2yIBmh{ /*Shows channel group*/
-    animation: channelShow 1s ease;
-    animation-fill-mode: forwards;
+    color: white;
 }
 .sidebar-2K8pFh:hover .containerDefault-3tr_sE { /*Animates the movement of the channel groups when they show*/
-    animation: channelListShow 1s ease;
-    animation-fill-mode: forwards;
-}   
+    padding: 4px;
+}
+.sidebar-2K8pFh:hover .selected-aXhQR6 .layout-2DM8Md { /*Changes the background color of the selected friend when showing the friends list*/
+    background-color: rgba(255, 248, 248, 0.212)!important;
+}
+.sidebar-2K8pFh:hover .selected-aXhQR6 .layout-2DM8Md .avatar-3uk_u9 { /*Removes the glow from the avatar when showing the friends list*/
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px var(--hiden-shadow);
+}
+.sidebar-2K8pFh:hover .containerDefault--pIXnN .actionIcon-PgcMM2 { /*Shows the invite to channel button when panel is hovered*/
+    color: white;
+}
 
 /*Channel's unread messages settings*/
 .unread-2lAfLh {
