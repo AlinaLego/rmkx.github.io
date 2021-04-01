@@ -41,7 +41,7 @@
 .modeSelected-346R90 .icon-1DeIlz { /*Selected channel's icon settings*/
     border-radius: 5px;
     box-shadow: 0px 0px 3px var(--hiden-shadow);
-    transition: border-radius 0.8 ease, box-shadow 0.8 ease;
+    transition: border-radius 0.8s ease, box-shadow 0.8s ease;
 }
 .content-1x5b-n { /*Moves chanels to the left for aesthetic purposes*/
     padding-left: 8px;
