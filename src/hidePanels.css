@@ -1,13 +1,13 @@
 /**
  * @name         Hide Discord Panels
- * @description  Hides the Friends, Channel list and Server User list.
+ * @description  Hides the Server, Friends, Channel and Server User panels.
  * @donate       https://bit.ly/3fnzq1Z
  * @source       https://github.com/rmkx/rmkx.github.io/blob/main/src/hidePanels.css
  * @author       rmkx#3388
  * @version      1.0 
  */
 
- :root {
+:root {
     --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
     --hidden-shadow: rgb(71, 228, 228); /*Color of the selected channel's glow/border when it's hidden*/
@@ -123,7 +123,7 @@
     visibility: visible;
 }
 
-/*Channel's unread messages settings*/
+/*Channels' unread messages settings*/
 .unread-2lAfLh {
     background-color: #fff;
     box-shadow: 0px 0px 8px -2px #0ff;
