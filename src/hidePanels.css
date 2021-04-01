@@ -73,6 +73,18 @@
     color: transparent;
     transition: color 1.3s ease;
 }
+.listeningAlong-30wH70 { /*Hides the listening along panel*/
+    height: 0px;
+    visibility: hidden;
+    padding: 0px;
+    transition: height 0.8s ease, visibility 0.0000000000000001s ease, padding 0.7s ease;
+}
+.container-1giJp5 { /*Hides the connected channel panel*/
+    height: 0px;
+    visibility: hidden;
+    padding: 0px;
+    transition: height 0.8s ease, visibility 0.0000000000000001s ease, padding 0.7s ease;
+}
 
 /*Shows the server's channel list*/
 .sidebar-2K8pFh:hover {
@@ -99,6 +111,16 @@
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .actionIcon-PgcMM2 { /*Shows the invite to channel button when panel is hovered*/
     color: white;
+}
+.sidebar-2K8pFh:hover .listeningAlong-30wH70 { /*Shows the listening along panel*/
+    padding: 8px;
+    height: auto;
+    visibility: visible;
+}
+.sidebar-2K8pFh:hover .container-1giJp5 { /*Shows the connected channel panel*/
+    padding: 8px;
+    height: auto;
+    visibility: visible;
 }
 
 /*Channel's unread messages settings*/
