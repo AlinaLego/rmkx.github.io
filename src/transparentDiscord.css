@@ -578,3 +578,6 @@
 .container-3RCQyg { /*Border color on panel on a new channel*/
     border: unset;
 }
+.emptyChannelIcon-cc932w { /*Icon on new empty channel*/
+    background-color: var(--bg-second-panels);
+}
