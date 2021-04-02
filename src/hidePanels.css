@@ -11,7 +11,9 @@
     --server-hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
     --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
-    --hidden-shadow: rgb(71, 228, 228); /*Color of the selected channel's glow/border when it's hidden*/
+    --hidden-background: transparent; /*Background of the elements when hidden*/
+    --showing-background: transparent;/*Background of the elements when showing*/
+    
 }
 
 /*Hides server members list*/
@@ -36,14 +38,9 @@
     transition: width 0.8s ease-in;
 }
 .modeSelected-346R90 .content-1x5b-n { /*Selected channel settings*/
-    background-color: transparent;
+    background-color: var(--hidden-background);
     transition: background-color 0.8s ease;
 }
-/*.modeSelected-346R90 .icon-1DeIlz { /*Selected channel's icon settings
-    border-radius: 5px;
-    box-shadow: 0px 0px 3px var(--hidden-shadow);
-    transition: border-radius 0.8s ease, box-shadow 0.8s ease;
-}*/
 .content-1x5b-n { /*Moves chanels to the left for aesthetic purposes*/
     padding-left: 8px;
 }
@@ -61,14 +58,14 @@
 .layout-2DM8Md.channel-2QD9_O { /*Moves the online friends list to the left for aesthetical purposes*/
     padding-left: 0px;
 }
-.selected-aXhQR6 .layout-2DM8Md { /*Selected friend's settings*/
-    background-color: transparent;
-    transition: background-color 0.8s ease;
+.containerDefault--pIXnN { /*Server channel normal background*/
+    background: var(--hidden-background);
 }
-.selected-aXhQR6 .layout-2DM8Md .avatar-3uk_u9 { /*Glow over the selected friend's avatar*/
-    border-radius: 20px;
-    box-shadow: 0px 0px 6px var(--hidden-shadow);
-    transition: border-radius 0.8s ease, box-shadow 0.8s ease;
+.selected-aXhQR6.container-2Pjhx- { /*Selected friend settings*/
+    background: var(--hidden-background);
+}
+.containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel background*/
+    background: var(--hidden-background);
 }
 .actionIcon-PgcMM2 { /*Hides the invite to channel button when panel is hidden*/
     color: transparent;
@@ -94,21 +91,14 @@
 .sidebar-2K8pFh:hover  .containerDefault--pIXnN .modeSelected-346R90 .content-1x5b-n{ /*Changes the background color of the selected channel when showing the channel list*/
     background-color: rgba(0, 0, 0, 0);
 }
-/*.sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 .icon-1DeIlz { /*Removes the box-shadow from the # icon when showing the channel list
+.sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 .icon-1DeIlz { /*Removes the box-shadow from the # icon when showing the channel list*/
     box-shadow: unset;
-}*/
+}
 .sidebar-2K8pFh:hover .mainContent-2h-GEV .overflow-WK9Ogt, .sidebar-2K8pFh:hover .mainContent-2h-GEV .icon-2yIBmh{ /*Shows channel group*/
     color: white;
 }
 .sidebar-2K8pFh:hover .containerDefault-3tr_sE { /*Animates the movement of the channel groups when they show*/
     padding: 4px;
-}
-.sidebar-2K8pFh:hover .selected-aXhQR6 .layout-2DM8Md { /*Changes the background color of the selected friend when showing the friends list*/
-    background-color: rgba(0, 0, 0, 0);
-}
-.sidebar-2K8pFh:hover .selected-aXhQR6 .layout-2DM8Md .avatar-3uk_u9 { /*Removes the glow from the avatar when showing the friends list*/
-    border-radius: 0px;
-    box-shadow: 0px 0px 0px var(--hidden-shadow);
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .actionIcon-PgcMM2 { /*Shows the invite to channel button when panel is hovered*/
     color: white;
@@ -123,9 +113,12 @@
     height: auto;
     visibility: visible;
 }
-
-/*Channels' unread messages settings*/
-.unread-2lAfLh {
-    background-color: #fff;
-    box-shadow: 0px 0px 8px -2px #0ff;
+.sidebar-2K8pFh:hover .containerDefault--pIXnN { /*Server channel showing background*/
+    background: var(--showing-background);
+}
+.sidebar-2K8pFh:hover .selected-aXhQR6.container-2Pjhx- { /*Selected showing settings*/
+    background: var(--showing-background);
+}
+.sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel showing background*/
+    background: var(--showing-background);
 }
