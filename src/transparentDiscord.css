@@ -581,3 +581,36 @@
 .emptyChannelIcon-cc932w { /*Icon on new empty channel*/
     background-color: var(--bg-second-panels);
 }
+.button-F9qN4n { /*Emoji buttons on right click on message*/
+    background-color: var(--bg-second-panels);
+}
+.button-1ZiXG9:hover { /*Message buttons that appear when hovering*/
+    background-color: var(--bg-second-panels);
+}
+.contentWrapper-SvZHNd { /*Emoji panel from chat*/
+    background-color: var(--bg-second-panels);
+}
+.contentWrapper-SvZHNd { /*Emoji panel from chat*/
+    background-color: var(--bg-second-panels);
+}
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover { /*Some buttons in the emoji panel*/
+    background-color: var(--bg-second-panels);
+}
+.guildIcon-3h-1IH { /*Background from the server channels in emoji panel*/
+    background-color: var(--bg-second-panels);
+}
+.navButtonActive-1MkytQ { /*Active button on emoji panel*/
+    background-color: var(--bg-second-panels);
+}
+.container-cMG81i { /*Search bar in gif panel*/
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .categoryFadeBlurple-1j72_A, .theme-light .categoryFadeBlurple-1j72_A { /*Selected gif category background*/
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .emptyHintCard-2mUdMe { /*Selected category empty gif*/
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .categoryFadeBlurple-1j72_A:hover, .theme-light .categoryFadeBlurple-1j72_A:hover { /*Hovered gif category*/
+    background-color: var(--bg-second-panels);
+}
