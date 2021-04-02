@@ -575,3 +575,6 @@
 .childWrapper-anI2G9 { /*Home icon background*/
     background-color: var(--bg-second-panels);
 }
+.container-3RCQyg { /*Border color on panel on a new channel*/
+    border: unset;
+}
