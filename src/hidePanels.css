@@ -1,6 +1,6 @@
 /**
  * @name         Hide Discord Panels
- * @description  Hides the Server, Friends, Channel and Server User panels.
+ * @description  Hides the Server, Friends, Channel and Server User panels with some animations.
  * @donate       https://bit.ly/3fnzq1Z
  * @source       https://github.com/rmkx/rmkx.github.io/blob/main/src/hidePanels.css
  * @author       rmkx#3388
@@ -37,7 +37,7 @@
     width: var(--server-hiding-width);
     transition: width 0.8s ease-in;
 }
-.modeSelected-346R90 .content-1x5b-n { /*Selected channel settings*/
+.modeSelected-346R90 .content-1x5b-n { /*Selected channel and friend settings*/
     background-color: var(--hidden-background);
     transition: background-color 0.8s ease;
 }
@@ -60,12 +60,15 @@
 }
 .containerDefault--pIXnN { /*Server channel normal background*/
     background: var(--hidden-background);
+    transition: background-color 1s ease;
 }
 .selected-aXhQR6.container-2Pjhx- { /*Selected friend settings*/
     background: var(--hidden-background);
+    transition: background-color 1s ease;
 }
 .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel background*/
     background: var(--hidden-background);
+    transition: background-color 1s ease;
 }
 .actionIcon-PgcMM2 { /*Hides the invite to channel button when panel is hidden*/
     color: transparent;
