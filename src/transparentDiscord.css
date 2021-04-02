@@ -12,11 +12,11 @@
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
     --hiden-shadow: rgb(71, 228, 228); /*Color of the selected channel's glow/border when it's hidden*/
     --background-image: url(https://images.hdqwalls.com/wallpapers/colorful-galaxy-planets-4k-ih.jpg); /*Changes the background image*/
+    --bg-blur: 5px; /*Amount of blur on the background*/
     --bg-main-transparency: rgba(0,0,0,0); /*Changes the transparency of the background*/
     --bg-main-panels: rgba(0,0,0,0); /*Changes the transparency of the main panels, modify the "y" on the rgba (x,x,x,y)*/
     --bg-second-panels: rgba(0,0,0,0); /*Changes the transparency of the secondary panels, modify the "y" on the rgba (x,x,x,y)*/
     --bg-elements: rgba(0,0,0,0); /*Changes the transparency of some of the elements, like the chat message boxes, modify the "y" on the rgba (x,x,x,y)*/
-    
 }
 .theme-dark {
     /*--background-secondary: rgba(0,0,0,0); /*Changes the transparency of the background, modify the "y" on the rgba (x,x,x,y)*/
@@ -24,9 +24,15 @@
 }
 
 /*Modifies the background*/
-.appMount-3lHmkl, body { 
+#app-mount:before {
+    content: "";
     background: var(--background-image);
-    background-size: cover;
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(var(--bg-blur));
 }
 
 /*Transparent panels*/
@@ -550,4 +556,16 @@
 .emptyCard-1RJw8n { /*Active Now no active friends*/
     background: var(--bg-second-panels);
     border: unset;
+}
+.theme-dark .uploadModal-2ifh8j { /*Upload file panel*/
+    background-color: var(--bg-main-panels);
+    box-sizing: unset;
+}
+.theme-dark .footer-3mqk7D { /*Upload file panel*/
+    background-color: var(--bg-main-panels);
+    box-shadow: unset;
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j { /*Upload file panel*/
+    background-color: var(--bg-main-panels);
+    box-shadow: unset;
 }
