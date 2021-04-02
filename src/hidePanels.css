@@ -8,14 +8,15 @@
  */
 
 :root {
-    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
+    --server-hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
+    --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
     --hidden-shadow: rgb(71, 228, 228); /*Color of the selected channel's glow/border when it's hidden*/
 }
 
 /*Hides server members list*/
 .membersWrap-2h-GB4 {
-    width: var(--hiding-width);
+    width: var(--members-hiding-width);
     min-width: unset;
     justify-content: unset;
     transition: width 0.8s ease-in;
@@ -31,7 +32,7 @@
 
 /*Hides the server's channel list*/
 .sidebar-2K8pFh {
-    width: var(--hiding-width);
+    width: var(--server-hiding-width);
     transition: width 0.8s ease-in;
 }
 .modeSelected-346R90 .content-1x5b-n { /*Selected channel settings*/
