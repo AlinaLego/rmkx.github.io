@@ -59,16 +59,16 @@
     padding-left: 0px;
 }
 .containerDefault--pIXnN { /*Server channel normal background*/
-    background: var(--hidden-background);
-    transition: background-color 1s ease;
+    background-color: var(--hidden-background);
+    transition: background-color 0.8s ease;
 }
 .selected-aXhQR6.container-2Pjhx- { /*Selected friend settings*/
-    background: var(--hidden-background);
-    transition: background-color 1s ease;
+    background-color: var(--hidden-background);
+    transition: background-color 0.8s ease;
 }
 .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel background*/
-    background: var(--hidden-background);
-    transition: background-color 1s ease;
+    background-color: var(--hidden-background);
+    transition: background-color 0.8s ease;
 }
 .actionIcon-PgcMM2 { /*Hides the invite to channel button when panel is hidden*/
     color: transparent;
@@ -90,9 +90,6 @@
 /*Shows the server's channel list*/
 .sidebar-2K8pFh:hover {
     width: var(--showing-width);
-}
-.sidebar-2K8pFh:hover  .containerDefault--pIXnN .modeSelected-346R90 .content-1x5b-n{ /*Changes the background color of the selected channel when showing the channel list*/
-    background-color: rgba(0, 0, 0, 0);
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 .icon-1DeIlz { /*Removes the box-shadow from the # icon when showing the channel list*/
     box-shadow: unset;
@@ -117,11 +114,11 @@
     visibility: visible;
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN { /*Server channel showing background*/
-    background: var(--showing-background);
+    background-color: var(--showing-background);
 }
 .sidebar-2K8pFh:hover .selected-aXhQR6.container-2Pjhx- { /*Selected showing settings*/
-    background: var(--showing-background);
+    background-color: var(--showing-background);
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel showing background*/
-    background: var(--showing-background);
+    background-color: var(--showing-background);
 }
