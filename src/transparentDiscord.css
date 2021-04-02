@@ -383,7 +383,7 @@
 .theme-dark .inset-3sAvek { /*Playing now panel*/
     background-color: var(--bg-second-panels);
 }
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx { /*Find or start a conversation button*/
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx, .searchBar-6Kv8R2 { /*Find or start a conversation button*/
     background-color: var(--bg-second-panels);
     box-shadow: unset;
 }
@@ -538,4 +538,16 @@
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: var(--bg-second-panels);
+}
+.textContainer-C0szpm { /*Files preview in chat*/
+    background-color: var(--bg-second-panels);
+    border: unset;
+}
+.footer-2yA7Ep { /*Footer of the preview files in chat*/
+    background-color: var(--bg-second-panels);
+    border: unset;
+}
+.emptyCard-1RJw8n { /*Active Now no active friends*/
+    background: var(--bg-second-panels);
+    border: unset;
 }
