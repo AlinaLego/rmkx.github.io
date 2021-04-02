@@ -569,3 +569,9 @@
     background-color: var(--bg-main-panels);
     box-shadow: unset;
 }
+.role-1P70N6 { /*Role buttons on some channels*/
+    background-color: var(--bg-second-panels);
+}
+.childWrapper-anI2G9 { /*Home icon background*/
+    background-color: var(--bg-second-panels);
+}
