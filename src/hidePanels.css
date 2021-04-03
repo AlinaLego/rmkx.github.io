@@ -36,8 +36,9 @@
     color: transparent;
     transition: color 1s ease-in;
 }
-.member-3-YXUe { /*Moves server members a bit to the left for aesthetic purposes*/
+.member-3-YXUe { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
     margin-left: 2px;
+    margin-bottom: 3px;
 }
 
 /*Shows the server members list*/
