@@ -55,6 +55,7 @@
 }
 .content-1x5b-n { /*Moves chanels to the left for aesthetic purposes*/
     padding-left: 8px;
+    margin-left: 5px;
 }
 .mainContent-2h-GEV .overflow-WK9Ogt, .icon-2yIBmh{ /*Hides the channel group*/
     color: transparent;
@@ -79,6 +80,10 @@
     background-color: var(--hidden-background);
 }
 .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel background*/
+    background: var(--hidden-background);
+    background-color: var(--hidden-background);
+}
+.voiceUserSummary-2X_2vp { /*Channels when collapsed*/
     background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
@@ -127,6 +132,10 @@
     animation-fill-mode: forwards;
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel showing background*/
+    animation: selectedChannel 1s ease;
+    animation-fill-mode: forwards;
+}
+.sidebar-2K8pFh:hover .voiceUserSummary-2X_2vp {
     animation: selectedChannel 1s ease;
     animation-fill-mode: forwards;
 }
