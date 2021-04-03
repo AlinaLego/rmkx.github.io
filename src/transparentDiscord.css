@@ -8,19 +8,10 @@
  */
 
 :root {
-    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
-    --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
-    --hiden-shadow: rgb(71, 228, 228); /*Color of the selected channel's glow/border when it's hidden*/
     --background-image: url(https://images.hdqwalls.com/wallpapers/colorful-galaxy-planets-4k-ih.jpg); /*Changes the background image*/
     --bg-blur: 5px; /*Amount of blur on the background*/
-    --bg-main-transparency: rgba(0,0,0,0); /*Changes the transparency of the background*/
     --bg-main-panels: rgba(0,0,0,0); /*Changes the transparency of the main panels, modify the "y" on the rgba (x,x,x,y)*/
     --bg-second-panels: rgba(0,0,0,0); /*Changes the transparency of the secondary panels, modify the "y" on the rgba (x,x,x,y)*/
-    --bg-elements: rgba(0,0,0,0); /*Changes the transparency of some of the elements, like the chat message boxes, modify the "y" on the rgba (x,x,x,y)*/
-}
-.theme-dark {
-    /*--background-secondary: rgba(0,0,0,0); /*Changes the transparency of the background, modify the "y" on the rgba (x,x,x,y)*/
-    /*--background-primary: rgba(0,0,0,0); /*Changes the transparency of the background, modify the "y" on the rgba (x,x,x,y)*/
 }
 
 /*Modifies the background*/
@@ -37,7 +28,7 @@
 
 /*Transparent panels*/
 .app-2rEoOp { /*Discord Background*/
-    background-color: var(--bg-main-transparency);
+    background-color: var(--bg-main-panels);
 }
 .theme-dark .container-1D34oG { /*Friends window*/
     background-color: var(--bg-main-panels);
