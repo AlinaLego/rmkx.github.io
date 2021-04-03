@@ -108,13 +108,16 @@
     padding: 0px;
     transition: height 0.8s ease, visibility 0.0000000000000001s ease, padding 0.7s ease;
 }
-.list-2luk8a { /*Moves people connectd to a voice channel when hidden*/
+.list-2luk8a { /*Moves people connected to a voice channel when hidden*/
     padding-left: 5px;
     transition: padding 0.8s ease;
 }
 .addButton-3bLyEA { /*Hides the add channel in the channel list*/
     color: transparent;
     transition: color 1s ease;
+}
+.listDefault-3ir5aS .avatarContainer-28iYmV { /*Centers the avatars of peole connected to a vc even more*/
+    margin-left: 5px;
 }
 
 /*Shows the server's channel list*/
