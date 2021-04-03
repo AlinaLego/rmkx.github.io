@@ -12,6 +12,7 @@
     --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
+    --middle-animation: transparent;
     --showing-background: transparent;/*Background of the elements when showing*/
     
 }
@@ -19,6 +20,9 @@
 @keyframes selectedChannel {
     0% {
         background: var(--hidden-background);
+    }
+    50%{
+        background: var(--middle-animation);
     }
     100% {
         background: var(--showing-background);
@@ -46,10 +50,6 @@
     width: var(--server-hiding-width);
     transition: width 0.8s ease-in;
 }
-.modeSelected-346R90 .content-1x5b-n { /*Selected channel and friend settings*/
-    background-color: var(--hidden-background);
-    transition: background-color 0.8s ease;
-}
 .content-1x5b-n { /*Moves chanels to the left for aesthetic purposes*/
     padding-left: 8px;
 }
@@ -62,18 +62,21 @@
     transition: padding 1s ease;
 }
 .container-2Pjhx-.channel-2QD9_O{ /*Moves the online friends list to the left for aesthetical purposes*/
-    margin: 0px!important;
+    margin-left: 0px;
 }
 .layout-2DM8Md.channel-2QD9_O { /*Moves the online friends list to the left for aesthetical purposes*/
     padding-left: 0px;
 }
 .containerDefault--pIXnN { /*Server channel normal background*/
+    background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
 .selected-aXhQR6.container-2Pjhx- { /*Selected friend settings*/
+    background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
 .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel background*/
+    background: var(--hidden-background);
     background-color: var(--hidden-background);
 }
 .actionIcon-PgcMM2 { /*Hides the invite to channel button when panel is hidden*/
@@ -118,10 +121,13 @@
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN { /*Server channel showing background*/
     animation: selectedChannel 1s ease;
+    animation-fill-mode: forwards;
 }
 .sidebar-2K8pFh:hover .selected-aXhQR6.container-2Pjhx- { /*Selected showing settings*/
     animation: selectedChannel 1s ease;
+    animation-fill-mode: forwards;
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel showing background*/
     animation: selectedChannel 1s ease;
+    animation-fill-mode: forwards;
 }
