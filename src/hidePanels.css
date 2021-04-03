@@ -32,13 +32,20 @@
     justify-content: unset;
     transition: width 0.8s ease-in;
 }
+.membersGroup-v9BXpm { /*Hides the member's role*/
+    color: transparent;
+    transition: color 1s ease-in;
+}
+.member-3-YXUe { /*Moves server members a bit to the left for aesthetic purposes*/
+    margin-left: 2px;
+}
 
 /*Shows the server members list*/
 .membersWrap-2h-GB4:hover { /*Shows server's members*/
     width: var(--showing-width);
 }
-.member-3-YXUe { /*Moves server members a bit to the left for aesthetic purposes*/
-    margin-left: 2px;
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
+    color: white;
 }
 
 /*Hides the server's channel list*/
