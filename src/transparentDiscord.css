@@ -614,3 +614,15 @@
 .theme-dark .categoryFadeBlurple-1j72_A:hover, .theme-light .categoryFadeBlurple-1j72_A:hover { /*Hovered gif category*/
     background-color: var(--bg-second-panels);
 }
+.wrapper-2qzCYF.minimum-28Z35l { /*Call background*/
+    background-color: var(--bg-second-panels);
+}
+.colorable-1bkp8v.primaryDark-3mSFDl { /*Call buttons background*/
+    background: var(--bg-second-panels);
+}
+.background-ujHpbY { /*Call mini screens background*/
+    background-color: var(--bg-second-panels)!important;
+}
+.participantsButton-KYW-IW { /*Call buttons background*/
+    background: var(--bg-second-panels); 
+}

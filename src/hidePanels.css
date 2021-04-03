@@ -16,6 +16,15 @@
     
 }
 
+@keyframes selectedChannel {
+    0% {
+        background: var(--hidden-background);
+    }
+    100% {
+        background: var(--showing-background);
+    }
+}
+
 /*Hides server members list*/
 .membersWrap-2h-GB4 {
     width: var(--members-hiding-width);
@@ -60,15 +69,12 @@
 }
 .containerDefault--pIXnN { /*Server channel normal background*/
     background-color: var(--hidden-background);
-    transition: background-color 0.8s ease;
 }
 .selected-aXhQR6.container-2Pjhx- { /*Selected friend settings*/
     background-color: var(--hidden-background);
-    transition: background-color 0.8s ease;
 }
 .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel background*/
     background-color: var(--hidden-background);
-    transition: background-color 0.8s ease;
 }
 .actionIcon-PgcMM2 { /*Hides the invite to channel button when panel is hidden*/
     color: transparent;
@@ -91,10 +97,7 @@
 .sidebar-2K8pFh:hover {
     width: var(--showing-width);
 }
-.sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 .icon-1DeIlz { /*Removes the box-shadow from the # icon when showing the channel list*/
-    box-shadow: unset;
-}
-.sidebar-2K8pFh:hover .mainContent-2h-GEV .overflow-WK9Ogt, .sidebar-2K8pFh:hover .mainContent-2h-GEV .icon-2yIBmh{ /*Shows channel group*/
+.sidebar-2K8pFh:hover .mainContent-2h-GEV .overflow-WK9Ogt, .sidebar-2K8pFh:hover .mainContent-2h-GEV .icon-2yIBmh{  /*Shows channel group*/
     color: white;
 }
 .sidebar-2K8pFh:hover .containerDefault-3tr_sE { /*Animates the movement of the channel groups when they show*/
@@ -114,11 +117,11 @@
     visibility: visible;
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN { /*Server channel showing background*/
-    background-color: var(--showing-background);
+    animation: selectedChannel 1s ease;
 }
 .sidebar-2K8pFh:hover .selected-aXhQR6.container-2Pjhx- { /*Selected showing settings*/
-    background-color: var(--showing-background);
+    animation: selectedChannel 1s ease;
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel showing background*/
-    background-color: var(--showing-background);
+    animation: selectedChannel 1s ease;
 }
