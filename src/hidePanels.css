@@ -112,6 +112,10 @@
     padding-left: 5px;
     transition: padding 0.8s ease;
 }
+.addButton-3bLyEA { /*Hides the add channel in the channel list*/
+    color: transparent;
+    transition: color 1s ease;
+}
 
 /*Shows the server's channel list*/
 .sidebar-2K8pFh:hover {
@@ -153,4 +157,7 @@
 }
 .sidebar-2K8pFh:hover .list-2luk8a { /*Moves the connected users in a voice channel back to default place*/
     padding-left: 36px;
+}
+.sidebar-2K8pFh:hover .addButton-3bLyEA { /*Shows the add server button on the channels list*/
+    color: white;
 }
