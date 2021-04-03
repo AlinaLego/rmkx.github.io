@@ -12,7 +12,6 @@
     --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
-    --middle-animation: transparent;
     --showing-background: transparent;/*Background of the elements when showing*/
     
 }
@@ -20,9 +19,6 @@
 @keyframes selectedChannel {
     0% {
         background: var(--hidden-background);
-    }
-    50%{
-        background: var(--middle-animation);
     }
     100% {
         background: var(--showing-background);
