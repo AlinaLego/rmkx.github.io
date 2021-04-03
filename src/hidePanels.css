@@ -119,10 +119,6 @@
     height: auto;
     visibility: visible;
 }
-.sidebar-2K8pFh:hover .containerDefault--pIXnN { /*Server channel showing background*/
-    animation: selectedChannel 1s ease;
-    animation-fill-mode: forwards;
-}
 .sidebar-2K8pFh:hover .selected-aXhQR6.container-2Pjhx- { /*Selected showing settings*/
     animation: selectedChannel 1s ease;
     animation-fill-mode: forwards;
