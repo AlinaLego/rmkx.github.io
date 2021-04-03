@@ -64,7 +64,7 @@
 }
 .wrapper-2tAnRe { /*Hides the amount of people in a voice channel when hidden*/
     visibility: hidden;
-    transition: visibility 1s ease;
+    transition: visibility 0.5s ease;
 }
 .containerDefault-3tr_sE { /*Removes padding between channels when hidden for aesthetical purposes*/
     padding: 0px;
