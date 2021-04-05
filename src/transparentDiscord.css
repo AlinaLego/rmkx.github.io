@@ -224,6 +224,9 @@
     background: var(--bg-second-panels);
     box-shadow: unset;
 }
+.header-2V-4Sw { /*Server name/settings panel*/
+    box-shadow: unset;
+}
 .clickable-25tGDB .header-2V-4Sw:hover, .selected-31Nl7x .header-2V-4Sw { /*Server settings clicked panel*/
     background-color: var(--bg-second-panels);
 }
@@ -550,7 +553,7 @@
 }
 .theme-dark .uploadModal-2ifh8j { /*Upload file panel*/
     background-color: var(--bg-main-panels);
-    box-sizing: unset;
+    box-shadow: unset;
 }
 .theme-dark .footer-3mqk7D { /*Upload file panel*/
     background-color: var(--bg-main-panels);
@@ -618,5 +621,14 @@
     background: var(--bg-second-panels); 
 }
 .jumpToPresentBar-G1R9s6 { /*Jump to pressent message bar*/
+    background-color: var(--bg-second-panels);
+}
+.activity-11LB_k { /*Used card activity*/
+    background-color: var(--bg-second-panels);
+}
+.button-1ZiXG9.selected-LCBEAU { /*Selected button on message (Reply/Settings)*/
+    background-color: var(--bg-second-panels);
+}
+.activity-11LB_k { /*User activity fix*/
     background-color: var(--bg-second-panels);
 }
