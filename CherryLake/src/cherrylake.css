@@ -30,7 +30,7 @@
     --panel-border-radius: 8px; /*Changes the radius of the surrounded panels*/
     
     --chat-bg: rgba(0, 0, 0, 0.5); /*Changes the background of the messages in chat*/
-    --chat-hover: rgb(0, 0, 0, 0.55); /*Message background when hovering*/
+    --chat-hover: rgb(0, 0, 0, 0.2); /*Message background when hovering*/
 
     --buttons-background: rgba(0, 0, 0, 0.3); /*Changes the color of the buttons*/
     --buttons-border: 0px solid rgb(70, 69, 69); /*Changes the color of the buttons*/
@@ -445,10 +445,9 @@
     border-radius: var(--panel-border-radius);
     margin-bottom: -20px;
 }
-.cozy-3raOZG.wrapper-2a6GCs { /*Chat messages settings*/
+.cozy-3raOZG .contents-2mQqc9 { /*Chat messages settings*/
     margin-right: 10px;
     margin-left: 10px;
-    background-color: var(--chat-bg);
 }
 .message-2qnXI6 {
     padding-right: 30px;
