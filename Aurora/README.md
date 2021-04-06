@@ -1,6 +1,6 @@
 <h1 align="center">Aurora</h1>
 <p align="center">
-  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/RH7SiIr.png">
+  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/iovt5am.png">
 <p align="center">
 <p>Enjoy Discord over a calm peaceful lake under the northern lights. Highly customizable transparent theme.</p>
 <p align="center">
@@ -15,8 +15,8 @@
 
 <h2 align="center">More screenshots</h2>
 <p align="center">
-  <p align="center"><a href="https://i.imgur.com/2my7LsR.gif">Animated preview</a>.</p>
-  <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/8AKpUyh.png"></p>
-  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/cK32ylg.png">
-  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/koQdG3W.png">
+  <p align="center"><a href="https://i.imgur.com/v5Dizh4.gif">Animated preview</a>.</p>
+  <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/ulvPwcA.png"></p>
+  <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/qe0F2oe.png"></p>
+  <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/kZLxq89.png"></p>
 <p align="center">

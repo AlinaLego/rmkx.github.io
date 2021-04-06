@@ -847,7 +847,7 @@
     transform: unset!important;
 }
 .layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child { /*Blurs the background behind the settings window*/
-    filter: blur(9px);
+    filter: blur(3px);
 }
 .platform-win .standardSidebarView-3F1I7i { /*Modifies the settings window*/
     backdrop-filter: blur(10px);
