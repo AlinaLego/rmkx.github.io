@@ -94,6 +94,8 @@
     height: 56px;
 }
 
+
+
 /*Active now Tweaks*/
 
 .header-13Cw0-.base-1x0h_U.size12-3cLvbJ { /*Settings of the Active Now text*/
@@ -688,6 +690,10 @@
 .listRow-hutiT_:hover { /*Hovered mutual server*/
     background-color: var(--chat-hover);
     border-radius: var(--panel-border-radius);
+}
+
+.wordmarkWindows-1v0lYD { 
+    color: transparent;
 }
 
 /*Buttons settings*/
