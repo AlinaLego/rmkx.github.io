@@ -1,8 +1,8 @@
-<h1 align="center">Lluna Plena</h1>
+<h1 align="center">Cherry Lake</h1>
 <p align="center">
-  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/2my7LsR.gif">
+  <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/RH7SiIr.png">
 <p align="center">
-<p>Enjoy the paceful and realxing view of a cherry lake with purple and blue hues. Highly customizable transparent theme.</p>
+<p>Enjoy the paceful and relaxing view of a cherry lake with purple and blue hues. Highly customizable transparent theme.</p>
 <p align="center">
   <a href="https://bit.ly/3fnzq1Z"> <img alt="PayPal" src="https://img.shields.io/badge/Donate-grey?style=plastic&logo=paypal&"></a>
   <a href="https://github.com/rmkx/rmkx.github.io/releases/download/v1.0/LlunaPlena.theme.css"> <img alt="Download" src="https://img.shields.io/badge/Download-yellowgreen?style=plastic&logo=github"></a></p>
@@ -15,6 +15,7 @@
 
 <h2 align="center">More screenshots</h2>
 <p align="center">
+  <p><a href="https://i.imgur.com/2my7LsR.gif">Animated preview</a>.</p>
   <img alt="Preview" alt="preview" src="https://i.imgur.com/8AKpUyh.png">
   <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/cK32ylg.png">
   <img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/koQdG3W.png">
