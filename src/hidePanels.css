@@ -108,6 +108,12 @@
     padding: 0px;
     transition: height 0.8s ease, visibility 0.0000000000000001s ease, padding 0.7s ease;
 }
+.activityPanel-28dQGo { /*Hides the sharing screen panel*/
+    height: 0px;
+    visibility: hidden;
+    padding: 0px;
+    transition: height 0.8s ease, visibility 0.0000000000000001s ease, padding 0.7s ease;
+}
 .list-2luk8a { /*Moves people connected to a voice channel when hidden*/
     padding-left: 5px;
     transition: padding 0.8s ease;
@@ -134,6 +140,11 @@
     color: white;
 }
 .sidebar-2K8pFh:hover .listeningAlong-30wH70 { /*Shows the listening along panel*/
+    padding: 8px;
+    height: auto;
+    visibility: visible;
+}
+.sidebar-2K8pFh:hover .activityPanel-28dQGo { /*Shows the sharing screen panel*/
     padding: 8px;
     height: auto;
     visibility: visible;
