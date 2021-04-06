@@ -412,7 +412,6 @@
     box-shadow: var(--elevation-high);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
-    backdrop-filter: blur(var(--popout-blur));
     background: var(--panel-boxes);
 }
 
