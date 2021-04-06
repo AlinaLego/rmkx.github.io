@@ -1059,6 +1059,11 @@
 .button-F9qN4n:hover { /*Add reaction hover*/
     background: var(--main-accent);
 }
+.popoutContainer-1MXdqN { /*Clicked on emoji in chat*/
+    backdrop-filter: blur(5px);
+    border-radius: var(--panel-border-radius);
+    
+}
 
 /*Untrusted domain modal*/
 .form-26zE04 {

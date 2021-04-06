@@ -644,3 +644,6 @@
 .activityPanel-28dQGo { /*Sharing screen panel*/
     border: unset;
 }
+.emojiSection-3Fb9ix, .guildSection-1EoFKd { /*Click on emoji in chat panel*/
+    background: var(--bg-second-panels);
+}
