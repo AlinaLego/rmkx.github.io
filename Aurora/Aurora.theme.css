@@ -21,7 +21,7 @@
     --hidden-background: linear-gradient(195deg, rgba(182,0,92,1) 9%, rgba(255,0,228,0.6166667350533963) 22%, rgba(179,0,255,0.5522409647452731) 37%, rgba(119,0,255,0.6110644941570378) 52%, rgba(51,0,255,0.5550420851934523) 67%, rgba(0,134,255,0.3477591720281863) 84%); /*Background of the elements when hidden*/
     --showing-background: linear-gradient(195deg, rgba(182,0,92,1) 9%, rgba(255,0,228,0.6166667350533963) 22%, rgba(179,0,255,0.5522409647452731) 37%, rgba(119,0,255,0.6110644941570378) 52%, rgba(51,0,255,0.5550420851934523) 67%, rgba(0,134,255,0.3477591720281863) 84%);/*Background of the elements when showing*/
     
-    --background-image: url(https://i.imgur.com/eegl3SK.jpg); /*Changes the background image*/
+    --background-image: url(https://i.imgur.com/YiHlt7b.jpg); /*Changes the background image*/
     --bg-blur: 5px; /*changes the blur of the background image*/
     --main-accent: rgb(147, 0, 177); /*Main accent of the theme for little elements*/
     --popout-blur: 5px; /*Changes the blur of elements that appear on screen*/
