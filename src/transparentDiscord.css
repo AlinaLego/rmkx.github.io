@@ -647,3 +647,9 @@
 .emojiSection-3Fb9ix, .guildSection-1EoFKd { /*Click on emoji in chat panel*/
     background: var(--bg-second-panels);
 }
+.wrapper-2qzCYF { /*Call background*/
+    background: var(--bg-second-panels);
+}
+.tile-2naSqK { /*Call background user*/
+    background: var(--bg-second-panels);
+}

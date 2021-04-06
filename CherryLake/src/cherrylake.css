@@ -544,9 +544,6 @@
     border-radius: 4px;
     background: var(--main-accent);
 }
-/* .avatar-1BDn8e.clickable-1bVtEA { /*Chat message avatar
-    border-radius: var(--panel-border-radius);
-}*/
 .cozy-3raOZG .timestamp-3ZCmNB { /*Message timestamp*/
     color: rgba(255, 255, 255, 0.548);
     backdrop-filter: blur(var(--popout-blur));
