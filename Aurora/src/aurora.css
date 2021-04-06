@@ -412,7 +412,8 @@
     box-shadow: var(--elevation-high);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
-    background: var(--panel-boxes);
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
 /*Chat settings*/
