@@ -29,20 +29,17 @@
     --panel-border: 0px solid rgb(70, 69, 69); /*Changes the borders of the surrounded panels*/
     --panel-border-radius: 8px; /*Changes the radius of the surrounded panels*/
     
-    --chat-bg: rgba(0, 0, 0, 0.5); /*Changes the background of the messages in chat*/
     --chat-hover: rgb(0, 0, 0, 0.2); /*Message background when hovering*/
 
     --buttons-background: rgba(0, 0, 0, 0.3); /*Changes the color of the buttons*/
     --buttons-border: 0px solid rgb(70, 69, 69); /*Changes the color of the buttons*/
     --buttons-radius: 8px; /*Changes the radius of the buttons*/
-    --buttons-disabled: rgba(0, 0, 0, 0.65); /*Changes the color of the buttons when they're disabled*/
     --buttons-color: white; /*Changes the color of the button text*/
 
-    --element-hovered: linear-gradient(195deg, rgba(182,0,92,1) 9%, rgba(255,0,228,0.6166667350533963) 22%, rgba(179,0,255,0.5522409647452731) 37%, rgba(119,0,255,0.6110644941570378) 52%, rgba(51,0,255,0.5550420851934523) 67%, rgba(0,134,255,0.3477591720281863) 84%); /*Changes the color of the background when hovering*/
-    --element-hovered-bg: rgba(0, 0, 0, 0.65); /*Changes the bg of the elements when they're hovered*/
-
-    --gradient-background: rgb(82,78,142); /*Changes the background color of the gradient*/
-    --underline-gradient: linear-gradient(195deg, rgba(182,0,92,1) 9%, rgba(255,0,228,0.6166667350533963) 22%, rgba(179,0,255,0.5522409647452731) 37%, rgba(119,0,255,0.6110644941570378) 52%, rgba(51,0,255,0.5550420851934523) 67%, rgba(0,134,255,0.3477591720281863) 84%); /*Code for the gradient*/
+    /*Changes the color of the background when hovering*/
+    --element-hovered: linear-gradient(195deg, rgba(182,0,92,1) 9%, rgba(255,0,228,0.6166667350533963) 22%, rgba(179,0,255,0.5522409647452731) 37%, rgba(119,0,255,0.6110644941570378) 52%, rgba(51,0,255,0.5550420851934523) 67%, rgba(0,134,255,0.3477591720281863) 84%);
+    /*Code for the underline gradient*/
+    --underline-gradient: linear-gradient(195deg, rgba(182,0,92,1) 9%, rgba(255,0,228,0.6166667350533963) 22%, rgba(179,0,255,0.5522409647452731) 37%, rgba(119,0,255,0.6110644941570378) 52%, rgba(51,0,255,0.5550420851934523) 67%, rgba(0,134,255,0.3477591720281863) 84%);
 
     --settings-width: 60%; /*Width for the settings window*/
     --settings-heigth: 85%; /*Width for the settings window*/
