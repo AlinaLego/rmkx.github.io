@@ -546,7 +546,6 @@
 }
 .cozy-3raOZG .timestamp-3ZCmNB { /*Message timestamp*/
     color: rgba(255, 255, 255, 0.548);
-    backdrop-filter: blur(var(--popout-blur));
 }
 .colorBrand-2tjs5J.size14-e6ZScH.mentionButton-3710-W {
     color: var(--main-accent);
