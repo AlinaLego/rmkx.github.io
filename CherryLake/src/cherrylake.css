@@ -1281,14 +1281,14 @@
 
 /*User avatar settings*/
 
-.wrapper-3t9DeA > svg > foreignObject { /*Avatar settings*/
+/* .wrapper-3t9DeA > svg > foreignObject { /*Avatar settings
     mask: unset!important;
     border-radius: var(--panel-border-radius)!important;
 }
-.avatar-1BDn8e.clickable-1bVtEA { /*Chat avatar*/
+.avatar-1BDn8e.clickable-1bVtEA { /*Chat avatar
     border-radius: var(--panel-border-radius);
 }
-.wrapper-25eVIn > svg > foreignObject { /*Server list avatars*/
+.wrapper-25eVIn > svg > foreignObject { /*Server list avatars
     mask: unset!important;
     border-radius: var(--panel-border-radius)!important;
-}
+} */
