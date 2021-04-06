@@ -61,6 +61,15 @@
     color: #7bcbeb; /*Changes the color of the words of the selected message*/
 }
 
+/*Auto scrollbar settings*/
+
+.theme-dark ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+}
+.theme-dark ::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
 /*Friends list settings*/
 .peopleList-3c4jOR {
     background-color: var(--background-primary); /*Changes the background of the friends list*/
