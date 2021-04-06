@@ -1181,6 +1181,9 @@
     background: transparent;
     color: var(--main-accent);
 }
+.circleIconButton-1QV--U > svg > path { /*Changes the add servers and explore servers buttons*/
+    fill: var(--main-accent)!important;
+}
 
 /*Error message*/
 .colorDanger-4gmAY0 { /*error box*/
@@ -1274,4 +1277,18 @@
 .bd-controls>.bd-addon-button { /*Edit or delete addon buttons*/
     margin-left: 5px;
     border-radius: var(--buttons-radius)!important;
+}
+
+/*User avatar settings*/
+
+.wrapper-3t9DeA > svg > foreignObject { /*Avatar settings*/
+    mask: unset!important;
+    border-radius: var(--panel-border-radius)!important;
+}
+.avatar-1BDn8e.clickable-1bVtEA { /*Chat avatar*/
+    border-radius: var(--panel-border-radius);
+}
+.wrapper-25eVIn > svg > foreignObject { /*Server list avatars*/
+    mask: unset!important;
+    border-radius: var(--panel-border-radius)!important;
 }
