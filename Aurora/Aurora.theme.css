@@ -1,13 +1,13 @@
 /**
  * @name         Cherry Lake
- * @description  Enjoy Discord over a calm peaceful cherry lake.
+ * @description  Enjoy Discord over a calm peaceful lake under the northern lights.
  * @donate       https://bit.ly/3fnzq1Z
- * @source       https://github.com/rmkx/rmkx.github.io/blob/main/CherryLake/src/cherrylake.css
+ * @source       https://github.com/rmkx/rmkx.github.io/blob/main/Aurora/src/aurora.css
  * @author       rmkx#3388
  * @version      1.0 
  */
 
-@import url('https://rmkx.github.io/CherryLake/src/cherrylake.css');
+@import url('https://rmkx.github.io/Aurora/src/aurora.css');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*Put your font url here*/
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
