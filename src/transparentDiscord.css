@@ -632,3 +632,9 @@
 .activity-11LB_k { /*User activity fix*/
     background-color: var(--bg-second-panels);
 }
+.theme-dark .game-1ipmAa { /*Game Activity settings window*/
+    box-shadow: unset;
+}
+.game-1ipmAa .removeGame-2JFGPn, .game-1ipmAa:hover .removeGame-2JFGPn { /*Remove button hvoered background*/
+    background-color: var(--bg-second-panels);
+}
