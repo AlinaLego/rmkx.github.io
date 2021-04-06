@@ -662,3 +662,12 @@
 .theme-dark .tab-2j5AEF.selected-2LAck8 { /*Filter button*/
     background-color: var(--bg-second-panels);
 }
+.searchHeader-2XoQg7 .tab-2j5AEF {
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .tab-2j5AEF.selected-2LAck8 { /*Search results panel filter*/
+    background-color: var(--bg-second-panels);
+}
+.searchHeader-2XoQg7 .tab-2j5AEF:hover:not([aria-selected="true"]) { /*Hover filter buttons*/
+    background-color: var(--bg-second-panels);
+}
