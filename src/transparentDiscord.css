@@ -638,3 +638,9 @@
 .game-1ipmAa .removeGame-2JFGPn, .game-1ipmAa:hover .removeGame-2JFGPn { /*Remove button hvoered background*/
     background-color: var(--bg-second-panels);
 }
+.theme-dark .streamPreview-2-WUWT { /*Stream preview*/
+    background: var(--bg-second-panels);
+}
+.activityPanel-28dQGo { /*Sharing screen panel*/
+    border: unset;
+}
