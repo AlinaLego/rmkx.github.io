@@ -844,6 +844,9 @@
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover { /*Discord nitro buttons hover*/
     background: var(--main-accent);
 }
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp { /*Sharing screen button active*/
+    background-color: var(--main-accent);
+}
 
 /*Settings Window*/
 
@@ -1147,6 +1150,18 @@
 }
 .theme-dark .item-3T2z1R.selectorButtonSelected-t5V9On { /*Go live quality settings*/
     background: var(--main-accent);
+}
+.theme-dark .streamPreview-2-WUWT { /*Stream preview window*/
+    backdrop-filter: blur(10px);
+    border-radius: var(--panel-border-radius);
+    background-color: var(--panel-boxes);
+}
+.icon-3Oovq9 { /*Streaming in channel icon*/
+    background-color: var(--main-accent)!important;
+    border-radius: var(--panel-border-radius)!important;
+}
+.badge-1JXQev { /*Streaming icon badge*/
+    background-color: transparent;
 }
 
 /*Server mentions/activity*/
