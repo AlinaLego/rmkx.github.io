@@ -8,6 +8,11 @@
  */
 
 @import url('https://rmkx.github.io/CherryLake/src/cherrylake.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*Put your font url here*/
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: "Lato"; /*Change the font name you imported here*/
+}
 
 :root {
     --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
