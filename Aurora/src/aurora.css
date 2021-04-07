@@ -485,7 +485,7 @@
     margin-right: 0px;
 }
 .unreadPill-2HyYtt{ /*New messages border*/
-    top: 25px;
+    top: 0px;
     background-color: var(--main-accent);
     width: 50px;
     border-radius: 2px;
