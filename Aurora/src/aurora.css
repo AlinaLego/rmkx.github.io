@@ -1406,3 +1406,24 @@
 .theme-dark .tierMarkerBackground-3q29am { /*Server boost level progress bar*/
     background-color: transparent;
 }
+
+/*Server admin settings*/
+
+.theme-dark .copyInput-2rOSt7 { /*Server widget copy box*/
+    border-radius: var(--panel-border-radius);
+    background-color: var(--panel-boxes);
+    border-color: transparent;
+}
+.lookGhost-2Fn_0-.colorGrey-2DXtkV { /*Copy button*/
+    border-radius: var(--buttons-radius);
+    background-color: var(--main-accent);
+    color: white;
+}
+.lookGhost-2Fn_0-.colorGreen-29iAKY { /*Click on copy button*/
+    border-radius: var(--buttons-radius);
+    background-color: var(--main-accent);
+    color: white;
+}
+.copyInputSuccess-XZc7BO { /*Click on copy button*/
+    border-color: var(--main-accent)!important;
+}
