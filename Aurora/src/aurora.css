@@ -426,6 +426,9 @@
 .botTagInvert-18-95s { /*Bot tage color*/
     color: var(--main-accent);
 }
+.role-2irmRk { /*Role in user card*/
+    border-radius: var(--panel-border-radius);
+}
 
 /*Chat settings*/
 
