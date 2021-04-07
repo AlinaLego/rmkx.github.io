@@ -125,6 +125,11 @@
 .listDefault-3ir5aS .avatarContainer-28iYmV { /*Centers the avatars of peole connected to a vc even more*/
     margin-left: 5px;
 }
+.mentionsBadge-3tC7Mi { /*Mentioned in a channel*/
+    top: 15px;
+    left: 7px;
+    transition: top 2s ease-in, left 2s ease-in;
+}
 
 /*Shows the server's channel list*/
 .sidebar-2K8pFh:hover {
@@ -174,4 +179,8 @@
 }
 .sidebar-2K8pFh:hover .addButton-3bLyEA { /*Shows the add server button on the channels list*/
     color: white;
+}
+.sidebar-2K8pFh:hover .mentionsBadge-3tC7Mi { /*Mentioned in a channel when hovering*/
+    top: initial;
+    left: initial;
 }
