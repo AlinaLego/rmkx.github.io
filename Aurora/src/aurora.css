@@ -474,7 +474,7 @@
     border-top-right-radius: var(--panel-border-radius);
 }
 .group-spacing-16 .divider-3_HH5L.beforeGroup-1rH1F0+.cozy-3raOZG.wrapper-2a6GCs { /*First new message settings*/
-    background-color: rgba(var(--main-accent-rgb), 0.2);
+    background-color: rgba(var(--main-accent-rgb), 0.05);
 }
 .cozyMessage-3V1Y8y.groupStart-23k01U { /*Reduces padding between messages first messages*/
     margin-top: 5px;
