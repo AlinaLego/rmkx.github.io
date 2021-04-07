@@ -91,8 +91,6 @@
     height: 56px;
 }
 
-
-
 /*Active now Tweaks*/
 
 .header-13Cw0-.base-1x0h_U.size12-3cLvbJ { /*Settings of the Active Now text*/
@@ -144,6 +142,7 @@
 }
 
 /**Friends Window left panel*/
+
 .scroller-1JbKMe { /*Moves the friends scroller*/
     margin-top: 25px;
 }
@@ -280,6 +279,7 @@
 }
 
 /*Server channel panels*/
+
 .sidebar-2K8pFh { /*Sidebar panel for server channels and user status*/
     margin-left: 10px;
     margin-right: 10px;
@@ -551,9 +551,10 @@
     color: var(--main-accent);
 }
 .messagesPopoutWrap-1MQ1bW { /*Pinned messages panel settings*/
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
+    background: var(--panel-boxes);
 }
 .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT { /*Pinned message*/
     border-radius: var(--panel-border-radius);
@@ -603,7 +604,7 @@
     border-radius: var(--panel-border-radius);
 }
 .topic-TCb_qw .wrapper-3WhCwL {
-    color: rgb(0, 194, 255);
+    color: var(--main-accent);
 }
 .content-c_0cLD { /*Follow updates content*/
     padding-top: 20px;
@@ -617,8 +618,12 @@
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
 }
+.username-1A8OIy[style="color: rgb(0, 0, 1);"] { /*Makes black usernames readable in chat*/
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.781)!important;
+}
 
 /*Right click pannel settings*/
+
 .scroller-3BxosC{ /*Right click on a friend panel*/
     border-radius: var(--panel-border-radius);
     background-color: var(--second-panel-bg);
@@ -1058,12 +1063,14 @@
 }
 
 /*Untrusted domain modal*/
+
 .form-26zE04 {
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
 }
 
 /*Hovering tooltip*/
+
 .theme-dark .tooltipPrimary-1d1ph4 {
     background-color: var(--panel-boxes);
     backdrop-filter: blur(10px);
@@ -1071,6 +1078,7 @@
 }
 
 /*Folders*/
+
 .expandedFolderIconWrapper-Huv7rA::after { /*Expanded folder background*/
     content: '';
     position: absolute;
@@ -1083,6 +1091,7 @@
 }
 
 /*Inbox Window*/
+
 .container-enaOkj { /*Main panel*/
     backdrop-filter: blur(10px);
     background: var(--panel-boxes);
@@ -1113,6 +1122,7 @@
 }
 
 /*Incoming call*/
+
 .root-3JVdIJ { /*Incoming call settings*/
     backdrop-filter: blur(5px);
     background: var(--panel-boxes);
@@ -1162,6 +1172,7 @@
 }
 
 /*Server mentions/activity*/
+
 .iconBadge-3qSJIw.participating-1NvRVd { /*Streaming icon bg*/
     background-color: var(--main-accent);
 }
@@ -1182,6 +1193,7 @@
 }
 
 /*Error message*/
+
 .colorDanger-4gmAY0 { /*error box*/
     backdrop-filter: blur(10px);
     border-bottom-left-radius: var(--panel-border-radius);
@@ -1329,4 +1341,10 @@
 }
 .searchHeader-2XoQg7 .tab-2j5AEF:hover:not([aria-selected="true"]) { /*Hover filter buttons*/
     background-color: var(--panel-boxes);
+}
+
+/*Black usernames outline*/
+
+.username-1A8OIy[style="rgb(0, 0, 1)"] {
+
 }
