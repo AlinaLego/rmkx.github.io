@@ -678,9 +678,27 @@
 
 /*Right click pannel settings*/
 
-.scroller-3BxosC{ /*Right click on a friend panel*/
+.menu-3sdvDG.scroller-3BxosC{ /*Right click on a friend panel*/
     border-radius: var(--panel-border-radius);
-    background-color: var(--second-panel-bg);
+    background-color: var(--panel-boxes);
+}
+.menu-3sdvDG::before { /*Creates the blur behind the panel*/
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--panel-border-radius);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+.menu-3sdvDG.submenu-2-ysNh::before { /*Creates the blur behind the first panel*/
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--panel-border-radius);
+    backdrop-filter: blur(5px);
+    z-index: -1;
 }
 .colorDefault-2K3EoJ.focused-3afm-j { /*Options on right click panel*/
     background: var(--element-hovered);
