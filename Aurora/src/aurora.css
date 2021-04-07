@@ -1439,9 +1439,9 @@
     color: var(--main-accent);
 }
 
-/*Server boost panel
+/*Server boost panel*/
 
-.layerContainer-yqaFcK { /*Main window
+.theme-dark .perksModal-fSYqOq { /*Main window*/
     position: absolute;
     top: 7%;
     left: 20%;
@@ -1450,21 +1450,23 @@
     background: var(--panel-boxes);
     opacity: 3;
     border-radius: var(--panel-border-radius);
-}
-.root-3R2ngo { /*Main content
+    pointer-events: all!important;
     backdrop-filter: blur(10px);
-    background-color: var(--panel-boxes);
 }
-.carousel-18mXWH { /*Server level panels
+.container-1sFeqf { /*Close window button*/
+    right: -150px;
+    top: 80px;
+}
+.carousel-18mXWH { /*Server level panels*/
     left: 15px!important;
 }
-.tierWrapper-W9ajqp { /*Server tier wrappers
+.tierWrapper-W9ajqp { /*Server tier wrappers*/
     border-radius: var(--panel-border-radius);
     backdrop-filter: blur(5px);
 }
-.theme-dark .tierMarkerBackground-3q29am { /*Server boost level progress bar
+.theme-dark .tierMarkerBackground-3q29am { /*Server boost level progress bar*/
     background-color: transparent;
-}*/
+}
 
 /*Server admin settings*/
 
