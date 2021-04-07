@@ -1264,6 +1264,9 @@
 .reactionCount-2mvXRV { /*Other's reactions text*/
     color: var(--main-accent);
 }
+.reactions-12N0jA {
+    margin-left: 10px;
+}
 
 /*Blur Username, E-mail and phone in settings*/
 
