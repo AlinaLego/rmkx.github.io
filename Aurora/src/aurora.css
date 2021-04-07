@@ -879,13 +879,13 @@
     border: var(--buttons-radius);
     color: white;
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV { /*Add, Edit buttons in settings window*/
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV { /*Add, Edit buttons in settings window*/
     border: var(--buttons-border);
     border-radius: var(--buttons-radius);
     color: var(--buttons-color);
     background: var(--buttons-background);
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV:hover { /*Add, Edit buttons hovered*/
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover { /*Add, Edit buttons hovered*/
     background: var(--main-accent);
 }
 .lookFilled-1Gx00P.colorRed-1TFJan, .lookOutlined-3sRXeN.colorRed-1TFJan { /*Disable and delete account buttons*/
