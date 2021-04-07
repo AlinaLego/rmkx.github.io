@@ -312,7 +312,7 @@
     text-align: center;
     font-size: 80%;
     color:transparent;
-    transition: color 0.8s ease-in;
+    transition: color 0.4s ease-in;
 }
 .membersGroup-v9BXpm::after {  /*Gradient after member's roles*/
     position: absolute;
@@ -324,7 +324,7 @@
     opacity: 0.8;
     background: var(--underline-gradient);
     border-radius: 8px;
-    transition: width 1.3s ease;
+    transition: width 0.4s ease;
 }
 .voiceUserSummary-2X_2vp { /*Collapsed voice channels settings*/
     border: var(--panel-border);
@@ -1197,9 +1197,9 @@
     background: transparent;
 }
 
-/*Incoming call*/
+/*Call settings*/
 
-.root-3JVdIJ { /*Incoming call settings*/
+.root-3JVdIJ { /*Incoming call*/
     backdrop-filter: blur(5px);
     background: var(--panel-boxes);
 }
