@@ -165,7 +165,7 @@
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     width: 24px;
-    transition: width 0.8s ease-in;
+    transition: width 0.4s ease-in;
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx { /*Search box settings*/
     color: transparent!important;
@@ -1307,14 +1307,14 @@
 }
 .field-1HUseB+.field-1HUseB .colorHeaderPrimary-26Jzh-.size16-1P40sf:hover{
     filter: blur(0px);
-    transition: 350ms;
+    transition: 250ms;
 }
 .usernameInnerRow-ZlFnET{
     filter: blur(8px);
 }
 .usernameInnerRow-ZlFnET:hover {
     filter: blur(0px);
-    transition: 350ms;
+    transition: 250ms;
 }
 
 /*Better Discord settings*/
