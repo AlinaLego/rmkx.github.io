@@ -693,3 +693,22 @@
 .lookGhost-2Fn_0-.colorGrey-2DXtkV { /*Copy buttons*/
     background-color: var(--bg-second-panels);
 }
+.descriptionBox-1EKQKL { /*Server template panel*/
+    background-color: var(--bg-second-panels);
+}
+.side-8zPYf6 .separator-gCa7yv { /*Server admin panel separators*/
+    height: 0px;
+}
+.featureCard-1RR4Tl { /*Enable community feature panels*/
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .tierHeaderLocked-1a2opw { /*Server boost progress admin window header*/
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .tierBody-x9kBBp { /*Server boost progress admin window body*/
+    background-color: var(--bg-second-panels);
+}
+.container-3XJ8ns { /*Admin panel role filter*/
+    background-color: var(--bg-second-panels);
+    border: unset;
+}

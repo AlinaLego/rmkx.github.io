@@ -1427,3 +1427,29 @@
 .copyInputSuccess-XZc7BO { /*Click on copy button*/
     border-color: var(--main-accent)!important;
 }
+.tier-3H4BXk { /*Server boost tier*/
+    border-radius: var(--panel-border-radius);
+    background-color: var(--panel-boxes);
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"][aria-selected="true"] { /*Server boost status button selected*/
+    background-color: var(--main-accent)!important;
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"] { /*Server boost status button default*/
+    color: white!important;
+}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"][aria-selected="false"]:hover { /*Server boost status button hover*/
+    background-color: var(--panel-boxes)!important;
+}
+.container-3XJ8ns { /*Admin panel role filter*/
+    border-radius: var(--panel-border-radius);
+    backdrop-filter: blur(5px);
+    background-color: var(--panel-boxes);
+}
+.item-2J2GlB:hover { /*Role hovered*/
+    background-color: var(--main-accent);
+    border-radius: var(--panel-border-radius);
+}
+.button-18p_f6:hover { /*Channel settings buttons start*/
+    background-color: var(--main-accent);
+    border-radius: var(--buttons-radius);
+}
