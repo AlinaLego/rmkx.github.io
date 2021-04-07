@@ -423,6 +423,9 @@
     background: transparent;
     backdrop-filter: blur(10px);
 }
+.botTagInvert-18-95s { /*Bot tage color*/
+    color: var(--main-accent);
+}
 
 /*Chat settings*/
 
@@ -640,6 +643,9 @@
 }
 .autocompleteInner-zh20B_ { /*Autocomplete box "blur"*/
     backdrop-filter: blur(10px);
+}
+.container-1ov-mD>*[class="embedSpotify-tvxDCr embedWrapper-lXpS3L"] { /*Spotify embed border*/
+    border-radius: var(--panel-border-radius)!important;
 }
 
 /*Right click pannel settings*/
@@ -1372,4 +1378,31 @@
 
 .username-1A8OIy[style="color: rgb(0, 0, 1);"] { /*Makes black usernames readable in chat*/
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.781)!important;
+}
+
+/*Server boost panel*/
+
+.layerContainer-yqaFcK { /*Main window*/
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    width: var(--settings-width);
+    height: var(--settings-heigth);
+    background: var(--panel-boxes);
+    opacity: 3;
+    border-radius: var(--panel-border-radius);
+}
+.root-3R2ngo { /*Main content*/
+    backdrop-filter: blur(10px);
+    background-color: var(--panel-boxes);
+}
+.carousel-18mXWH { /*Server level panels*/
+    left: 15px!important;
+}
+.tierWrapper-W9ajqp { /*Server tier wrappers*/
+    border-radius: var(--panel-border-radius);
+    backdrop-filter: blur(5px);
+}
+.theme-dark .tierMarkerBackground-3q29am { /*Server boost level progress bar*/
+    background-color: transparent;
 }
