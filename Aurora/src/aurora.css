@@ -617,9 +617,6 @@
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
 }
-.username-1A8OIy[style="color: rgb(0, 0, 1);"] { /*Makes black usernames readable in chat*/
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.781)!important;
-}
 .wrapper-35wsBm { /*Discord invite embed*/
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
@@ -1351,6 +1348,6 @@
 
 /*Black usernames outline*/
 
-.username-1A8OIy[style="rgb(0, 0, 1)"] {
-
+.username-1A8OIy[style="color: rgb(0, 0, 1);"] { /*Makes black usernames readable in chat*/
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.781)!important;
 }
