@@ -1097,8 +1097,10 @@
 /*Inbox Window*/
 
 .container-enaOkj { /*Main panel*/
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     background: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
 }
 .channelHeader-3Gd2xq { /*Mentioned messages pannel header*/
     border-radius: var(--panel-border-radius);
