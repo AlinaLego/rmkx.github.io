@@ -538,6 +538,9 @@
     opacity: 0.9;
     border-radius: var(--panel-border-radius);
 }
+.mentioned-xhSam7 { /*Mentioned/replied message*/
+    background-color: rgba(var(--main-accent-rgb), 0.3);
+}
 .mentioned-xhSam7:before { /*Line before the replied message*/
     background-color: var(--main-accent);
     width: 5px;
