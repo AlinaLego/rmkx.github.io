@@ -1411,6 +1411,34 @@
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.781)!important;
 }
 
+/*Status settings*/
+
+.lookFilled-22uAsw.select-2fjwPw { /*Select status dropbar*/
+    border-radius: var(--panel-border-radius);
+    background-color: var(--buttons-background);
+}
+.lookFilled-22uAsw.select-2fjwPw[aria-expanded = "true"] { /*Selected status expanded*/
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.popout-VcNcHB { /*Select status dropout*/
+    border-radius: var(--buttons-radius);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: var(--buttons-background);
+    backdrop-filter: blur(10px);
+}
+.option-3KoAJB[aria-selected=true] { /*Selected duration*/
+    border-radius: var(--buttons-radius);
+}
+.option-3KoAJB:hover:not([aria-selected = "true"]) { /*Hover duration*/
+    border-radius: var(--buttons-radius);
+    background: var(--main-accent);
+}
+.selectedIcon-3uS11H { /*Selected duration icon*/
+    color: var(--main-accent);
+}
+
 /*Server boost panel*/
 
 .layerContainer-yqaFcK { /*Main window*/
