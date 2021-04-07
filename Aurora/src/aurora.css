@@ -678,7 +678,7 @@
 
 /*Right click pannel settings*/
 
-.menu-3sdvDG.scroller-3BxosC{ /*Right click on a friend panel*/
+.menu-3sdvDG .scroller-3BxosC{ /*Right click on a friend panel*/
     border-radius: var(--panel-border-radius);
     background-color: var(--panel-boxes);
 }
