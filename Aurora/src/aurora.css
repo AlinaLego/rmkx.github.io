@@ -483,7 +483,12 @@
     margin-right: 0px;
 }
 .unreadPill-2HyYtt{ /*New messages border*/
+    top: 25px;
     background-color: var(--main-accent);
+    width: 50px;
+    border-radius: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 .isUnread-3Ef-o9 {
     border-color: var(--main-accent);
@@ -492,6 +497,10 @@
     color: white;
 }
 .unreadPillCapStroke-7rkHbg { /*New messages first part*/
+    color: var(--main-accent);
+    fill: var(--main-accent);
+}
+.unreadPillCap-3_K2q2 { /*New messages first part*/
     color: var(--main-accent);
     fill: var(--main-accent);
 }
@@ -662,6 +671,9 @@
 }
 .container-1ov-mD > iframe[class="embedSpotify-tvxDCr embedWrapper-lXpS3L"] { /*Spotify embed border*/
     border-radius: var(--panel-border-radius)!important;
+}
+.repliedTextPreview-2NBljf.clickable-1bVtEA { /*Replied to message*/
+    width: 1300px;
 }
 
 /*Right click pannel settings*/
