@@ -140,6 +140,9 @@
 .theme-dark .inset-3sAvek { /*Inside panel of the Active Now friend*/
     border-radius: var(--panel-border-radius);
 }
+.emptyCard-1RJw8n .emptyText-2zjpZr { /*Message when no one active now*/
+    color: transparent;
+}
 
 /**Friends Window left panel*/
 
@@ -621,6 +624,17 @@
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
+}
+.theme-dark .autocomplete-1vrmpx { /*Autocomplete box*/
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+}
+.theme-dark .selected-1Tbx07 { /*Autocomplete hovered*/
+    background-color: var(--main-accent);
+    border-radius: var(--panel-border-radius);
+}
+.autocompleteInner-zh20B_ { /*Autocomplete box "blur"*/
+    backdrop-filter: blur(10px);
 }
 
 /*Right click pannel settings*/
@@ -1193,6 +1207,9 @@
 }
 .circleIconButton-1QV--U > svg > path { /*Changes the add servers and explore servers buttons*/
     fill: var(--main-accent)!important;
+}
+.numberBadge-2s8kKX { /*DM/Mention icons color*/
+    background: var(--underline-gradient)!important;
 }
 
 /*Error message*/
