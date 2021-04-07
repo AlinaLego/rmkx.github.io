@@ -671,3 +671,9 @@
 .searchHeader-2XoQg7 .tab-2j5AEF:hover:not([aria-selected="true"]) { /*Hover filter buttons*/
     background-color: var(--bg-second-panels);
 }
+.headerXbox-3G-4PF { /*Xbox playing now*/
+    background-color: transparent;
+}
+.topSectionXbox-3fWLjS { /*Xbox playing now profile*/
+    background-color: transparent;
+}
