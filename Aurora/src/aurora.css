@@ -555,9 +555,16 @@
 .markup-2BOw-j code.inline { /*Code line*/
     border-radius: var(--panel-border-radius);
 }
-.inlineCode-2ngu6Y { /*Typing code line*/
+.after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y { /*Typing code line*/
     background-color: rgba(var(--main-accent-rgb), 0.5);
-    border-radius: var(--panel-border-radius);
+}
+.after_inlineCode-1KfVgj { /*Typing code line border*/
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.before_inlineCode-1G9rTK { /*Typing code line border*/
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 .mentioned-xhSam7 { /*Mentioned/replied message*/
     background-color: rgba(var(--main-accent-rgb), 0.3);
