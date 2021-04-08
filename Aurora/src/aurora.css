@@ -1490,16 +1490,6 @@
 .searchHeader-2XoQg7 .tab-2j5AEF:hover:not([aria-selected="true"]) { /*Hover filter buttons*/
     background-color: var(--panel-boxes);
 }
-.theme-dark .dim-1l4L4y span { /*enter button*/
-    background-color: var(--buttons-color);
-    border-radius: var(--buttons-radius);
-    color: white;
-}
-.theme-dark .keybindShortcut-1BD6Z1 span {
-    border: var(--buttons-radius);
-    -webkit-box-shadow: inset 0 -4px 0 #202225;
-    box-shadow: inset 0 -4px 0 #202225;
-}
 
 /*Black usernames outline*/
 
