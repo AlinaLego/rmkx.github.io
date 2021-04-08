@@ -730,6 +730,9 @@
 .repliedTextPreview-2NBljf.clickable-1bVtEA { /*Replied to message*/
     max-width: 1300px;
 }
+.imageWrapper-2p5ogY img { /*Embed image*/
+    margin-left: 10px;
+}
 
 /*Right click pannel settings*/
 
@@ -1600,3 +1603,7 @@
     background-color: var(--main-accent);
     border-radius: var(--buttons-radius);
 }
+
+/*Explore servers panel TO DO*/
+
+/*Join/Add server window TO DO*/
