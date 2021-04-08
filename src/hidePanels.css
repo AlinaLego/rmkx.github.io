@@ -128,7 +128,7 @@
 .mentionsBadge-3tC7Mi { /*Mentioned in a channel*/
     top: 15px;
     left: 7px;
-    transition: left 0.5s ease-in;
+    transition: left 0.5s ease-in, top 0.5s ease-in;
 }
 
 /*Shows the server's channel list*/
@@ -182,4 +182,5 @@
 }
 .sidebar-2K8pFh:hover .mentionsBadge-3tC7Mi { /*Mentioned in a channel when hovering*/
     left: initial;
+    top: initial;
 }
