@@ -625,6 +625,20 @@
 .wrapper-3WhCwL:hover { /*Mentioned username hover*/
     background-color: var(--panel-border);
 }
+.wordmark-2iDDfm { 
+    color: transparent;
+}
+.withFrame-haYltI::before {
+    content: "AURORA";
+    font-family: 'Courier New', Courier, monospace!important;
+    position: absolute;
+    font-size: 1rem;
+    color: rgb(129, 129, 129)!important;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    left: 12px;
+    top: 3px;
+    height: inherit;
+}
 .newMessagesBar-265mhP { /*New messages bar*/
     backdrop-filter: blur(10px);
     border-bottom-left-radius: var(--panel-border-radius);
@@ -763,9 +777,6 @@
     border-radius: var(--panel-border-radius);
 }
 
-.wordmarkWindows-1v0lYD { 
-    color: transparent;
-}
 
 /*Buttons settings*/
 
