@@ -1677,6 +1677,13 @@
 .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1 { /*Search bar remove input*/
     color: var(--main-accent);
 }
+.searchHeader-2I26nG { /*Explore server bakcground*/
+    visibility: hidden;
+    max-height: 130px;
+}
+.headerContent-2gImvv { /*Explore server searchbox*/
+    visibility: visible;
+}
 
 /*Join/Add server window*/
 
