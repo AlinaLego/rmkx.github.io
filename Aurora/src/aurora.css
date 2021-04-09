@@ -1033,6 +1033,9 @@
 .container-3auIfb:not([style*="background-color: rgb(114, 118, 125);"]) { /*Checked buttons color*/
     background-color: var(--main-accent)!important
 }
+.container-3auIfb:not([style*="background-color: rgb(114, 118, 125);"]) > svg > svg path { /*Changes the checkmark color*/
+    fill: var(--main-accent)!important;
+}
 .authedApp-mj2Hmd { /*Authorized app*/
     backdrop-filter: blur(10px);
 }
