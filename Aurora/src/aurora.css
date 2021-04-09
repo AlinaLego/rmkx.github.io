@@ -971,6 +971,9 @@
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp { /*Sharing screen button active*/
     background-color: var(--main-accent);
 }
+.emojiSection-3Fb9ix { /*Emoji panel when clicking*/
+    background-color: var(--panel-boxes);
+}
 
 /*Settings Window*/
 
@@ -1186,7 +1189,6 @@
 .popoutContainer-1MXdqN { /*Clicked on emoji in chat*/
     backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
-    
 }
 
 /*Untrusted domain modal*/

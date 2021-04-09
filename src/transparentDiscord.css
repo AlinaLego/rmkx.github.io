@@ -737,3 +737,6 @@
 .theme-dark .card-3DjzTQ:hover, .card-3DjzTQ:hover { /*Explore servers server background hover*/
     background-color: var(--bg-second-panels);
 }
+.popoutContainer-1MXdqN { /*Emoji panel*/
+    background-color: var(--bg-second-panels);
+}
