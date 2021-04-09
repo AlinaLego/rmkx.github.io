@@ -706,11 +706,13 @@
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
+    margin-left: 10px;
 }
 .wrapper-35wsBm { /*Discord invite embed*/
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
+    margin-left: 10px;
 }
 .theme-dark .autocomplete-1vrmpx { /*Autocomplete box*/
     background-color: var(--panel-boxes);
@@ -725,6 +727,7 @@
 }
 .container-1ov-mD > iframe[class="embedSpotify-tvxDCr embedWrapper-lXpS3L"] { /*Spotify embed border*/
     border-radius: var(--panel-border-radius)!important;
+    margin-left: 8px;
 }
 .repliedTextPreview-2NBljf.clickable-1bVtEA { /*Replied to message*/
     max-width: 1300px;
@@ -1358,8 +1361,8 @@
 .reactionCount-2mvXRV { /*Other's reactions text*/
     color: var(--main-accent);
 }
-.reactions-12N0jA {
-    margin-left: 10px;
+.reactions-12N0jA { /*Reactions position*/
+    margin-left: 8px;
 }
 
 /*Blur Username, E-mail and phone in settings*/
