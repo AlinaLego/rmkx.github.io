@@ -16,7 +16,7 @@
 <h2 align="center">More screenshots</h2>
 <p align="center">
   <p align="center"><a href="https://i.imgur.com/v5Dizh4.gif">Animated preview</a>.</p>
-  <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/ulvPwcA.png"></p>
+  <p align="center"><img alt="Preview" alt="preview" src="https://i.imgur.com/R0OymsS.png"></p>
   <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/qe0F2oe.png"></p>
   <p align="center"><img alt="Preview" width="860" alt="preview" src="https://i.imgur.com/kZLxq89.png"></p>
 <p align="center">
