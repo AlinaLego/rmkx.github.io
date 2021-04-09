@@ -373,16 +373,24 @@
     background-color: var(--panel-boxes);
     background-color: var(--hidden-background);
 }
+.sidebar-2K8pFh:hover .header-2V-4Sw { /*Showing server name*/
+    width: var(--showing-width);
+}
 .unread-2lAfLh { /*Unread server channel message*/
+    margin-top: -15.5px;
     background: rgb(35, 77, 117);
+    height: 30px;
     border-color: var(--panel-boxes);
-    box-shadow: 0px 0px 10px 5px rgba(35, 77, 117, 0.747);
+    box-shadow: 0px 0px 5px 3px rgba(35, 77, 117, 0.747);
 }
 .header-2V-4Sw { /*Server name panel*/
     backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
     border-top-left-radius: 0px;
     background-color: var(--panel-boxes);
+    width: 42px;
+    padding-left: 14px;
+    transition: width 0.4s ease-in;
 }
 .clickable-25tGDB .header-2V-4Sw:hover, .selected-31Nl7x .header-2V-4Sw { /*Server name panel when hover and selected*/
     background-color: var(--panel-boxes);
