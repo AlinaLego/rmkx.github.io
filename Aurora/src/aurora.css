@@ -871,6 +871,7 @@
 }
 .tabBar-ZmDY9v .item-3HknzM:hover { /*Individual Friends Online, All, ... , Help buttons settings when hovered*/
     background: var(--element-hovered)!important;
+    color: var(--buttons-color);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91 { /*Add friend and some more buttons*/
     border: var(--buttons-border);
