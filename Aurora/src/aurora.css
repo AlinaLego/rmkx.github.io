@@ -1325,6 +1325,7 @@
 
 .item-2hkk8m { /*Selected server bar icon*/
     background-color: var(--main-accent);
+    box-shadow: 0px 0px 3px 3px rgba(35, 77, 117, 0.747);
 }
 .circleIconButton-1QV--U.selected-1JjBPm { /*Explore and Add buttons*/
     backdrop-filter: blur(10px);
