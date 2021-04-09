@@ -988,7 +988,7 @@
 
 /*Settings Window*/
 
-.layer-3QrUeG.baseLayer-35bLyl { /*Makes it so the background stays*/
+.layer-3QrUeG.baseLayer-35bLyl { /*Makes it so the background stays/doesn't open a new "window"*/
     opacity: unset!important;
     transform: unset!important;
 }
@@ -1003,7 +1003,6 @@
     width: var(--settings-width);
     height: var(--settings-heigth);
     background: var(--panel-boxes);
-    opacity: 3;
     border-radius: var(--panel-border-radius);
 }
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ { /*Settings selected*/
