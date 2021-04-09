@@ -23,7 +23,7 @@
     --main-accent-rgb: 35, 77, 117; /*RGB code of main accent for some elements, change this if you change main accent*/
     --popout-blur: 5px; /*Changes the blur of elements that appear on screen*/
     --bg-opacity: 1; /*Changes the opacity of the background*/
-    --text-link: rgb(97, 195, 224); /*Color for links*/
+    --links: rgb(97, 195, 224); /*Color for links*/
 
     --panel-boxes: rgba(0, 0, 0, 0.55); /*Changes the background of the surrounded panels*/
     --second-panel-bg: rgba(0, 0, 0, 0.8); /*changes the bg of panels that come out, like right clicking on a user*/
@@ -45,10 +45,12 @@
     --settings-width: 60%; /*Width for the settings window*/
     --settings-heigth: 85%; /*Width for the settings window*/
 }
-.theme-dark {
+.theme-dark, .theme-light {
     --channels-default: white;
     --text-muted: rgb(255, 255, 255);
     --background-floating: var(--panel-boxes);
+    --header-secondary: rgb(160, 162, 165);
+    --text-link: var(--links);
 }
 
 #app-mount:before {
@@ -425,9 +427,6 @@
     border: var(--panel-border);
     background: transparent;
     backdrop-filter: blur(10px);
-}
-.botTagInvert-18-95s { /*Bot tage color*/
-    color: var(--main-accent);
 }
 .bodyInnerWrapper-Z8WDxe .bodyTitle-Y0qMQz { /*Roles and notes title*/
     text-align: center;
@@ -1606,6 +1605,89 @@
     border-radius: var(--buttons-radius);
 }
 
-/*Explore servers panel TO DO*/
+/*Tags*/
 
-/*Join/Add server window TO DO*/
+.verified-1eC5dy { /*Verified tag*/
+    color: var(--main-accent);
+}
+.partnered-3nJayh { /*Partnered tag*/
+    color: var(--main-accent);
+}
+.botTagInvert-18-95s { /*Bot tag*/
+    color: var(--main-accent);
+}
+
+/*Explore servers panel*/
+
+.theme-dark .card-3DjzTQ { /*Servers card*/
+    background-color: var(--panel-boxes);
+    backdrop-filter: blur(5px);
+}
+.theme-dark .card-3DjzTQ:hover { /*Servers card hover*/
+    background-color: var(--panel-boxes);
+    box-shadow: initial;
+}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG { /*Selected category*/
+    background-color: var(--main-accent);
+}
+.categoryItem-3zFJns { /*Default category*/
+    border-radius: var(--panel-border-radius);
+    color: white;
+}
+.categoryItem-3zFJns:hover { /*hovered category*/
+    background-color: var(--panel-boxes);
+}
+.discoverHeader-1TWTqG { /*Discover header*/
+    color: transparent;
+    margin-top: -15px;
+}
+.theme-dark .searchBox-3Y2Vi7 { /*Explore communities searchbox*/
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+}
+.search-1iTphC .searchBox-2_mAlO .searchIcon-6ljH-4 { /*Search icon*/
+    color: white;
+}
+.search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within { /*Searchbar focused*/
+    -webkit-box-shadow: 0 0 0 1px var(--main-accent), 0 0 0 2px var(--main-accent), 0 0 0 3px var(--main-accent);
+    box-shadow: 0 0 0 1px var(--main-accent), 0 0 0 2px var(--main-accent), 0 0 0 3px var(--main-accent);
+}
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng { /*Search bar input*/
+    color: white;
+}
+.search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1 { /*Search bar remove input*/
+    color: var(--main-accent);
+}
+
+/*Join/Add server window*/
+
+.header-3msK0M .colorHeaderPrimary-26Jzh-, .header-1BLHoL .colorHeaderPrimary-26Jzh-, .header-1Xr5FO .colorHeaderPrimary-26Jzh- { /*Headers*/
+    color: white;
+}
+.header-3msK0M .colorHeaderSecondary-3Sp3Ft, .header-1BLHoL .colorHeaderSecondary-3Sp3Ft, .header-1Xr5FO .colorHeaderSecondary-3Sp3Ft{ /*Header secondary*/
+    color: rgb(160, 162, 165);
+}
+.container-UC8Ug1:hover { /*Options hovered*/
+    background-color: var(--main-accent);
+}
+.container-UC8Ug1 .colorStandard-2KCXvj{ /*Create a server options*/
+    color: white;
+}
+.content-1LAB8Z .optionHeader-1-5lcp, .content-1LAB8Z .colorHeaderSecondary-3Sp3Ft { /*Category options header*/
+    color: rgb(160, 162, 165);
+}
+.footer-1NnaNd .colorStandard-2KCXvj { /*Footer color*/
+    color: white;
+}
+.backButton-iA7KIs { /*Go back button*/
+    color: white;
+}
+.formTitle-aeXUoN { /*Join a server second header color*/
+    color: rgb(160, 162, 165);
+}
+.sampleLink-2NLvZg { /*Sample text*/
+    color: rgb(160, 162, 165);
+}
+.input-cIJ7To { /*Input link*/
+    color: white;
+}
