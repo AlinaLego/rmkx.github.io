@@ -734,8 +734,9 @@
 .theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ, .card-3DjzTQ,.iconMask-3b8GzQ { /*Explore servers server background*/
     background-color: var(--bg-second-panels);
 }
-.theme-dark .card-3DjzTQ:hover, .card-3DjzTQ:hover { /*Explore servers server background hover*/
+.theme-dark .card-3DjzTQ:hover, .card-3DjzTQ:hover, .theme-dark .card-3DjzTQ:hover .iconMask-3b8GzQ { /*Explore servers server background hover*/
     background-color: var(--bg-second-panels);
+    box-shadow: unset;
 }
 .popoutContainer-1MXdqN { /*Emoji panel*/
     background-color: var(--bg-second-panels);
