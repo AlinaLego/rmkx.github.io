@@ -130,6 +130,13 @@
     left: 7px;
     transition: left 0.5s ease-in, top 0.5s ease-in;
 }
+.header-2V-4Sw { /*Server name*/
+    width: 42px;
+    transition: width 0.4s ease-in;
+}
+.button-1w5pas { /* Arrow button*/
+    margin-left: -3px;
+}
 
 /*Shows the server's channel list*/
 .sidebar-2K8pFh:hover {
@@ -183,4 +190,7 @@
 .sidebar-2K8pFh:hover .mentionsBadge-3tC7Mi { /*Mentioned in a channel when hovering*/
     left: initial;
     top: initial;
+}
+.sidebar-2K8pFh:hover .header-2V-4Sw { /*Showing server name*/
+    width: var(--showing-width);
 }
