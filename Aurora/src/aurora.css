@@ -467,7 +467,7 @@
     bottom: 0px;
     right: 0px;
     background: inherit;
-    filter: blur(2px) opacity(0.7);
+    filter: blur(2px) opacity(0.55);
 }
 .roleName-32vpEy { /*Tag text settings*/
     margin-left: 5px;
