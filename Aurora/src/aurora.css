@@ -1325,6 +1325,10 @@
 .numberBadge-2s8kKX { /*DM/Mention icons color*/
     background: var(--underline-gradient)!important;
 }
+.guildSeparator-33mFX6 { /*Home icon/servers separator*/
+    background-color: transparent;
+    background: var(--underline-gradient);
+}
 
 /*Error message*/
 
