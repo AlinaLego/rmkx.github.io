@@ -250,7 +250,8 @@
     border-radius: var(--panel-border-radius);
     margin-bottom: 57px;
     margin-top: 10px;
-    margin-right: 5px;
+    margin-right: 50px;
+    margin-left: 250px;
 }
 .sectionHeader-20RGqu .header-1-dBpZ, .sectionHeader-20RGqu .description-1EvxpH { /*Moves the text on the Add Friend tab*/
     text-align: center;
@@ -273,6 +274,10 @@
     backdrop-filter: blur(5px);
     width: 96%;
 }
+.container-1D34oG .children-19S4PO { /*Centers /*Online, All, Pending friends... buttons*/
+    margin-right: 50px;
+    margin-left: 550px;
+}
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover { /*Online, All, Pending friends... Elements when hovered*/
     margin-right: 20px;
     margin-left: 30px;
@@ -289,7 +294,7 @@
 /*Server channel panels*/
 
 .sidebar-2K8pFh { /*Sidebar panel for server channels and user status*/
-    margin-left: 10px;
+    margin-left: 3px;
     margin-right: 10px;
     border-radius: var(--panel-border-radius);
     z-index: 0;
@@ -684,9 +689,9 @@
     font-family: 'Courier New', Courier, monospace!important;
     position: absolute;
     font-size: 1rem;
-    color: rgb(129, 129, 129)!important;
-    text-shadow: 0px 0px 10px rgb(255, 255, 255);
-    left: 12px;
+    color: rgb(82, 149, 161)!important;
+    text-shadow: 0px 0px 10px rgb(206, 204, 204);
+    left: 3px;
     top: 3px;
     height: inherit;
 }
@@ -1218,7 +1223,7 @@
 
 /*Hovering tooltip*/
 
-.theme-dark .tooltipPrimary-1d1ph4 {
+.theme-dark .tooltipPrimary-1d1ph4 { /*Hovering tooltip*/
     background-color: var(--panel-boxes);
     backdrop-filter: blur(10px);
     border-radius: var(--panel-border-radius);
@@ -1229,10 +1234,11 @@
 .expandedFolderIconWrapper-Huv7rA::after { /*Expanded folder background*/
     content: '';
     position: absolute;
-    width: 100%;
-    bottom: 0px;
-    right: 0px;
-    height: 3px;
+    bottom: 20px;
+    right: -20px;
+    width: 90%;
+    height: 2px;
+    transform: rotate(90deg);
     background: var(--underline-gradient);
     border-radius: 50px;
 }
@@ -1328,9 +1334,40 @@
 
 /*Guilds*/
 
+.wrapper-3NnKdC { /*Guilds panel*/
+    position: absolute!important;
+    border-bottom-right-radius: var(--panel-border-radius);
+    border-top-right-radius: var(--panel-border-radius);
+    background-color: transparent;
+    bottom: 0;
+    top: 55.35%;
+    left: 51.44%;
+    right: 0;
+    transform: rotate(270deg);
+    z-index: 3;
+    width: 10px;
+    height: 900px;
+    transition: width 0.3s ease-in, height 0.3s ease-in, top 0.3s ease-in, left 0.3s ease-in, background-color 0.3s ease-in;
+}
+.wrapper-3NnKdC:hover { /*Guild panel hover*/
+    background-color: var(--panel-boxes);
+    backdrop-filter: blur(50px);
+    bottom: 0;
+    right: 0;
+    top: 52.415%;
+    left: 49.905%;
+    width: 69px;
+}
+.scroller-1Bvpku { /*Centers server icons on the guild bar*/
+    margin-top: 45px;
+}
+.wrapper-25eVIn { /*Server Icon*/
+    transform: rotate(90deg);
+}
 .item-2hkk8m { /*Selected server bar icon*/
     background-color: var(--main-accent);
-    box-shadow: 0px 0px 3px 3px rgba(35, 77, 117, 0.747);
+    border-radius: var(--panel-border-radius);
+    box-shadow: 0px 0px 5px 2px rgba(103, 139, 216, 0.226);
 }
 .circleIconButton-1QV--U.selected-1JjBPm { /*Explore and Add buttons*/
     backdrop-filter: blur(10px);
@@ -1463,7 +1500,7 @@
 
 /*Search results*/
 
-.theme-dark .container-3ayLPN { /*Search resultes container*/
+.theme-dark .container-3ayLPN { /*Search results container*/
     backdrop-filter: blur(5px);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
@@ -1722,3 +1759,5 @@
 .input-cIJ7To { /*Input link*/
     color: white;
 }
+
+/*TO DO fix server mentions on Server bar*/

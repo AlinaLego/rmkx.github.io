@@ -137,6 +137,10 @@
 .button-1w5pas { /* Arrow button*/
     margin-left: -3px;
 }
+.privateChannelRecipientsInviteButtonIcon-3A3uTc { /*Add DM button*/
+    margin-left: -2px;
+    margin-right: unset;
+}
 
 /*Shows the server's channel list*/
 .sidebar-2K8pFh:hover {
