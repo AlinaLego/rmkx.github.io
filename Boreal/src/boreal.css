@@ -895,7 +895,7 @@
     color: var(--buttons-color);
 }
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ { /*Selected Friends Online, All buttons*/
-    background: var(--main-accent)!important;
+    background: var(--element-hovered)!important;
     background-color: transparent;
 }
 .tabBar-ZmDY9v .item-3HknzM:hover { /*Individual Friends Online, All, ... , Help buttons settings when hovered*/
