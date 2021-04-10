@@ -167,7 +167,7 @@
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     width: 24px;
-    transition: width 0.4s ease-in;
+    transition: width 0.35s ease-in;
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx { /*Search box settings*/
     color: transparent!important;
@@ -319,7 +319,7 @@
     text-align: center;
     font-size: 80%;
     color:transparent;
-    transition: color 0.4s ease-in;
+    transition: color 0.35s ease-in;
 }
 .membersGroup-v9BXpm::after {  /*Gradient after member's roles*/
     position: absolute;
@@ -331,7 +331,7 @@
     opacity: 0.8;
     background: var(--underline-gradient);
     border-radius: 8px;
-    transition: width 0.4s ease;
+    transition: width 0.35s ease;
 }
 .voiceUserSummary-2X_2vp { /*Collapsed voice channels settings*/
     border: var(--panel-border);
@@ -395,7 +395,7 @@
     background-color: var(--panel-boxes);
     width: 42px;
     padding-left: 14px;
-    transition: width 0.4s ease-in;
+    transition: width 0.35s ease-in;
 }
 .clickable-25tGDB .header-2V-4Sw:hover, .selected-31Nl7x .header-2V-4Sw { /*Server name panel when hover and selected*/
     background-color: var(--panel-boxes);
@@ -1347,7 +1347,7 @@
     z-index: 3;
     width: 10px;
     height: 900px;
-    transition: width 0.3s ease-in, height 0.3s ease-in, top 0.3s ease-in, left 0.3s ease-in, background-color 0.3s ease-in;
+    transition: width 0.25s ease-in, height 0.25s ease-in, top 0.25s ease-in, left 0.25s ease-in, background-color 0.25s ease-in;
 }
 .wrapper-3NnKdC:hover { /*Guild panel hover*/
     background-color: var(--panel-boxes);
