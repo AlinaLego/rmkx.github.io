@@ -1341,29 +1341,35 @@
 }
 
 /*Guilds*/
-
-.wrapper-3NnKdC { /*Guilds panel*/
-    position: absolute!important;
-    border-bottom-right-radius: var(--panel-border-radius);
+.wrapper-3NnKdC {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-top-left-radius: var(--panel-border-radius);
     border-top-right-radius: var(--panel-border-radius);
     background-color: transparent;
-    bottom: 0;
-    top: 55.35%;
-    left: 51.44%;
-    right: 0;
-    transform: rotate(270deg);
+    transform: translateX(-50%);
     z-index: 3;
-    width: 10px;
-    height: 900px;
-    transition: width 0.25s ease-in, height 0.25s ease-in, top 0.25s ease-in, left 0.25s ease-in, background-color 0.25s ease-in;
+    width: 900px;
+    height: 10px;
+    transition: 250ms ease-in;
 }
-.wrapper-3NnKdC:hover { /*Guild panel hover*/
+.tree-2wKJdG {
     background-color: var(--panel-boxes);
     backdrop-filter: blur(50px);
-    bottom: 0;
-    right: 0;
-    top: 52.415%;
-    left: 49.905%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform-origin: top left;
+    transform: rotate(270deg);
+    height: 900px;
+    width: 10px;
+    transition: 250ms ease-in; 
+}
+.wrapper-3NnKdC:hover {
+    height: 69px;
+}
+.wrapper-3NnKdC:hover .tree-2wKJdG {
     width: 69px;
 }
 .scroller-1Bvpku { /*Centers server icons on the guild bar*/
