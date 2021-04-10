@@ -137,7 +137,7 @@
 .button-1w5pas { /* Arrow button*/
     margin-left: -3px;
 }
-.privateChannelsHeaderContainer-3NB1K1 {
+.privateChannelsHeaderContainer-3NB1K1 { /*New Direct Message text*/
     color: transparent;
     transition: color 0.35s ease;
 }
@@ -198,6 +198,6 @@
 .sidebar-2K8pFh:hover .header-2V-4Sw { /*Showing server name*/
     width: var(--showing-width);
 }
-.sidebar-2K8pFh:hover .content-3YMskv .privateChannelsHeaderContainer-3NB1K1 {
+.sidebar-2K8pFh:hover .content-3YMskv .privateChannelsHeaderContainer-3NB1K1 { /*Shows DM text*/
     color: white;
 }
