@@ -167,7 +167,7 @@
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     width: 24px;
-    transition: width 0.35s ease-in;
+    transition: width 0.35s ease;
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx { /*Search box settings*/
     color: transparent!important;
