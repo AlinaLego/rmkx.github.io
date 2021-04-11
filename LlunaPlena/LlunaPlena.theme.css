@@ -8,3 +8,13 @@
  */
 
 @import url(https://rmkx.github.io/LlunaPlena/src/llunaplena.css);
+
+:root {
+    --channel-color: #293f47; /* Selected channel and background color | Default #293f47;*/
+    --chat-color: #070707; /* Backgroung color for chat | Default #070707*/
+    --chat-shadow-color: #293f47; /*Glow color | Default #293f47*/
+    --button-color: #293f47; /*Color for some of the buttons | Default #293f47*/
+    --activity-color: #181717; /*Color for the activity bar | Default #181717*/
+    --background-primary: #030303; /* Primary theme color | Default #030303*/
+    --background-secondary: #030303; /*Secondary theme color | Default #030303*/
+}
