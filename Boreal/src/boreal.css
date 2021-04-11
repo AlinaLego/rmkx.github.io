@@ -1407,6 +1407,16 @@
 .reactions-12N0jA { /*Reactions position*/
     margin-left: 8px;
 }
+.theme-dark .scroller-1-nKid, .theme-dark .container-1If-HZ, .theme-dark .reactors-Blmlhw { /*Reacted panel*/
+    background: var(--panel-boxes);
+}
+.theme-dark .reactionSelected-1pqISm, .theme-dark .reactionDefault-GBA58K:hover { /*Selected reaction on panel*/
+    border-radius: var(--panel-border-radius);
+    background-color: var(--main-accent);
+}
+.theme-dark .reactorDefault-1IUqMZ { /*People who used that reaction*/
+    box-shadow: unset;
+}
 
 /*Blur Username, E-mail and phone in settings*/
 

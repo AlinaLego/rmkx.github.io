@@ -747,3 +747,12 @@
 .pill-1dHPfk { /*Online server members pill*/
     background-color: var(--bg-second-panels);
 }
+.theme-dark .scroller-1-nKid, .theme-dark .container-1If-HZ, .theme-dark .reactors-Blmlhw { /*Reacted panel*/
+    background: var(--bg-second-panels);
+}
+.theme-dark .reactionSelected-1pqISm, .theme-dark .reactionDefault-GBA58K:hover { /*Selected reaction on panel*/
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .reactorDefault-1IUqMZ { /*People who used that reaction*/
+    box-shadow: unset;
+}
