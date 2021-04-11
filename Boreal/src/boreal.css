@@ -11,8 +11,8 @@
 @import url('https://rmkx.github.io/src/transparentDiscord.css');
 
 :root {
-    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
-    --members-hiding-width: 53px; /*Amount that will be shown when the server's members panel hides | Default 53px*/
+    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px | Change to --showing-width value if you don't want them to hide*/
+    --members-hiding-width: 53px; /*Amount that will be shown when the server's members panel hides | Default 53px | Change to --showing-width value if you don't want them to hide*/
     --showing-width: 252px; /*Amount that will be shown when the panels show | Default 252*/
     --hidden-background: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%); /*Background of the elements when hidden*/
     --showing-background: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);/*Background of the elements when showing*/
