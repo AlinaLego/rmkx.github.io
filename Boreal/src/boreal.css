@@ -1799,6 +1799,13 @@
 .protip-3-1FNm { /*Protip text*/
     color: var(--main-accent)!important;
 }
+.avatarSpeaking-2IGMRN { /*Speaking ring*/
+    -webkit-box-shadow: inset 0 0 0 2px var(--main-accent),inset 0 0 0 3px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px var(--main-accent),inset 0 0 0 3px var(--background-secondary);
+}
+.avatarSpeaking-2c8-9i { /*Speaking ring user area*/
+    box-shadow: unset;
+}
 
 /*Custom CSS panel (NOT FINISHED)*/
 
