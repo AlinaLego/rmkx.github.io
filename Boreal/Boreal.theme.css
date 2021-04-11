@@ -7,10 +7,11 @@
  * @version      1.0 
  */
 
-@import url('https://rmkx.github.io/Boreal/src/boreal.css');
-@import url('https://rmkx.github.io/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position*/
+@import url('https://rmkx.github.io/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position (you need to set its bg to transparent*/
 @import url('https://rmkx.github.io/src/hideMembers.css'); /*Comment line if you don't want servers' members to hide*/
 @import url('https://rmkx.github.io/src/hideChannels.css'); /*Comment line if you don't want servers' channels to hide*/
+
+@import url('https://rmkx.github.io/Boreal/src/boreal.css'); /*Main CSS sheet*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*Put your font url here*/
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
