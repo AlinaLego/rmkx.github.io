@@ -746,6 +746,9 @@
 .imageWrapper-2p5ogY img { /*Embed image*/
     margin-left: 10px;
 }
+.wrapper-3vR61M, .wrapper-1F5TKx { /*Chat loading messages*/
+    background:transparent
+}
 
 /*Right click pannel settings*/
 
