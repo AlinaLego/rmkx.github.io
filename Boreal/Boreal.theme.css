@@ -8,6 +8,7 @@
  */
 
 @import url('https://rmkx.github.io/Boreal/src/boreal.css');
+@import url('https://rmkx.github.io/src/hidePanels.css'); /*Remove/comment line if you don't want chat and members panels to hide*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*Put your font url here*/
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
