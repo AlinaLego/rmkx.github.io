@@ -147,7 +147,7 @@
     color: transparent;
 }
 
-/**Friends Window left panel*/
+/*DMS Panel*/
 
 .scroller-1JbKMe { /*Moves the friends scroller*/
     margin-top: 25px;
@@ -197,7 +197,7 @@
     width: 36px;
 }
 
-/*Friends Window middle and right panels*/
+/*Friends Window*/
 
 .peopleList-3c4jOR { /*Online friends middle pannel*/
     overflow-y: auto!important;
@@ -245,7 +245,7 @@
     margin-bottom: 57px;
     margin-top: 10px;
     margin-right: 50px;
-    margin-left: 250px;
+    margin-left: 10%;
 }
 .sectionHeader-20RGqu .header-1-dBpZ, .sectionHeader-20RGqu .description-1EvxpH { /*Moves the text on the Add Friend tab*/
     text-align: center;
@@ -270,11 +270,11 @@
 }
 .container-1D34oG .children-19S4PO { /*Centers /*Online, All, Pending friends... buttons*/
     margin-right: 50px;
-    margin-left: 550px;
+    margin-left: 25%;
     transition: margin-left 0.54s ease;
 }
 .sidebar-2K8pFh:hover+.container-1D34oG .children-19S4PO { /*Centers /*Online, All, Pending friends... buttons*/
-    margin-left: 470px;
+    margin-left: 25%;
 }
 .peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover { /*Online, All, Pending friends... Elements when hovered*/
     margin-right: 20px;
