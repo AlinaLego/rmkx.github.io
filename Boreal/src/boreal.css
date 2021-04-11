@@ -397,6 +397,12 @@
     background: var(--element-hovered);
     border-radius: var(--panel-border-radius);
 }
+.container-2dqNWc { /*Voice channel preview*/
+    backdrop-filter: blur(8px);
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+}
 
 /*User card settings*/
 
@@ -994,6 +1000,15 @@
 }
 .emojiSection-3Fb9ix { /*Emoji panel when clicking*/
     background-color: var(--panel-boxes);
+}
+.button-uXr0L2 { /*Channel preview buttons*/
+    backdrop-filter: blur(5px);
+    border-radius: var(--buttons-radius);
+    background-color: var(--buttons-background);
+    border: var(--buttons-border);
+}
+.button-uXr0L2:hover { /*Channel preview buttons hover*/
+    background-color: var(--main-accent);
 }
 
 /*Settings Window*/
