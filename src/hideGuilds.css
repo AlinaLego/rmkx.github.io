@@ -34,7 +34,8 @@
     width: 69px;
 }
 .scroller-1Bvpku { /*Centers server icons on the guild bar*/
-    margin-top: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .wrapper-25eVIn { /*Server Icon*/
     transform: rotate(90deg);
