@@ -1019,7 +1019,7 @@
     background-color: var(--main-accent);
 }
 .theme-dark .previewHover-1tGzfF, .theme-dark .previewContainer-12UlHl { /*Stream preview loading*/
-    background-color: var(--panel-boxes);
+    background-color: transparent;
 }
 .liveShapeRound-32u79- { /*Live channel icon*/
     border-radius: var(--panel-border-radius);
