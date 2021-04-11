@@ -741,3 +741,9 @@
 .popoutContainer-1MXdqN { /*Emoji panel*/
     background-color: var(--bg-second-panels);
 }
+.theme-dark .contentWrapper-3WC1ID { /*Join server popup*/
+    background: var(--bg-second-panels);
+}
+.pill-1dHPfk { /*Online server members pill*/
+    background-color: var(--bg-second-panels);
+}

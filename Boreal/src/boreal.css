@@ -1739,3 +1739,16 @@
 .input-cIJ7To { /*Input link*/
     color: white;
 }
+
+/*Join server popup*/
+
+.theme-dark .contentWrapper-3WC1ID {
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+}
+.pill-1dHPfk {
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+}
