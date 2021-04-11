@@ -369,7 +369,7 @@
 }
 .sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 { /*Changes the background of the selected channel when hovering the panel*/
     background-color: var(--panel-boxes);
-    background-color: var(--hidden-background);
+    background: var(--showing-background);
 }
 .sidebar-2K8pFh:hover .header-2V-4Sw { /*Showing server name*/
     width: var(--showing-width);
