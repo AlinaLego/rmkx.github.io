@@ -17,6 +17,7 @@
     --activity-color: #181717; /*Color for the activity bar | Default #181717*/
     --background-primary: #030303; /* Primary theme color | Default #030303*/
     --background-secondary: #030303; /*Secondary theme color | Default #030303*/
+    --background-tertiary: #030303; /*Tertiary theme color | Default #030303*/
 }
 
 .theme-dark, .theme-light {
