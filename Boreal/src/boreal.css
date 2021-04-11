@@ -147,7 +147,7 @@
     color: transparent;
 }
 
-/*DMS Panel*/
+/*DMs Panel*/
 
 .scroller-1JbKMe { /*Moves the friends scroller*/
     margin-top: 25px;
@@ -1607,6 +1607,9 @@
     border-radius: var(--buttons-radius);
     background: var(--main-accent);
 }
+.option-3KoAJB:focus { /*Focused duration*/
+    background: transparent;
+}
 .selectedIcon-3uS11H { /*Selected duration icon*/
     color: var(--main-accent);
 }
@@ -1638,6 +1641,12 @@
 }
 .theme-dark .tierMarkerBackground-3q29am { /*Server boost level progress bar*/
     background-color: transparent;
+}
+
+/*Notification settings*/
+
+.searchInput-5YMkDH { /*Notification overrides searchbar*/
+    background: transparent;
 }
 
 /*Server admin settings*/
