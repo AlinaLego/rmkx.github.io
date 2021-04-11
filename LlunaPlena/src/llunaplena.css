@@ -20,32 +20,10 @@
 }
 
 /*Theme Variables*/
-.theme-dark {
+.theme-dark, .theme-light {
     --chat-scrollbar-width: 20px; /*Changes the scrollbar width on chat | Default 20px*/
     --scrollbar-thumb: #293f47; /*Changes the scrollbar base color | Default #293f47*/
-    --scrollbar-thumb-hover: #293f47; /*Changes the scrollbar hover color | Default #293f47*/
     --background-floating: #030303; /*Right click on user floating background | Default #030303*/
-    --scrollbar-thin-thumb: #293f47; /*Changes the color of the server channels and friends scrollbars | Default #293f47*/
-    --scrollbar-thin-track: #0f0f0fba; /*Changes the background color of the server channels and friends scrollbars | Default #0f0f0fba*/
-    --scrollbar-auto-thumb: #293f47; /*Changes the color of the chat scrollbar | Default*/
-    --scrollbar-auto-track: #0f0f0fba; /*Changes the background color of the chat scrollbar | Default #293f47*/
-    --background-modifier-hover: #293f47; /*Changes the hover on users color | Default #293f47*/
-    --background-message-hover: #293f4757; /*Changes the background of the hovered messages in chat | Default #293f4757*/
-    --text-muted: #63a4a8; /*Changes the color of the font of some parts of the Theme (search bar, etc) | Default #63a4a8*/
-    --text-link: #8dfce9; /*Changes the color of the links | Default #8dfce9*/
-    --channels-default: #afafaf; /*Changes the color of the channel names | Default #afafaf*/
-    --blue-hue-elements: #63a4a8; /*Color code for some parts of the theme | Default #63a4a8*/
-    --background-modifier-accent: #293f47; /*Color for the lines separating some elements of some menus | Default #293f47*/
-}
-.theme-light {
-    --chat-scrollbar-width: 20px; /*Changes the scrollbar width on chat | Default 20px*/
-    --scrollbar-thumb: #293f47; /*Changes the scrollbar base color | Default #293f47*/
-    --scrollbar-thumb-hover: #293f47; /*Changes the scrollbar hover color | Default #293f47*/
-    --background-floating: #030303; /*Right click on user floating background | Default #030303*/
-    --scrollbar-thin-thumb: #293f47; /*Changes the color of the server channels and friends scrollbars | Default #293f47*/
-    --scrollbar-thin-track: #0f0f0fba; /*Changes the background color of the server channels and friends scrollbars | Default #0f0f0fba*/
-    --scrollbar-auto-thumb: #293f47; /*Changes the color of the chat scrollbar | Default*/
-    --scrollbar-auto-track: #0f0f0fba; /*Changes the background color of the chat scrollbar | Default #293f47*/
     --background-modifier-hover: #293f47; /*Changes the hover on users color | Default #293f47*/
     --background-message-hover: #293f4757; /*Changes the background of the hovered messages in chat | Default #293f4757*/
     --text-muted: #63a4a8; /*Changes the color of the font of some parts of the Theme (search bar, etc) | Default #63a4a8*/
