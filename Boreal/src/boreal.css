@@ -1010,6 +1010,18 @@
 .button-uXr0L2:hover { /*Channel preview buttons hover*/
     background-color: var(--main-accent);
 }
+.theme-dark .watchButton-2SbJEo { /*Watch stream button*/
+    border: var(--buttons-border);
+    border-radius: var(--buttons-radius);
+    background-color: var(--panel-boxes);
+}
+.theme-dark .watchButton-2SbJEo:hover { /*Watch stream button hover*/
+    background-color: var(--main-accent);
+}
+.liveShapeRound-32u79- { /*Live channel icon*/
+    border-radius: var(--panel-border-radius);
+    background-color: var(--main-accent)!important;
+}
 
 /*Settings Window*/
 
@@ -1777,4 +1789,10 @@
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
+}
+
+/*Misc*/
+
+.protip-3-1FNm { /*Protip text*/
+    color: var(--main-accent)!important;
 }
