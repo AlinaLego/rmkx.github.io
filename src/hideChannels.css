@@ -108,7 +108,7 @@
 }
 .searchBar-6Kv8R2 { /*Hides the searchbar on top of DMs*/
     width: calc(var(--server-hiding-width) - 26px);
-    transition: width 0.35s ease;
+    transition: width 0.35s ease-in;
 }
 
 /*Shows the server's channel list*/
