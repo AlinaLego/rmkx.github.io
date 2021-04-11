@@ -9,7 +9,7 @@
 
 :root {
     --server-hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
-    --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
+    --showing-width: 252px; /*Amount that will be shown when the panels show | Default 252*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: transparent;/*Background of the elements when showing*/
 }
@@ -106,6 +106,10 @@
     color: transparent;
     transition: color 0.35s ease;
 }
+.searchBar-6Kv8R2 { /*Hides the searchbar on top of DMs*/
+    width: calc(var(--server-hiding-width) - 26px);
+    transition: width 0.35s ease;
+}
 
 /*Shows the server's channel list*/
 .sidebar-2K8pFh:hover {
@@ -157,4 +161,7 @@
 }
 .sidebar-2K8pFh:hover .content-3YMskv .privateChannelsHeaderContainer-3NB1K1, .sidebar-2K8pFh:hover .privateChannelsHeaderContainer-3NB1K1 > .clickable-3rdHwn .icon-22AiRD { /*Shows DM text*/
     color: white;
+}
+.sidebar-2K8pFh:hover .searchBar-6Kv8R2 { /*Shows searchbar on top of DMs*/
+    width: calc(var(--showing-width) - 48px);
 }

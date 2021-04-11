@@ -165,19 +165,14 @@
     top: 0px;
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
-    width: 24px;
-    transition: width 0.35s ease;
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx { /*Search box settings*/
     color: transparent!important;
     background: url(https://rmkx.github.io/svg/search-icon.svg) left no-repeat;
     background-size: 22px;
     padding: 0px;
-    width: 204px;
+    width: calc(var(--showing-width) - 48px);
     margin-bottom: 5px;
-}
-.sidebar-2K8pFh:hover .searchBar-6Kv8R2 {
-    width: 204px;
 }
 .container-2Pjhx-.channel-2QD9_O { /*Online friends list*/
     background: var(--panel-boxes);
@@ -190,7 +185,7 @@
 }
 .selected-aXhQR6.container-2Pjhx- { /*Selected friend on friends list*/
     border-radius: var(--panel-border-radius);
-    background: var(--hidden-background);
+    background: var(--showing-background);
     background-color: var(--panel-boxes)!important;
 }
 .actionButton-uPB8Fs.highlight-Lf97TE {
