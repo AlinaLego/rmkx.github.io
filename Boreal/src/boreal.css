@@ -1018,6 +1018,9 @@
 .theme-dark .watchButton-2SbJEo:hover { /*Watch stream button hover*/
     background-color: var(--main-accent);
 }
+.theme-dark .previewHover-1tGzfF, .theme-dark .previewContainer-12UlHl { /*Stream preview loading*/
+    background-color: var(--panel-boxes);
+}
 .liveShapeRound-32u79- { /*Live channel icon*/
     border-radius: var(--panel-border-radius);
     background-color: var(--main-accent)!important;
