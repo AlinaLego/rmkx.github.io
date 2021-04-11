@@ -1378,6 +1378,9 @@
     background-color: transparent;
     background: var(--underline-gradient);
 }
+.dragInner-Oq_toX { /*Background when dragging server*/
+    background-color: var(--panel-boxes);
+}
 
 /*Error message*/
 
