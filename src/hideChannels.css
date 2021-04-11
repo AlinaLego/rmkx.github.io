@@ -1,51 +1,17 @@
 /**
- * @name         Hide Discord Panels
- * @description  Hides the Friends, Server Channel and Server Members panels with some animations.
+ * @name         Hidden Server Channels
+ * @description  Hides server channels.
  * @donate       https://bit.ly/3fnzq1Z
- * @source       https://github.com/rmkx/rmkx.github.io/blob/main/src/hidePanels.css
+ * @source       https://github.com/rmkx/rmkx.github.io/blob/main/src/hideChannels.css
  * @author       rmkx#3388
  * @version      1.0 
  */
 
 :root {
     --server-hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
-    --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
     --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: transparent;/*Background of the elements when showing*/
-}
-
-@keyframes selectedChannel {
-    0% {
-        background: var(--hidden-background);
-    }
-    100% {
-        background: var(--showing-background);
-    }
-}
-
-/*Hides server members list*/
-.membersWrap-2h-GB4 {
-    width: var(--members-hiding-width);
-    min-width: unset;
-    justify-content: unset;
-    transition: width 0.35s ease-in;
-}
-.membersGroup-v9BXpm { /*Hides the member's role*/
-    color: transparent;
-    transition: color 0.35s ease-in;
-}
-.member-3-YXUe { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
-    margin-left: 2px;
-    margin-bottom: 3px;
-}
-
-/*Shows the server members list*/
-.membersWrap-2h-GB4:hover { /*Shows server's members*/
-    width: var(--showing-width);
-}
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
-    color: white;
 }
 
 /*Hides the server's channel list*/
@@ -168,14 +134,6 @@
     padding: 8px;
     height: auto;
     visibility: visible;
-}
-.sidebar-2K8pFh:hover .selected-aXhQR6.container-2Pjhx- { /*Selected showing settings*/
-    animation: selectedChannel 0.35s ease;
-    animation-fill-mode: forwards;
-}
-.sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 { /*Selected server channel showing background*/
-    animation: selectedChannel 0.35s ease;
-    animation-fill-mode: forwards;
 }
 .sidebar-2K8pFh:hover .voiceUserSummary-2X_2vp { /*Showing collapsed voice chanels on server*/
     background-color: transparent;

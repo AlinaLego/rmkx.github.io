@@ -10,10 +10,10 @@
 @import url('https://rmkx.github.io/src/transparentDiscord.css');
 
 :root {
-    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px | Change to --showing-width value if you don't want them to hide*/
-    --members-hiding-width: 53px; /*Amount that will be shown when the server's members panel hides | Default 53px | Change to --showing-width value if you don't want them to hide*/
+    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
+    --members-hiding-width: 53px; /*Amount that will be shown when the server's members panel hides | Default 53px*/
     --showing-width: 252px; /*Amount that will be shown when the panels show | Default 252*/
-    --hidden-background: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%); /*Background of the elements when hidden*/
+    --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);/*Background of the elements when showing*/
     
     --background-image: url(https://i.imgur.com/YiHlt7b.jpg); /*Changes the background image*/
@@ -321,8 +321,6 @@
     padding: 12px 8px 0 10px;
     text-align: center;
     font-size: 80%;
-    color:transparent;
-    transition: color 0.35s ease-in;
 }
 .membersGroup-v9BXpm::after {  /*Gradient after member's roles*/
     position: absolute;
@@ -342,9 +340,6 @@
     background-color: var(--panel-boxes);
     background: var(--panel-boxes);
 }
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
-    color: var(--channels-default);
-}
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm::after { /*Makes the gradient grow with the members panel*/
     width: 224px;
 }
@@ -361,9 +356,9 @@
 .containerDefault--pIXnN .modeSelected-346R90 { /*Server channel selected*/
     border: var(--panel-border);
     border-radius: var(--panel-border-radius);
-    background: var(--hidden-background);
+    background: var(--showing-background);
 }
-.sidebar-2K8pFh:hover .containerDefault--pIXnN:not(.selected-3LIHYU):hover{ /*Hover over server channels*/
+.sidebar-2K8pFh:hover .containerDefault--pIXnN:not(.modeSelected-346R90):hover{ /*Hover over server channels*/
     background-color: var(--panel-boxes);
     background: var(--element-hovered);
 }
@@ -1340,42 +1335,14 @@
 }
 
 /*Guilds*/
-.wrapper-3NnKdC {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
+.wrapper-3NnKdC { /*Guild wrapper*/
     border-top-left-radius: var(--panel-border-radius);
     border-top-right-radius: var(--panel-border-radius);
     background-color: transparent;
-    transform: translateX(-50%);
-    z-index: 3;
-    width: 900px;
-    height: 10px;
-    transition: 250ms ease-in;
 }
-.tree-2wKJdG {
+.tree-2wKJdG { /*Guild subcontainer*/
     background-color: var(--panel-boxes);
     backdrop-filter: blur(50px);
-    position: absolute;
-    top: 100%;
-    left: 0;
-    transform-origin: top left;
-    transform: rotate(270deg);
-    height: 900px;
-    width: 10px;
-    transition: 250ms ease-in; 
-}
-.wrapper-3NnKdC:hover {
-    height: 69px;
-}
-.wrapper-3NnKdC:hover .tree-2wKJdG {
-    width: 69px;
-}
-.scroller-1Bvpku { /*Centers server icons on the guild bar*/
-    margin-top: 45px;
-}
-.wrapper-25eVIn { /*Server Icon*/
-    transform: rotate(90deg);
 }
 .item-2hkk8m { /*Selected server bar icon*/
     background-color: var(--main-accent);

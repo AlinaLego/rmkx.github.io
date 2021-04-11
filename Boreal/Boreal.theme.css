@@ -8,7 +8,9 @@
  */
 
 @import url('https://rmkx.github.io/Boreal/src/boreal.css');
-@import url('https://rmkx.github.io/src/hidePanels.css'); /*Remove/comment line if you don't want chat and members panels to hide*/
+@import url('https://rmkx.github.io/src/hideGuilds.css'); /*Comment line if you don't want servers list to hide | This moves it to the default position*/
+@import url('https://rmkx.github.io/src/hideMembers.css'); /*Comment line if you don't want servers' members to hide*/
+@import url('https://rmkx.github.io/src/hideChannels.css'); /*Comment line if you don't want servers' channels to hide*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*Put your font url here*/
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
@@ -16,18 +18,19 @@
 }
 
 :root {
-    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px | Change to --showing-width value if you don't want them to hide*/
-    --members-hiding-width: 53px; /*Amount that will be shown when the server's members panel hides | Default 53px | Change to --showing-width value if you don't want them to hide*/
+    --hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
+    --members-hiding-width: 53px; /*Amount that will be shown when the server's members panel hides | Default 53px*/
     --showing-width: 252px; /*Amount that will be shown when the panels show | Default 252*/
-    --hidden-background: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%); /*Background of the elements when hidden*/
+    --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);/*Background of the elements when showing*/
     
     --background-image: url(https://i.imgur.com/YiHlt7b.jpg); /*Changes the background image*/
     --bg-blur: 0px; /*changes the blur of the background image*/
     --main-accent: rgb(35, 77, 117); /*Main accent of the theme for little elements*/
+    --main-accent-rgb: 35, 77, 117; /*RGB code of main accent for some elements, change this if you change main accent*/
     --popout-blur: 5px; /*Changes the blur of elements that appear on screen*/
     --bg-opacity: 1; /*Changes the opacity of the background*/
-    --text-link: rgb(97, 195, 224); /*Color for links*/
+    --links: rgb(97, 195, 224); /*Color for links*/
 
     --panel-boxes: rgba(0, 0, 0, 0.55); /*Changes the background of the surrounded panels*/
     --second-panel-bg: rgba(0, 0, 0, 0.8); /*changes the bg of panels that come out, like right clicking on a user*/
