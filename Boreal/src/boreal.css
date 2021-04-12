@@ -58,6 +58,20 @@
     background: var(--background-image);
     background-size: cover;
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(var(--bg-blur));
+    opacity: var(--bg-opacity);
+}
+#app-mount .layers-3iHuyZ:before {
+    content: "";
+    background: var(--background-image);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     filter: blur(var(--bg-blur));
