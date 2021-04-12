@@ -762,3 +762,9 @@
 .builtInSeparator-1ku6s5 { /*Slash command panel divider*/
     border-bottom: unset;
 }
+.theme-dark .iconWrapper-3LVgIo { /*Server boost quantity*/
+    background-color: var(--bg-second-panels);
+}
+.upsellFooter-3coAfO { /*Bottom panel when buying boosts*/
+    background-color: var(--bg-second-panels);
+}

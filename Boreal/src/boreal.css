@@ -2055,6 +2055,15 @@
 .theme-dark .tierMarkerBackground-3q29am { /*Server boost level progress bar*/
     background-color: transparent;
 }
+.theme-dark .iconWrapper-3LVgIo { /*Server boost quantity*/
+    background: transparent;
+}
+.theme-dark .iconWrapper-3LVgIo:hover { /*Server boost quantity hover*/
+    background: var(--main-accent);
+}
+.icon-TYbVk4, .icon-TYbVk4.disabled-24YXy-, .icon-TYbVk4.disabled-24YXy-:hover { /*Server boost quantity*/
+    color: white;
+}
 
 /*Notification settings*/
 
