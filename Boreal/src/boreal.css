@@ -1950,6 +1950,9 @@
 .button-11zvza:hover { /*Search results jump button hovered*/
     background-color: var(--main-accent);
 }
+.search-2oPWTC .DraftEditor-root .public-DraftStyleDefault-block span { /*Server search text*/
+    color: white;
+}
 
 /*Black usernames outline*/
 
