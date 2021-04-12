@@ -2216,7 +2216,7 @@
 
 /*Join/Add server window*/
 
-.header-3msK0M .colorHeaderPrimary-26Jzh-, .header-1BLHoL .colorHeaderPrimary-26Jzh-, .header-1Xr5FO .colorHeaderPrimary-26Jzh- { /*Headers*/
+.header-3msK0M .colorHeaderPrimary-26Jzh-, .header-1BLHoL .colorHeaderPrimary-26Jzh-, .header-1Xr5FO .colorHeaderPrimary-26Jzh-, .header-287ONi .colorHeaderPrimary-26Jzh- { /*Headers*/
     color: white;
 }
 .header-3msK0M .colorHeaderSecondary-3Sp3Ft, .header-1BLHoL .colorHeaderSecondary-3Sp3Ft, .header-1Xr5FO .colorHeaderSecondary-3Sp3Ft{ /*Header secondary*/
@@ -2284,4 +2284,15 @@
 #MemberCount { /*Member Count plugin styling*/
     margin-left: 8px!important;
     background: transparent!important;
+}
+.card-3RzMcx { /*New server buttons*/
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+}
+.card-3RzMcx:hover { /*New server buttons hover*/
+    background-color: var(--main-accent);
+}
+.checkmark-3rush5 { /*New server buttons checkmark*/
+    background-color: var(--main-accent);
 }
