@@ -30,7 +30,7 @@
     --bg-blur: 0px; /*changes the blur of the background image*/
     --main-accent: rgb(35, 77, 117); /*Main accent of the theme for little elements*/
     --main-accent-rgb: 35, 77, 117; /*RGB code of main accent for some elements, change this if you change main accent*/
-    --popout-blur: 5px; /*Changes the blur of elements that appear on screen*/
+    --popout-blur: 2px; /*Changes the blur of elements that appear on screen*/
     --bg-opacity: 1; /*Changes the opacity of the background*/
     --links: rgb(97, 195, 224); /*Color for links*/
 

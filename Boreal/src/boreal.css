@@ -21,7 +21,7 @@
     --bg-blur: 0px; /*changes the blur of the background image*/
     --main-accent: rgb(35, 77, 117); /*Main accent of the theme for little elements*/
     --main-accent-rgb: 35, 77, 117; /*RGB code of main accent for some elements, change this if you change main accent*/
-    --popout-blur: 5px; /*Changes the blur of elements that appear on screen*/
+    --popout-blur: 2px; /*Changes the blur of elements that appear on screen*/
     --bg-opacity: 1; /*Changes the opacity of the background*/
     --links: rgb(97, 195, 224); /*Color for links*/
 
@@ -484,8 +484,6 @@
     transform: translateZ(0);
     opacity: unset!important;
     background: transparent!important;
-    -webkit-backdrop-filter: blur(var(--popout-blur));
-    backdrop-filter: blur(var(--popout-blur));
 }
 .note-3HfJZ5 { /*Add a note box*/
     box-shadow: var(--elevation-high);
@@ -998,7 +996,18 @@
     background-color: var(--chat-hover);
     border-radius: var(--panel-border-radius);
 }
-
+.inner-1ilYF7 {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
 
 /*Buttons settings*/
 
