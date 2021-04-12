@@ -1187,6 +1187,19 @@
     border-radius: var(--panel-border-radius);
     background-color: var(--main-accent)!important;
 }
+.button-3HqqDX { /*No one is here button after closing a stream*/
+    background-color: var(--buttons-background);
+    border-radius: var(--buttons-radius);
+    border: var(--buttons-border);
+}
+.input-cIJ7To .lookFilled-1Gx00P.colorBrand-3pXr91 { /*Invite button copy*/
+    margin-left: 5px;
+}
+.lookOutlined-3sRXeN.colorGreen-29iAKY { /*Invite button*/
+    background-color: var(--buttons-background);
+    border-radius: var(--buttons-radius);
+    border: var(--buttons-border);
+}
 
 /*Settings Window*/
 
