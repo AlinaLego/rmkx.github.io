@@ -2206,6 +2206,10 @@
     border-radius: var(--panel-border-radius);
     background-color: rgba(var(--main-accent-rgb), 0.4);
 }
+.notice-18685F { /*Viewing server as...*/
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+}
 
 /*Tags*/
 
