@@ -804,3 +804,12 @@
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF { /*Users/roles rows selected*/
     background-color: var(--bg-second-panels);
 }
+.bd-modal-wrapper .bd-modal-inner { /*Addon missing meta modal*/
+    box-shadow: unset;
+}
+.bd-modal-wrapper .header, .bd-modal-wrapper .bd-modal-body { /*Addon missing meta*/
+    background-color: var(--bg-second-panels);
+}
+.bd-modal-wrapper .error { /*Error divider*/
+    border-bottom: unset;
+}

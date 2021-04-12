@@ -1873,6 +1873,17 @@
     margin-left: 5px;
     border-radius: var(--buttons-radius)!important;
 }
+.bd-modal-wrapper .bd-modal-inner { /*Addon missing meta modal*/
+    border: var(--panel-border);
+    border-radius: var(--panel-border-radius);
+    box-shadow: unset;
+}
+.bd-modal-wrapper .header, .bd-modal-wrapper .bd-modal-body { /*Addon missing meta*/
+    background-color: var(--panel-boxes);
+}
+.bd-modal-wrapper .error { /*Error divider*/
+    border-bottom: unset;
+}
 
 /*User avatar settings*/
 
