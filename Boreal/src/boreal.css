@@ -1207,7 +1207,7 @@
     opacity: unset!important;
     transform: unset!important;
 }
-.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child { /*Blurs the background behind the settings window*/
+.layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk { /*Blurs the background behind the settings window*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
