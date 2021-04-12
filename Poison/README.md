@@ -11,7 +11,7 @@
 <p>1. Click this <a href="">link</a>.</p>
 <p>2. Save the file in your BetterDiscord themes folder. Don't forget to select "All types" under the file name when saving.</p>
 <p>3. Select the theme in the Theme section of the Settings window.</p>
-<p>Any problems/bugs/fixes/suggestions add me on Discord rmkx#3388 and I'll try to fix them as soon as possible.</p>
+<p>Any problems/bugs/fixes/suggestions join the support server <a href="https://discord.com/HnGWVQbQBv">here</a>.</p>
 
 <h2 align="center">More screenshots</h2>
 <p align="center">
