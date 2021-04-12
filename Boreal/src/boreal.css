@@ -1926,6 +1926,30 @@
 .searchHeader-2XoQg7 .tab-2j5AEF:hover:not([aria-selected="true"]) { /*Hover filter buttons*/
     background-color: var(--panel-boxes);
 }
+.searchResultGroup-1DphGG > :first-child > .channelName-1JRO3C{ /*Search results channel*/
+    padding-left: 10px;
+    border-top-right-radius: var(--panel-border-radius);
+    border-top-left-radius: var(--panel-border-radius);
+    margin-bottom: 0px;
+    background-color: var(--panel-boxes);
+}
+.searchResultGroup-1DphGG > :nth-child(2) > .searchResult-9tQ1uo{ /*Search results message*/
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: var(--panel-boxes);
+}
+.searchResultGroup-1DphGG > :not(:first-child):not(:nth-child(2)) > .searchResult-9tQ1uo {
+    border-radius: var(--panel-border-radius);
+    background-color: var(--panel-boxes);
+}
+.button-11zvza { /*Search results jump button*/
+    border: var(--buttons-border);
+    border-radius: var(--buttons-radius);
+    background-color: var(--buttons-background);
+}
+.button-11zvza:hover { /*Search results jump button hovered*/
+    background-color: var(--main-accent);
+}
 
 /*Black usernames outline*/
 
