@@ -1815,3 +1815,12 @@
 .avatarSpeaking-2c8-9i { /*Speaking ring user area*/
     box-shadow: unset;
 }
+.wrapper-2siovq { /*Slash(/) panel category*/
+    border-radius: var(--panel-border-radius);
+}
+.wrapper-2siovq:hover { /*Slash(/) panel hovered category*/
+    background-color: var(--main-accent);
+}
+.mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before { /*Stream volume bar*/
+    background-color: var(--main-accent)!important;
+}

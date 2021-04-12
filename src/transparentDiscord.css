@@ -756,3 +756,9 @@
 .theme-dark .reactorDefault-1IUqMZ { /*People who used that reaction*/
     box-shadow: unset;
 }
+.wrapper-uf3cnO { /*Slash command panel*/
+    background-color: var(--bg-second-panels);
+}
+.builtInSeparator-1ku6s5 { /*Slash command panel divider*/
+    border-bottom: unset;
+}

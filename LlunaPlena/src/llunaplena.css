@@ -344,6 +344,17 @@
 .hljs-comment, .hljs-quote {
     color: #7dce83
 }
+.theme-dark .autocomplete-1vrmpx { /*Slash command panel*/
+    border: 2px var(--channel-color) solid;
+    border-radius: 20px;
+    background-color: var(--chat-color);
+}
+.categoryHeader-O1zU94 { /*Slash command panel header*/
+    background-color: var(--chat-color);
+}
+.builtInSeparator-1ku6s5 { /*Slash command panel divider*/
+    border-bottom: unset;
+}
 
 /*Autocomplete*/
 .autocomplete-3l_oCd {
@@ -551,7 +562,7 @@
     border-radius: 0 0 0;
 }
 
- /* Stream volume bar*/ 
+/* Stream volume bar*/ 
 .mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl, .mediaBarProgress-1xaPtl:after, .mediaBarProgress-1xaPtl:before{
     background-color: var(--blue-hue-elements)!important;
 }
