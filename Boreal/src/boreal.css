@@ -1674,17 +1674,9 @@
     background-color: transparent;
 }
 .tree-2wKJdG { /*Guild subcontainer*/
-    -webkit-backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-transform: translateZ(0);
-    backface-visibility: hidden;
-    perspective: 1000;
-    transform: translate3d(0,0,0);
-    transform: translateZ(0);
     background-color: var(--panel-boxes);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
 }
 .item-2hkk8m { /*Selected server bar icon*/
     background-color: var(--main-accent);
