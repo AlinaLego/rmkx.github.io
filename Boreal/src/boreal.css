@@ -2143,6 +2143,68 @@
     background-color: var(--main-accent);
     border-radius: var(--buttons-radius);
 }
+.group-1WdBVp { /*Permissions buttons container*/
+    border: var(--buttons-border);
+}
+.item-1yAxl1 { /*Permissions buttons*/
+    background-color: var(--buttons-background);
+}
+.item-1yAxl1:hover { /*Permissions buttons*/
+    background-color: rgba(var(--main-accent-rgb), 0.2);
+}
+.deny-3nAuT6 { /*Deny button*/
+    border-top-left-radius: var(--buttons-radius);
+    border-bottom-left-radius: var(--buttons-radius);
+}
+.allow-1PzSY3 { /*Allow button*/
+    border-bottom-right-radius: var(--buttons-radius);
+    border-top-right-radius: var(--buttons-radius);
+}
+.passthrough-1c2ewQ.selected-2YhbGh { /*Selected permissions*/
+    background-color: var(--main-accent);
+}
+.settingCard-3w2mVL.active-1ytUzX { /*Private channel active*/
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+    background-color: var(--panel-boxes);
+}
+.cardFolder-28dwxo { /*Private channel body*/
+    background-color: transparent;
+}
+.theme-dark .header-2bNvm4 { /*Add role/member to channel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: var(--panel-boxes);
+}
+.theme-dark .container-VSDcQc .sectionTag-pXyto9 { /*Add roles to channel body*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: var(--panel-boxes);
+}
+.row-rrHHJU { /*Users/roles rows*/
+    border-radius: var(--panel-border-radius);
+    background-color: transparent;
+}
+.row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF { /*Users/roles rows selected*/
+    border-radius: var(--panel-border-radius);
+    background-color: rgba(var(--main-accent-rgb), 0.4);
+}
 
 /*Tags*/
 
@@ -2295,4 +2357,10 @@
 }
 .checkmark-3rush5 { /*New server buttons checkmark*/
     background-color: var(--main-accent);
+}
+.theme-dark .elevationHigh-1PneE4 { /*Careful message*/
+    box-shadow: unset;
+    background-color: var(--panel-boxes)!important;
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
 }

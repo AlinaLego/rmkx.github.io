@@ -782,3 +782,25 @@
 .upsellFooter-3coAfO { /*Bottom panel when buying boosts*/
     background-color: var(--bg-second-panels);
 }
+.theme-dark .elevationHigh-1PneE4 { /*Careful message*/
+    box-shadow: unset;
+    background-color: var(--bg-second-panels)!important;
+}
+.settingCard-3w2mVL.active-1ytUzX { /*Private channel active*/
+    background-color: var(--bg-second-panels);
+}
+.cardFolder-28dwxo { /*Private channel body*/
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .header-2bNvm4 { /*Add role/member to channel*/
+    background-color: var(--bg-second-panels);
+}
+.theme-dark .container-VSDcQc .sectionTag-pXyto9 { /*Add roles to channel body*/
+    background-color: var(--bg-second-panels);
+}
+.row-rrHHJU { /*Users/roles rows*/
+    background-color: var(--bg-second-panels);
+}
+.row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF { /*Users/roles rows selected*/
+    background-color: var(--bg-second-panels);
+}
