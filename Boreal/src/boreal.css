@@ -398,9 +398,6 @@
     background-color: var(--panel-boxes);
     background: var(--showing-background);
 }
-.sidebar-2K8pFh:hover .header-2V-4Sw { /*Showing server name*/
-    width: var(--showing-width);
-}
 .unread-2lAfLh { /*Unread server channel message*/
     margin-top: -15.5px;
     background: rgb(35, 77, 117);
@@ -412,9 +409,6 @@
     border-radius: var(--panel-border-radius);
     border-top-left-radius: 0px;
     background-color: var(--panel-boxes);
-    width: calc(var(--server-hiding-width) - 8px);
-    padding-left: 14px;
-    transition: width 0.35s ease-in;
 }
 .clickable-25tGDB .header-2V-4Sw:hover, .selected-31Nl7x .header-2V-4Sw { /*Server name panel when hover and selected*/
     background-color: var(--panel-boxes);
