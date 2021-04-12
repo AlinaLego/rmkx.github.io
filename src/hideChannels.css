@@ -8,7 +8,7 @@
  */
 
 :root {
-    --server-hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
+    --server-hiding-width: 50px; /*Amount that will be shown when the channels panel hide | Default 50px*/
     --showing-width: 252px; /*Amount that will be shown when the panels show | Default 252*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: transparent;/*Background of the elements when showing*/
@@ -16,6 +16,14 @@
 
 /*Hides the server's channel list*/
 .sidebar-2K8pFh {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     width: var(--server-hiding-width);
     transition: width 0.35s ease-in;
 }
@@ -24,14 +32,38 @@
     margin-left: 5px;
 }
 .mainContent-2h-GEV .overflow-WK9Ogt, .icon-2yIBmh{ /*Hides the channel group*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     color: transparent;
     transition: color 0.35s ease;
 }
 .wrapper-2tAnRe { /*Hides the amount of people in a voice channel when hidden*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     visibility: hidden;
     transition: visibility 0.15s ease;
 }
 .containerDefault-3tr_sE { /*Removes padding between channels when hidden for aesthetical purposes*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     padding: 0px;
     transition: padding 0.35s ease;
 }
@@ -58,32 +90,80 @@
     background-color: var(--hidden-background);
 }
 .actionIcon-PgcMM2 { /*Hides the invite to channel button when panel is hidden*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     color: transparent;
     transition: color 0.35s ease;
 }
 .listeningAlong-30wH70 { /*Hides the listening along panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     height: 0px;
     visibility: hidden;
     padding: 0px;
     transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
 }
 .container-1giJp5 { /*Hides the connected channel panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     height: 0px;
     visibility: hidden;
     padding: 0px;
     transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
 }
 .activityPanel-28dQGo { /*Hides the sharing screen panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     height: 0px;
     visibility: hidden;
     padding: 0px;
     transition: height 0.35s ease, visibility 0.0000000000000001s ease, padding 0.25s ease;
 }
 .list-2luk8a { /*Moves people connected to a voice channel when hidden*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     padding-left: 5px;
     transition: padding 0.35s ease;
 }
 .addButton-3bLyEA { /*Hides the add channel in the channel list*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     color: transparent;
     transition: color 0.35s ease;
 }
@@ -91,11 +171,27 @@
     margin-left: 5px;
 }
 .mentionsBadge-3tC7Mi { /*Mentioned in a channel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     top: 15px;
     left: 7px;
     transition: left 0.35s ease-in, top 0.35s ease-in;
 }
 .header-2V-4Sw { /*Server name*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     width: 42px;
     transition: width 0.35s ease-in;
 }
@@ -103,10 +199,26 @@
     margin-left: -3px;
 }
 .privateChannelsHeaderContainer-3NB1K1, .privateChannelsHeaderContainer-3NB1K1 > .clickable-3rdHwn .icon-22AiRD { /*New Direct Message text*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     color: transparent;
     transition: color 0.35s ease;
 }
 .searchBar-6Kv8R2 { /*Hides the searchbar on top of DMs*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     width: calc(var(--server-hiding-width) - 26px);
     transition: width 0.35s ease-in;
 }
