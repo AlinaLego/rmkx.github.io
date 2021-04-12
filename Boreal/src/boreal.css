@@ -1516,6 +1516,11 @@
     backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
 }
+.premiumPromo-fVlLu- { /*can't use emoji panel*/
+    z-index: 999;
+    backdrop-filter: blur(3px);
+    background-color: var(--panel-boxes);
+}
 
 /*Untrusted domain modal*/
 
