@@ -67,7 +67,6 @@
 
 .theme-dark ::selection { 
     background-color: rgba(36, 36, 36, 0.39);
-    backdrop-filter: blur(5px);
     color: var(--main-accent);
 }
 
@@ -189,6 +188,15 @@
     background-color: var(--panel-boxes)!important;
 }
 .actionButton-uPB8Fs.highlight-Lf97TE {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     color: var(--buttons-color);
     background-color: var(--buttons-background);
@@ -212,8 +220,17 @@
     padding-right: 10%;
 }
 .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx .icon-22AiRD{ /*Settings for the New DM, Inbox and Help buttons*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     border-radius: var(--buttons-radius);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     width: auto!important;
 }
 .icon-22AiRD {
@@ -258,6 +275,14 @@
     border-radius: var(--panel-border-radius);
 }
 .peopleListItem-2nzedh { /*Online, All, Pending friends... Elements*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     border-radius: var(--panel-border-radius);
     border-top: 0px;
     padding-left: 10px;
@@ -265,6 +290,7 @@
     margin-bottom: 3px;
     margin-right: 20px;
     background-color: var(--panel-boxes);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     width: 96%;
 }
@@ -382,7 +408,6 @@
     box-shadow: 0px 0px 5px 3px rgba(35, 77, 117, 0.747);
 }
 .header-2V-4Sw { /*Server name panel*/
-    backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
     border-top-left-radius: 0px;
     background-color: var(--panel-boxes);
@@ -398,7 +423,16 @@
     border-radius: var(--panel-border-radius);
 }
 .container-2dqNWc { /*Voice channel preview*/
-    backdrop-filter: blur(8px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
@@ -407,15 +441,49 @@
 /*User card settings*/
 
 .userPopout-3XzG_A { /*User card settings*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     box-shadow: var(--elevation-high);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
     background-color: var(--panel-boxes);
-    backdrop-filter: blur(10px);
+}
+.userPopout-3XzG_A::before {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--panel-border-radius);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: -1;
 }
 .backdrop-1wrmKB { /*Backdrop filter when opening user profile*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     opacity: unset!important;
     background: transparent!important;
+    -webkit-backdrop-filter: blur(var(--popout-blur));
     backdrop-filter: blur(var(--popout-blur));
 }
 .note-3HfJZ5 { /*Add a note box*/
@@ -434,11 +502,20 @@
     border-radius: var(--panel-border-radius);
 }
 .popoutRight-1veHKi.noArrow-2foL9g { /*User card when clicking a mention*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     box-shadow: var(--elevation-high);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
     background: transparent;
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 .bodyInnerWrapper-Z8WDxe .bodyTitle-Y0qMQz { /*Roles and notes title*/
     text-align: center;
@@ -490,7 +567,6 @@
     margin-right: 25px;
     margin-left: 9px;
     height: auto;
-    backdrop-filter: blur(3px);
 }
 .content-yTz4x3:before { /*Removes a weird shadow line on top of the message box*/
     box-shadow: unset;
@@ -644,6 +720,15 @@
     color: var(--main-accent);
 }
 .messagesPopoutWrap-1MQ1bW { /*Pinned messages panel settings*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
@@ -654,10 +739,19 @@
     overflow: hidden!important;
 }
 .theme-dark .uploadModal-2ifh8j { /*Upload modal*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     background: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx { /*Upload modal text input box*/
     background: var(--panel-boxes);
@@ -695,19 +789,46 @@
     height: inherit;
 }
 .newMessagesBar-265mhP { /*New messages bar*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border-bottom-left-radius: var(--panel-border-radius);
     border-bottom-right-radius: var(--panel-border-radius);
 }
 .jumpToPresentBar-G1R9s6 { /*Jump to present bar*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .barBase-1c2Rfb { /*Jump to present and new messages bars*/
     margin-left: -8px;
     margin-right: 8px;
 }
 .title-3qD0b- .children-19S4PO { /*Channel descriptions box*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
 }
 .topic-TCb_qw .wrapper-3WhCwL {
@@ -740,7 +861,16 @@
     border-radius: var(--panel-border-radius);
 }
 .autocompleteInner-zh20B_ { /*Autocomplete box "blur"*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 .container-1ov-mD > iframe[class="embedSpotify-tvxDCr embedWrapper-lXpS3L"] { /*Spotify embed border*/
     border-radius: var(--panel-border-radius)!important;
@@ -763,20 +893,38 @@
     background-color: var(--panel-boxes);
 }
 .menu-3sdvDG::before { /*Creates the blur behind the panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     content: '';
     position: absolute;
     height: 100%;
     width: 100%;
     border-radius: var(--panel-border-radius);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     z-index: -1;
 }
 .menu-3sdvDG.submenu-2-ysNh::before { /*Creates the blur behind the first panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     content: '';
     position: absolute;
     height: 100%;
     width: 100%;
     border-radius: var(--panel-border-radius);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     z-index: -1;
 }
@@ -796,9 +944,18 @@
 /*Profile panel settings*/
 
 .root-SR8cQa { /*Main panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 .headerFill-adLl4x { /*Removes the weird background*/
     background-color: transparent;
@@ -870,9 +1027,18 @@
     border-width: 2px;
 }
 .search-36MZv- { /*Chat search bar*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .clickable-3rdHwn .icon-22AiRD { /*Pins etc buttons*/
     color: white;
@@ -888,7 +1054,6 @@
     height: 30px;
 }
 .tabBar-ZmDY9v .item-3HknzM { /*Individual Friends Online, All, ... , Help buttons settings*/
-    backdrop-filter: blur(10px);
     border-radius: var(--buttons-radius);
     color: var(--buttons-color);
 }
@@ -910,7 +1075,6 @@
     background: var(--buttons-background);
 }
 .button-14-BFJ { /*Deafen, mute, disconnect settings buttons*/
-    backdrop-filter: blur(5px);
     border-radius: var(--buttons-radius);
     margin-left: 3px;
 }
@@ -924,7 +1088,6 @@
     color: white!important;
 }
 .button-1YfofB.buttonColor-7qQbGO.fauxDisabled-2ik0Vw { /*Disabled camera button*/
-    backdrop-filter: blur(5px);
     background-color: transparent;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover { /*Go live or cam settings*/
@@ -1002,7 +1165,6 @@
     background-color: var(--panel-boxes);
 }
 .button-uXr0L2 { /*Channel preview buttons*/
-    backdrop-filter: blur(5px);
     border-radius: var(--buttons-radius);
     background-color: var(--buttons-background);
     border: var(--buttons-border);
@@ -1033,10 +1195,27 @@
     transform: unset!important;
 }
 .layers-3iHuyZ > .layer-3QrUeG.stop-animations:first-child { /*Blurs the background behind the settings window*/
-    filter: blur(3px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-filter: blur(2px);
 }
 .platform-win .standardSidebarView-3F1I7i { /*Modifies the settings window*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     position: absolute;
     top: 7%;
     left: 20%;
@@ -1087,7 +1266,16 @@
     fill: var(--main-accent)!important;
 }
 .authedApp-mj2Hmd { /*Authorized app*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs { /*Connect accounts*/
     background-color: transparent;
@@ -1100,13 +1288,40 @@
     border: unset;
 }
 .connection-1fbD7X { /*Connection panel*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 .theme-dark .feature-2w65J5 { /*Discord nitro window panels*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 .card-3AyPWq { /*Server to boost card*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     border-radius: var(--buttons-radius);
 }
 .card-3AyPWq:hover { /*Server to boost card hover*/
@@ -1174,6 +1389,15 @@
 /*Find channel/someone panel*/
 
 .container-3qKHyN { /*Ctrl+K pannel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(var(--popout-blur));
     backdrop-filter: blur(var(--popout-blur));
     border-radius: var(--panel-border-radius);
     background-color: var(--panel-boxes);
@@ -1194,7 +1418,16 @@
 /*Emoji pannel*/
 
 .drawerSizingWrapper-17Mss4 { /*Main panel*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
@@ -1216,7 +1449,16 @@
     background: var(--showing-background);
 }
 .emojiPicker-3PwZFl { /*Add emoji modal*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
@@ -1228,7 +1470,16 @@
     border-radius: var(--panel-border-radius);
 }
 .diversitySelectorPopout-3FiGaM { /*Diversity selector*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
@@ -1240,6 +1491,15 @@
     background: var(--main-accent);
 }
 .popoutContainer-1MXdqN { /*Clicked on emoji in chat*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border-radius: var(--panel-border-radius);
 }
@@ -1254,8 +1514,17 @@
 /*Hovering tooltip*/
 
 .theme-dark .tooltipPrimary-1d1ph4 { /*Hovering tooltip*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     background-color: var(--panel-boxes);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     border-radius: var(--panel-border-radius);
 }
 
@@ -1276,6 +1545,15 @@
 /*Inbox Window*/
 
 .container-enaOkj { /*Main panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
@@ -1309,6 +1587,15 @@
 /*Call settings*/
 
 .root-3JVdIJ { /*Incoming call*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background: var(--panel-boxes);
 }
@@ -1321,6 +1608,15 @@
 /*Go live window*/
 
 .theme-dark .root-1gCeng { /*Main panel window*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(var(--popout-blur));
     backdrop-filter: blur(var(--popout-blur));
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
@@ -1344,7 +1640,16 @@
     background: var(--main-accent);
 }
 .theme-dark .streamPreview-2-WUWT { /*Stream preview window*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     border-radius: var(--panel-border-radius);
     background-color: var(--panel-boxes);
 }
@@ -1369,8 +1674,17 @@
     background-color: transparent;
 }
 .tree-2wKJdG { /*Guild subcontainer*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     background-color: var(--panel-boxes);
-    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 .item-2hkk8m { /*Selected server bar icon*/
     background-color: var(--main-accent);
@@ -1378,7 +1692,6 @@
     box-shadow: 0px 0px 5px 2px rgba(103, 139, 216, 0.226);
 }
 .circleIconButton-1QV--U.selected-1JjBPm { /*Explore and Add buttons*/
-    backdrop-filter: blur(10px);
     border-radius: var(--panel-border-radius);
     background: transparent;
     color: var(--main-accent);
@@ -1400,7 +1713,16 @@
 /*Error message*/
 
 .colorDanger-4gmAY0 { /*error box*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     border-bottom-left-radius: var(--panel-border-radius);
     border-bottom-right-radius: var(--panel-border-radius);
     background-color: transparent;
@@ -1477,8 +1799,17 @@
     background-color: var(--main-accent);
 }
 .bd-search-wrapper { /*BD search bar*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     border-radius: var(--panel-border-radius);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 .bd-select .bd-select-options { /*BD sorting filter*/
     background-color: var(--panel-boxes);
@@ -1497,7 +1828,16 @@
     background-color: var(--main-accent);
 }
 .bd-addon-list .bd-addon-card { /*BD addon card settings*/
-    backdrop-filter: blur(10px);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
     border-radius: var(--panel-border-radius);
 }
 .bd-controls>.bd-addon-button { /*Edit or delete addon buttons*/
@@ -1522,6 +1862,15 @@
 /*Search results*/
 
 .theme-dark .container-3ayLPN { /*Search results container*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
@@ -1562,6 +1911,15 @@
     border-radius: var(--panel-border-radius);
 }
 .searchResultsWrap-3-pOjs { /*Search results panel*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-color: var(--panel-boxes);
     border-radius: var(--panel-border-radius);
@@ -1594,11 +1952,20 @@
     border-bottom-left-radius: 0px;
 }
 .popout-VcNcHB { /*Select status dropout*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     border-radius: var(--buttons-radius);
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     background-color: var(--buttons-background);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 .option-3KoAJB[aria-selected=true] { /*Selected duration*/
     border-radius: var(--buttons-radius);
@@ -1617,16 +1984,24 @@
 /*Server boost panel*/
 
 .theme-dark .perksModal-fSYqOq { /*Main window*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     position: absolute;
     top: 7%;
     left: 20%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     width: var(--settings-width);
     height: var(--settings-heigth);
     background: var(--panel-boxes);
-    opacity: 3;
     border-radius: var(--panel-border-radius);
     pointer-events: all!important;
-    backdrop-filter: blur(10px);
 }
 .container-1sFeqf { /*Close window button*/
     right: -150px;
@@ -1637,7 +2012,7 @@
 }
 .tierWrapper-W9ajqp { /*Server tier wrappers*/
     border-radius: var(--panel-border-radius);
-    backdrop-filter: blur(5px);
+    background-color: var(--panel-boxes);
 }
 .theme-dark .tierMarkerBackground-3q29am { /*Server boost level progress bar*/
     background-color: transparent;
@@ -1683,7 +2058,16 @@
     background-color: var(--panel-boxes)!important;
 }
 .container-3XJ8ns { /*Admin panel role filter*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     border-radius: var(--panel-border-radius);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-color: var(--panel-boxes);
 }
@@ -1711,7 +2095,16 @@
 /*Explore servers panel*/
 
 .theme-dark .card-3DjzTQ { /*Servers card*/
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
     background-color: var(--panel-boxes);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
 .theme-dark .card-3DjzTQ:hover { /*Servers card hover*/
