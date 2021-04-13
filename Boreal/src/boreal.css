@@ -97,17 +97,6 @@
     border-radius: var(--panel-border-radius);
 }
 
-/*Home Icon*/
-
-.homeIcon-FuNwkv { /*Changes the home icon*/
-    color: transparent !important;
-    background: url(https://i.imgur.com/uoMNKqh.gif) center no-repeat; 
-    background-size: 70px;
-    z-index: 2;
-    width: 56px;
-    height: 56px;
-}
-
 /*Active now Tweaks*/
 
 .header-13Cw0-.base-1x0h_U.size12-3cLvbJ { /*Settings of the Active Now text*/
@@ -1705,6 +1694,14 @@
 }
 
 /*Guilds*/
+.homeIcon-FuNwkv { /*Changes the home icon*/
+    color: transparent !important;
+    background: url(https://i.imgur.com/uoMNKqh.gif) center no-repeat;
+    background-size: 70px;
+    z-index: 2;
+    width: 56px;
+    height: 56px;
+}
 .wrapper-3NnKdC { /*Guild wrapper*/
     border-top-left-radius: var(--panel-border-radius);
     border-top-right-radius: var(--panel-border-radius);
