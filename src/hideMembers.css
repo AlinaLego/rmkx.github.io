@@ -30,8 +30,8 @@
     justify-content: unset;
     transition: transform var(--transition-speed) ease-in;
     will-change: transform;
-  }
-  .membersGroup-v9BXpm { /*Hides the member's role*/
+}
+.membersGroup-v9BXpm { /*Hides the member's role*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
@@ -43,16 +43,16 @@
     color: transparent;
     transition: color var(--transition-speed) ease-in;
     will-change: color;
-  }
-  .member-3-YXUe { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
+}
+.member-3-YXUe { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
     margin-left: 2px;
     margin-bottom: 3px;
-  }
-  
-  /*Shows the server members list*/
-  .membersWrap-2h-GB4:hover { /*Shows server's members*/
+}
+
+/*Shows the server members list*/
+.membersWrap-2h-GB4:hover { /*Shows server's members*/
     transform: translateX(var(--members-showing));
-  }
-  .membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
+}
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
     color: white;
-  }
+}
