@@ -33,7 +33,6 @@
     height: 250px!important;
 }
 .avatarHint-1qgaV3 { /*User card avatar hint*/
-    margin-bottom: -32.19px;
     width: 250px;
     height: 250px;
 }
@@ -45,6 +44,24 @@
     border-radius: var(--avatar-radius);
 }
 .avatarHint-1qgaV3 foreignObject { /*User card "View Profile" hint*/
+    mask: unset;
+    border-radius: var(--avatar-radius);
+}
+.avatar-1BDn8e.clickable-1bVtEA { /*Chat avatar*/
+    border-radius: var(--avatar-radius);
+}
+.container-3baos1 .avatar-SmRMf2 svg foreignObject { /*Status bar avatar*/
+    mask: unset;
+    border-radius: var(--avatar-radius);
+}
+.repliedMessage-VokQwo .replyAvatar-1K9Wmr { /*Reply avatar*/
+    border-radius: var(--avatar-radius);
+}
+.wrapper-25eVIn svg foreignObject { /*Server icons*/
+    mask: unset;
+    border-radius: var(--avatar-radius);
+}
+.headerAvatar-2MDZJn svg foreignObject{ /*Active now icons*/
     mask: unset;
     border-radius: var(--avatar-radius);
 }
@@ -68,9 +85,24 @@
 }
 .avatarWrapper-3H_478 .wrapper-3t9DeA svg rect { /*User card status*/
     mask: unset;
-    x: 80;
-    y: -92;
+    y: -80;
+    x: 77;
     transform: rotate(90deg);
-    width: 6px;
-    height: 115%;
+    width: 4px;
+    height: 100%;
+}
+.container-3baos1 .avatar-SmRMf2 svg rect{ /*Status bar status*/
+    mask: unset;
+    width: 80%;
+    height: 4px;
+    y: 28;
+    x: 0;
+}
+.headerAvatar-2MDZJn svg rect { /*Active now status*/
+    mask: unset;
+    x: 28;
+    y: -32;
+    transform: rotate(90deg);
+    width: 4px;
+    height: inherit;
 }
