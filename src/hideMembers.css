@@ -8,10 +8,11 @@
  */
 
 :root {
-    --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/
-    --showing-width: 240px; /*Amount that will be shown when the panels show | Default 240px*/
+    --members-hiding: 79%; /*Amount that will be shown when the server's members panel hides | Default 79%*/
+    --members-showing: 4%; /*Amount that will be shown when the server's members panel show | Default 4%*/
     --hidden-background: transparent; /*Background of the elements when hidden*/
     --showing-background: transparent;/*Background of the elements when showing*/
+    --transition-speed: 0.35s; /*Changes the transition speed*/
 }
 
 /*Hides server members list*/
@@ -20,16 +21,17 @@
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
     -webkit-transform: translateZ(0);
+    -webkit-transform: translateX(var(--members-hiding));
     backface-visibility: hidden;
     perspective: 1000;
     transform: translate3d(0,0,0);
     transform: translateZ(0);
-    width: var(--members-hiding-width);
-    min-width: unset;
+    transform: translateX(var(--members-hiding));
     justify-content: unset;
-    transition: width 0.35s ease-in;
-}
-.membersGroup-v9BXpm { /*Hides the member's role*/
+    transition: transform var(--transition-speed) ease-in;
+    will-change: transform;
+  }
+  .membersGroup-v9BXpm { /*Hides the member's role*/
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
@@ -39,17 +41,18 @@
     transform: translate3d(0,0,0);
     transform: translateZ(0);
     color: transparent;
-    transition: color 0.35s ease-in;
-}
-.member-3-YXUe { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
+    transition: color var(--transition-speed) ease-in;
+    will-change: color;
+  }
+  .member-3-YXUe { /*Moves server members a bit to the left and separates them for aesthetic purposes*/
     margin-left: 2px;
     margin-bottom: 3px;
-}
-
-/*Shows the server members list*/
-.membersWrap-2h-GB4:hover { /*Shows server's members*/
-    width: var(--showing-width);
-}
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
+  }
+  
+  /*Shows the server members list*/
+  .membersWrap-2h-GB4:hover { /*Shows server's members*/
+    transform: translateX(var(--members-showing));
+  }
+  .membersWrap-2h-GB4:hover .membersGroup-v9BXpm{ /*Shows members roles when hovering*/
     color: white;
-}
+  }
