@@ -10,7 +10,6 @@
 :root {
     --background-image: unset; /*Changes the background image*/
     --bg-blur: 0px; /*Amount of blur on the background*/
-    --bg-opacity: 1; /*Background opacity*/
     --bg-main-panels: rgba(0,0,0,0); /*Changes the transparency of the main panels, modify the "y" on the rgba (x,x,x,y)*/
     --bg-second-panels: rgba(0,0,0,0); /*Changes the transparency of the secondary panels, modify the "y" on the rgba (x,x,x,y)*/
 }
@@ -18,7 +17,9 @@
 /*Modifies the background*/
 #app-mount:before {
     content: "";
-    background: var(--background-image) center cover;
+    background: var(--background-image);
+    background-position: center;
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
