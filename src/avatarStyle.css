@@ -18,7 +18,7 @@
     mask: unset;
     border-radius: var(--avatar-radius);
 }
-.avatar-3uk_u9 svg foreignObject { /*Modifies avatar on server members*/
+.avatar-3uk_u9 svg:not(.linkButtonIcon-Mlm5d6) foreignObject { /*Modifies avatar on server members*/
     mask: unset;
     border-radius: var(--avatar-radius);
 }
@@ -71,7 +71,7 @@
 }
 
 /*User status*/
-.userInfo-2zN2z8 .avatar-3W3CeO svg rect { /*Modifies the user status on server members*/
+.userInfo-2zN2z8 .avatar-3W3CeO svg > :last-child:not(foreignObject) { /*Modifies the user status on friends list*/
     mask: unset;
     x: 28;
     y: -32;
@@ -79,7 +79,7 @@
     width: 4px;
     height: inherit;
 }
-.avatar-3uk_u9 svg rect { /*Modifies userstatus on server members*/
+.avatar-3uk_u9 svg:not(.linkButtonIcon-Mlm5d6) > :last-child:not(foreignObject) { /*Modifies userstatus on server members*/
     mask: unset;
     x: 28;
     y: -32;
@@ -87,7 +87,7 @@
     width: 4px;
     height: inherit;
 }
-.avatarWrapper-3H_478 .wrapper-3t9DeA svg rect { /*User card status*/
+.avatarWrapper-3H_478 .wrapper-3t9DeA svg > :last-child:not(foreignObject) { /*User card status*/
     mask: unset;
     y: -80;
     x: 77;
@@ -95,14 +95,14 @@
     width: 3px;
     height: 100%;
 }
-.container-3baos1 .avatar-SmRMf2 svg rect{ /*Status bar status*/
+.container-3baos1 .avatar-SmRMf2 svg > :last-child:not(foreignObject) { /*Status bar status*/
     mask: unset;
     width: 80%;
     height: 4px;
     y: 28;
     x: 0;
 }
-.headerAvatar-2MDZJn svg rect { /*Active now status*/
+.headerAvatar-2MDZJn svg > :last-child:not(foreignObject) { /*Active now status*/
     mask: unset;
     x: 28;
     y: -32;
@@ -110,7 +110,7 @@
     width: 4px;
     height: inherit;
 }
-.avatar-3EQepX svg rect { /*Profile status*/
+.avatar-3EQepX svg > :last-child:not(foreignObject) { /*Profile status*/
     mask: unset;
     x: 76;
     y: -80;
