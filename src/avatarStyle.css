@@ -1,0 +1,76 @@
+/**
+* @name         Avatar Styles
+* @description  Changes the avatar's radius and shows user status as a bar underneath.
+* @donate       https://bit.ly/3fnzq1Z
+* @source       https://github.com/rmkx/rmkx.github.io/blob/main/Poison/src/poison.css
+* @author       rmkx
+* @invite       HnGWVQbQBv
+* @version      1.0 
+*/
+
+
+:root {
+    --avatar-radius: 0%;
+}
+
+/*Avatars*/
+.userInfo-2zN2z8 .avatar-3W3CeO svg foreignObject { /*Modifies avatar on friends list*/
+    mask: unset;
+    border-radius: var(--avatar-radius);
+}
+.avatar-3uk_u9 svg foreignObject { /*Modifies avatar on server members*/
+    mask: unset;
+    border-radius: var(--avatar-radius);
+}
+.avatarWrapper-3H_478 { /*User card wrapper*/
+    margin-top: -15%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.avatarWrapper-3H_478 .wrapper-3t9DeA{ /*User card avatar wrapper*/
+    width: 250px!important;
+    height: 250px!important;
+}
+.avatarHint-1qgaV3 { /*User card avatar hint*/
+    margin-bottom: -32.19px;
+    width: 250px;
+    height: 250px;
+}
+.avatarWrapper-3H_478 .wrapper-3t9DeA svg foreignObject { /*User card avatar picture*/
+    y: 0;
+    x: 0;
+    mask: unset;
+    width: 100%;
+    border-radius: var(--avatar-radius);
+}
+.avatarHint-1qgaV3 foreignObject { /*User card "View Profile" hint*/
+    mask: unset;
+    border-radius: var(--avatar-radius);
+}
+
+/*User status*/
+.userInfo-2zN2z8 .avatar-3W3CeO svg rect { /*Modifies the user status on server members*/
+    mask: unset;
+    x: 28;
+    y: -32;
+    transform: rotate(90deg);
+    width: 4px;
+    height: inherit;
+}
+.avatar-3uk_u9 svg rect { /*Modifies userstatus on server members*/
+    mask: unset;
+    x: 28;
+    y: -32;
+    transform: rotate(90deg);
+    width: 4px;
+    height: inherit;
+}
+.avatarWrapper-3H_478 .wrapper-3t9DeA svg rect { /*User card status*/
+    mask: unset;
+    x: 80;
+    y: -92;
+    transform: rotate(90deg);
+    width: 6px;
+    height: 115%;
+}
