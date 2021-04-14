@@ -2,7 +2,7 @@
 * @name         Avatar Styles
 * @description  Changes the avatar's radius and shows user status as a bar underneath.
 * @donate       https://bit.ly/3fnzq1Z
-* @source       https://github.com/rmkx/rmkx.github.io/blob/main/Poison/src/poison.css
+* @source       https://github.com/rmkx/rmkx.github.io/blob/main/src/avatarStyle.css
 * @author       rmkx
 * @invite       HnGWVQbQBv
 * @version      1.0 
@@ -65,6 +65,10 @@
     mask: unset;
     border-radius: var(--avatar-radius);
 }
+.avatar-3EQepX svg foreignObject { /*Profile avatar*/
+    mask: unset;
+    border-radius: var(--avatar-radius);
+}
 
 /*User status*/
 .userInfo-2zN2z8 .avatar-3W3CeO svg rect { /*Modifies the user status on server members*/
@@ -88,7 +92,7 @@
     y: -80;
     x: 77;
     transform: rotate(90deg);
-    width: 4px;
+    width: 3px;
     height: 100%;
 }
 .container-3baos1 .avatar-SmRMf2 svg rect{ /*Status bar status*/
@@ -102,6 +106,14 @@
     mask: unset;
     x: 28;
     y: -32;
+    transform: rotate(90deg);
+    width: 4px;
+    height: inherit;
+}
+.avatar-3EQepX svg rect { /*Profile status*/
+    mask: unset;
+    x: 76;
+    y: -80;
     transform: rotate(90deg);
     width: 4px;
     height: inherit;
