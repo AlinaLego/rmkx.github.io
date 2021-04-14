@@ -2353,3 +2353,13 @@
     border-radius: var(--panel-border-radius);
     border: var(--panel-border);
 }
+.theme-dark .keyboardShortcutsModal-3piNz7 { /*KB shortcuts main panel*/
+    background-color: var(--panel-boxes);
+    border-radius: var(--panel-border-radius);
+    border: var(--panel-border);
+}
+.keybindShortcut-1BD6Z1 span { /*KB shortcuts buttons*/
+    background-color: var(--main-accent);
+    border-radius: 5px;
+    color: white;
+}
