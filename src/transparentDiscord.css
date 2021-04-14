@@ -15,7 +15,7 @@
 }
 
 /*Modifies the background*/
-#app-mount:before {
+#app-mount::before {
     content: "";
     background: var(--background-image);
     background-position: center;
@@ -84,7 +84,7 @@
 .chat-3bRxxu { /*Chat transparency*/
     background-color: var(--bg-main-panels);
 }
-.theme-dark .form-2fGMdU:before { /*Weird thing on the left of chat*/
+.theme-dark .form-2fGMdU::before { /*Weird thing on the left of chat*/
     background: var(--bg-main-panels);
 }
 .form-2fGMdU { /*Message box transparency*/
@@ -193,7 +193,7 @@
 .option-3KoAJB:hover { /*Selector dropdown menu hovered item*/
     background-color: var(--bg-second-panels);
 }
-.theme-dark .card-FDVird:before { /*Keybinds hover*/
+.theme-dark .card-FDVird::before { /*Keybinds hover*/
     background-color: var(--bg-second-panels);
     border-color: var(--bg-second-panels);
 }
@@ -801,4 +801,10 @@
 }
 .bd-modal-wrapper .error { /*Error divider*/
     border-bottom: unset;
+}
+.peopleListItem-2nzedh { /*Friends divider*/
+    border-top: unset;
+}
+.tabBody-3YRQ8W::before {
+    box-shadow: unset;
 }
