@@ -108,6 +108,12 @@
     height: 4px;
     y: 10;
 }
+/**************************************************/
+.container-3baos1 .avatar-SmRMf2 svg > svg:not(foreignObject) { /*Need to modify this somehow for status when changing*/
+    x: -8!important;
+    width: 40px!important;
+}
+/*************************************************/
 .headerAvatar-2MDZJn svg > :last-child:not(foreignObject) { /*Active now status*/
     mask: unset;
     x: 28;
