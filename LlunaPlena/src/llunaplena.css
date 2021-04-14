@@ -1562,3 +1562,11 @@ div.sidebarRegion-VFTUkN{
     border-radius:15px 15px 0px 0!important;
     border-bottom: unset!important;
 }
+
+/*Keyboard shortcuts*/
+.theme-dark .keyboardShortcutsModal-3piNz7 { /*KB shortcuts main panel*/
+    background-color: var(--chat-color);
+}
+.keybindShortcut-1BD6Z1 span { /*KB shortcuts buttons*/
+    background-color: var(--channel-color);
+}

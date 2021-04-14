@@ -102,6 +102,12 @@
     y: 28;
     x: 0;
 }
+.container-3baos1 .avatar-SmRMf2 svg > :last-child:not(foreignObject):not([mask*="url(#svg"]) { /*Status changed settings*/
+    mask: unset;
+    width: 250%;
+    height: 4px;
+    y: 10;
+}
 .headerAvatar-2MDZJn svg > :last-child:not(foreignObject) { /*Active now status*/
     mask: unset;
     x: 28;
